@@ -15,10 +15,11 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, handle
 									<div className="header-left">
 										<div className="logo-site">
 											<Link href="/">
-												<Image
+												{/* <Image
 													width="139"
 													height="39"
-													id="logo_header" data-retina="./images/logo/logo-3@2x.png" src="/images/logo/logo-3.png" alt="" />
+													id="logo_header" data-retina="./images/logo/logo-3@2x.png" src="/images/logo/logo-3.png" alt="" /> */}
+													<h3 className="text-white">Globirix</h3>
 											</Link>
 										</div>
 										<nav className="main-nav">
