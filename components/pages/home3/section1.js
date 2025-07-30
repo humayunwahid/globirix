@@ -21,7 +21,7 @@ export default function Section1() {
 														height="0"
 														sizes="100vw"
 														style={{ width: "100%", height: "auto" }}
-														src="/images/avatar/testimonial-author-1.jpg" alt="" />
+														src="/images/avatar/testimonial-author-1.webp" alt="" />
 												</div>
 											</li>
 											<li>
@@ -31,7 +31,7 @@ export default function Section1() {
 														height="0"
 														sizes="100vw"
 														style={{ width: "100%", height: "auto" }}
-														src="/images/avatar/customer-1.jpg" alt="" />
+														src="/images/avatar/customer-1.webp" alt="" />
 												</div>
 											</li>
 											<li>
@@ -41,7 +41,7 @@ export default function Section1() {
 														height="0"
 														sizes="100vw"
 														style={{ width: "100%", height: "auto" }}
-														src="/images/avatar/customer-2.jpg" alt="" />
+														src="/images/avatar/customer-2.webp" alt="" />
 												</div>
 											</li>
 										</ul>

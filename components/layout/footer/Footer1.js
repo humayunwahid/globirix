@@ -107,19 +107,19 @@ export default function Footer1() {
 											<p className="footer-title footer-title-mobile" onClick={() => handleAccordion1(1)}>Services</p>
 											<ul className="list tf-collapse-content" style={{ display: getDisplayStyle1(1) }}>
 												<li>
-													<Link href="/service-details">Financial Analysis</Link>
+													<Link href="/">Financial Analysis</Link>
 												</li>
 												<li>
-													<Link href="/service-details">Market Research</Link>
+													<Link href="/">Market Research</Link>
 												</li>
 												<li>
-													<Link href="/service-details">Competitive Analysis</Link>
+													<Link href="/">Competitive Analysis</Link>
 												</li>
 												<li>
-													<Link href="/service-details">Team Building</Link>
+													<Link href="/">Team Building</Link>
 												</li>
 												<li>
-													<Link href="/service-details">HR Management</Link>
+													<Link href="/">HR Management</Link>
 												</li>
 											</ul>
 										</div>
@@ -128,30 +128,31 @@ export default function Footer1() {
 											<p className="footer-title footer-title-mobile" onClick={() => handleAccordion2(1)}>Quick Links</p>
 											<ul className="list tf-collapse-content" style={{ display: getDisplayStyle2(1) }}>
 												<li>
-													<Link href="/about-us">About Company</Link>
+													<Link href="/">About Company</Link>
 												</li>
 												<li>
-													<Link href="/career">Carrier Options</Link>
+													<Link href="/">Carrier</Link>
 												</li>
 												<li>
-													<Link href="/service-details">Applications</Link>
+													<Link href="/">Applications</Link>
 												</li>
 												<li>
-													<Link href="/contact">Contact Us</Link>
+													<Link href="/">Contact Us</Link>
 												</li>
-												<li><Link href="/case-study-01">Case Studies</Link></li>
+												<li><Link href="/">Case Studies</Link></li>
 											</ul>
 										</div>
 									</div>
 									<div className="inner-right">
 										<div className="logo-site">
 											<Link href="/">
-												<Image
+												{/* <Image
 													width="0"
 													height="0"
 													sizes="100vw"
 													style={{ width: "100%", height: "auto" }}
-													id="logo_footer" data-retina="./images/logo/logo@2x.png" src="/images/logo/logo.png" alt="" />
+													id="logo_footer" data-retina="./images/logo/logo@2x.png" src="/images/logo/logo.png" alt="" /> */}
+													<h3 className='text-white'>Globirix</h3>
 											</Link>
 										</div>
 										<p>
@@ -185,22 +186,22 @@ export default function Footer1() {
 									<i className="icon-arrow-top fs-8"> </i>
 								</Link>
 								<p className="no-copy style-2">
-									Copyright © {new Date().getFullYear()} <span> Saylo </span> by
-									<Link href="https://themeforest.net/user/themesflat" target="_blank">
-										Themesflat
+									Copyright © {new Date().getFullYear()} <span> Globirix </span> by
+									<Link href="/" target="_blank">
+										DesignSol
 									</Link>
 									, All Rights Reserved.
 								</p>
 								<div className="policy-list">
 									<ul className="list">
 										<li>
-											<Link href="/faqs"> Teams &amp; Conditions </Link>
+											<Link href="/"> Teams &amp; Conditions </Link>
 										</li>
 										<li>
 											<span className="dot" />
 										</li>
 										<li>
-											<Link href="/faqs"> Privacy Policy </Link>
+											<Link href="/"> Privacy Policy </Link>
 										</li>
 									</ul>
 								</div>

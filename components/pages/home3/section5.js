@@ -68,7 +68,7 @@ export default function Section5() {
 														height="0"
 														sizes="100vw"
 														style={{ width: "100%", height: "auto" }}
-														src="/images/section/our-saylo.jpg" data-src="/images/section/our-saylo.jpg" alt="" className="lazyload tf-animate-2" />
+														src="/images/section/our-saylo.webp" data-src="/images/section/our-saylo.jpg" alt="" className="lazyload tf-animate-2" />
 												</div>
 												<div className="wg-graph default rellax" data-rellax-speed="-0.2">
 													<p className="number">
@@ -129,7 +129,7 @@ export default function Section5() {
 														</p>
 													</li>
 												</ul>
-												<Link href="/about-us" className="tf-btn style-15 text-anime-style-1">
+												<Link href="/" className="tf-btn style-15 text-anime-style-1">
 													Learn More Features
 													<i className="icon-chevron-right" />
 												</Link>
@@ -206,7 +206,7 @@ export default function Section5() {
 														</p>
 													</li>
 												</ul>
-												<Link href="/about-us" className="tf-btn style-15">
+												<Link href="/" className="tf-btn style-15">
 													Learn More Features
 													<i className="icon-chevron-right" />
 												</Link>
@@ -283,7 +283,7 @@ export default function Section5() {
 														</p>
 													</li>
 												</ul>
-												<Link href="/about-us" className="tf-btn style-15">
+												<Link href="/" className="tf-btn style-15">
 													Learn More Features
 													<i className="icon-chevron-right" />
 												</Link>

@@ -75,7 +75,7 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 				{hero == 3 && <Hero3 />}
 				{hero == 4 && <Hero4 />}
 				<Breadcrumb breadcrumbTitle={breadcrumbTitle} breadcrumbAlt={breadcrumbAlt} />
-				<div className={`main-content ${mainCls ? mainCls : ""}`}>
+				<div className={`main-content mt-5 ${mainCls ? mainCls : ""}`}>
 
 					{children}
 				</div>

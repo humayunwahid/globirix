@@ -7,7 +7,7 @@ export default function Section8() {
 	return (
 		<>
 
-			<section className="s-our-advisor tf-spacing-6">
+			<section className="s-our-advisor tf-spacing-6 mt-5">
 				<div className="tf-container">
 					<div className="row">
 						<div className="col-lg-12">
@@ -39,7 +39,7 @@ export default function Section8() {
 													height="0"
 													sizes="100vw"
 													style={{ width: "100%", height: "auto" }}
-													src="/images/avatar/team-guide-1.jpg" data-src="/images/avatar/team-guide-1.jpg" alt="" className=" lazyload" />
+													src="/images/avatar/team-guide-1.webp" data-src="/images/avatar/team-guide-1.jpg" alt="" className=" lazyload" />
 											</div>
 											<div className="content">
 												<div className="icon style-circle">
@@ -67,7 +67,7 @@ export default function Section8() {
 														</Link>
 													</li>
 												</ul>
-												<Link href="/team-details" className="name"> Johnny S. Patterson </Link>
+												<Link href="/" className="name"> Johnny S. Patterson </Link>
 												<p className="duty">Business Consultant</p>
 											</div>
 										</div>
@@ -80,7 +80,7 @@ export default function Section8() {
 													height="0"
 													sizes="100vw"
 													style={{ width: "100%", height: "auto" }}
-													src="/images/avatar/team-guide-2.jpg" data-src="/images/avatar/team-guide-2.jpg" alt="" className=" lazyload" />
+													src="/images/avatar/team-guide-2.webp" data-src="/images/avatar/team-guide-2.jpg" alt="" className=" lazyload" />
 											</div>
 											<div className="content">
 												<div className="icon style-circle">
@@ -108,7 +108,7 @@ export default function Section8() {
 														</Link>
 													</li>
 												</ul>
-												<Link href="/team-details" className="name"> Andrew L. Lindsay </Link>
+												<Link href="/" className="name"> Andrew L. Lindsay </Link>
 												<p className="duty">Finance Consultant</p>
 											</div>
 										</div>
@@ -121,7 +121,7 @@ export default function Section8() {
 													height="0"
 													sizes="100vw"
 													style={{ width: "100%", height: "auto" }}
-													src="/images/avatar/team-guide-3.jpg" data-src="/images/avatar/team-guide-3.jpg" alt="" className=" lazyload" />
+													src="/images/avatar/team-guide-3.webp" data-src="/images/avatar/team-guide-3.jpg" alt="" className=" lazyload" />
 											</div>
 											<div className="content">
 												<div className="icon style-circle">
@@ -149,7 +149,7 @@ export default function Section8() {
 														</Link>
 													</li>
 												</ul>
-												<Link href="/team-details" className="name"> Donald G. Carson </Link>
+												<Link href="/" className="name"> Donald G. Carson </Link>
 												<p className="duty">Insurance Consultant</p>
 											</div>
 										</div>
@@ -162,7 +162,7 @@ export default function Section8() {
 													height="0"
 													sizes="100vw"
 													style={{ width: "100%", height: "auto" }}
-													src="/images/avatar/team-guide-4.jpg" data-src="/images/avatar/team-guide-4.jpg" alt="" className=" lazyload" />
+													src="/images/avatar/team-guide-4.webp" data-src="/images/avatar/team-guide-4.jpg" alt="" className=" lazyload" />
 											</div>
 											<div className="content">
 												<div className="icon style-circle">
@@ -190,7 +190,7 @@ export default function Section8() {
 														</Link>
 													</li>
 												</ul>
-												<Link href="/team-details" className="name"> Chad V. Thompson </Link>
+												<Link href="/" className="name"> Chad V. Thompson </Link>
 												<p className="duty">TAX Consultant</p>
 											</div>
 										</div>
@@ -201,7 +201,7 @@ export default function Section8() {
 								<p className="font-main-2">
 									Need For Free Consultation In Financial Solutions?
 								</p>
-								<Link href="/contact">
+								<Link href="/">
 									Get A Quote
 								</Link>
 							</div>

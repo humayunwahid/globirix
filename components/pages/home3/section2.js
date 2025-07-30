@@ -18,7 +18,7 @@ export default function Section2() {
 											height="0"
 											sizes="100vw"
 											style={{ width: "100%", height: "auto" }}
-											src="/images/section/about-3.jpg" data-src="/images/section/about-3.jpg" alt="" className="lazyload" />
+											src="/images/section/about-3.webp" data-src="/images/section/about-3.jpg" alt="" className="lazyload" />
 									</div>
 								</div>
 								<div className="image s2 tf-hover">
@@ -28,7 +28,7 @@ export default function Section2() {
 											height="0"
 											sizes="100vw"
 											style={{ width: "100%", height: "auto" }}
-											src="/images/section/about-4.jpg" data-src="/images/section/about-4.jpg" alt="" className="lazyload" />
+											src="/images/section/about-4.webp" data-src="/images/section/about-4.jpg" alt="" className="lazyload" />
 									</div>
 								</div>
 								<div className="image s3 tf-hover">
@@ -38,7 +38,7 @@ export default function Section2() {
 											height="0"
 											sizes="100vw"
 											style={{ width: "100%", height: "auto" }}
-											src="/images/section/about-5.jpg" data-src="/images/section/about-5.jpg" alt="" className="lazyload" />
+											src="/images/section/about-5.webp" data-src="/images/section/about-5.jpg" alt="" className="lazyload" />
 									</div>
 								</div>
 								<div className="wg-curve-text style-3 tf-animate__box-2 animate__slow">
@@ -98,7 +98,7 @@ export default function Section2() {
 									informed decisions to secure
 								</p>
 								<div className="bot">
-									<Link href="/about-us" className="tf-btn style-15 text-anime-style-1">
+									<Link href="/" className="tf-btn style-15 text-anime-style-1">
 										Learn More Us
 										<i className="icon-chevron-right" />
 									</Link>
@@ -109,7 +109,7 @@ export default function Section2() {
 												height="0"
 												sizes="100vw"
 												style={{ width: "100%", height: "auto" }}
-												src="/images/avatar/entry-author.jpg" alt="" />
+												src="/images/avatar/entry-author.webp" alt="" />
 										</div>
 										<div className="infor">
 											<Link href="/#" className="name">

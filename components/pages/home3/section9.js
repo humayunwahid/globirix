@@ -18,7 +18,7 @@ export default function Section9() {
 						height="0"
 						sizes="100vw"
 						style={{ width: "100%", height: "auto" }}
-						src="/images/section/faq.jpg" data-src="/images/section/faq.jpg" alt="" className="lazyload" />
+						src="/images/section/faq.webp" data-src="/images/section/faq.webp" alt="" className="lazyload" />
 				</div>
 				<div className="content-wrap">
 					<div className="content-left">
@@ -36,7 +36,7 @@ export default function Section9() {
 							A financial advisor helps individuals and businesses make informed decisions about their
 							finances, offering guidance on investments, retirement planning, tax strategies.
 						</p>
-						<Link href="/faqs" className="tf-btn style-15 type-2 small text-anime-style-1">
+						<Link href="/" className="tf-btn style-15 type-2 small text-anime-style-1">
 							Get A Quote
 							<i className="icon-chevron-right" />
 						</Link>

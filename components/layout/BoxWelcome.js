@@ -13,7 +13,7 @@ export default function BoxWelcome({ handleWelcomeBox, isWelcomeBox }) {
 					</div>
 					<div className="wrap">
 						<p className="title">
-							Saylo Construction
+							Globirix
 						</p>
 						<p className="text">
 							Nam augue velit, fermentum sed erat non, efficitur interdum lectus. Donec hendrerit lorem a dui
@@ -35,7 +35,7 @@ export default function BoxWelcome({ handleWelcomeBox, isWelcomeBox }) {
 							<li>
 								<p>
 									Email: <Link href="mailto:themesflat@gmail.com">
-										themesflat@gmail.com
+										info@globirix.com
 									</Link>
 								</p>
 							</li>
