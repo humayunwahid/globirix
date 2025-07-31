@@ -62,7 +62,7 @@ export default function Footer1() {
 											<div className="box-cta wow fadeInUp" data-wow-delay="0s">
 												<p className="caption font-main-2 ">Become a Team Member?</p>
 												<p className="mb-20">We are always looking for talented Member</p>
-												<Link href="/team-member" className="tf-btn style-10 small">
+												<Link href="" className="tf-btn style-10 small">
 													Get Started
 													<i className="icon-chevron-right" />
 												</Link>
@@ -72,7 +72,7 @@ export default function Footer1() {
 											<div className="box-cta wow fadeInUp" data-wow-delay="0.1s">
 												<p className="caption font-main-2">Need Quality Consultations?</p>
 												<p className="mb-20">We are always looking for talented Member</p>
-												<Link href="/team-member" className="tf-btn style-10 small">
+												<Link href="" className="tf-btn style-10 small">
 													Get Consultation
 													<i className="icon-chevron-right" />
 												</Link>
@@ -82,7 +82,7 @@ export default function Footer1() {
 											<div className="box-cta wow fadeInUp" data-wow-delay="0.2s">
 												<p className="caption font-main-2">Are You Looking For A Jobs?</p>
 												<p className="mb-20">We are always looking for talented Member</p>
-												<Link href="/career" className="tf-btn style-10 small">
+												<Link href="" className="tf-btn style-10 small">
 													Join With Us
 													<i className="icon-chevron-right" />
 												</Link>
