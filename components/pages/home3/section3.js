@@ -18,7 +18,7 @@ export default function Section3() {
 											<i className="flaticon-problem-solving hover-icon-2" />
 										</div>
 										<Link href="/" className="title fw-7 fs-22">
-											Personalized Solutions
+											Facility
 										</Link>
 										<p className="text">
 											Personalized solutions tailored strategies and
@@ -32,7 +32,7 @@ export default function Section3() {
 											<i className="flaticon-persuasive hover-icon-2" />
 										</div>
 										<Link href="/" className="title fw-7 fs-22">
-											Experience Guidance
+											Culture
 										</Link>
 										<p className="text">
 											Experienced guidance is the cornerstone of effective financial business
@@ -46,7 +46,7 @@ export default function Section3() {
 											<i className="flaticon-statistics hover-icon-2" />
 										</div>
 										<Link href="/" className="title fw-7 fs-22">
-											Comprehensive Reporting
+											People
 										</Link>
 										<p className="text">
 											Comprehensive reporting refers the detailed thorough presentation of data,
@@ -60,7 +60,7 @@ export default function Section3() {
 											<i className="flaticon-interactivity hover-icon-2" />
 										</div>
 										<Link href="/" className="title fw-7 fs-22">
-											Advanced Technology
+											Strategy
 										</Link>
 										<p className="text">
 											Advanced technology refers to cutting-edge systems innovations business

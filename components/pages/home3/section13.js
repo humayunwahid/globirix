@@ -13,7 +13,7 @@ export default function Section13() {
                                 <div className="content-section">
                                     <p className="s-sub-title">
                                         <i className="icon-angles-right moveLeftToRight" />
-                                        about company
+                                        Mission & Vision
                                     </p>
                                     <p className="s-title mb-60 text-anime-wave-right text-clamp-4">
                                         We Work For Building a Brighter Future Together

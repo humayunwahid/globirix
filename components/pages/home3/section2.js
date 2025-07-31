@@ -57,7 +57,7 @@ export default function Section2() {
 							<div className="content">
 								<p className="s-sub-title mb-15">
 									<i className="icon-angles-right moveLeftToRight" />
-									about company
+									Executive Summary
 								</p>
 								<p className="s-title text-main-green-3 mb-30 text-anime-wave">
 									Expert Financial Advice, Tailored to Your

@@ -17,7 +17,7 @@ export default function Section5() {
 							<div className="heading">
 								<p className="s-sub-title">
 									<i className="icon-angles-right moveLeftToRight" />
-									explore our saylo
+									Benefits of Outsourcing
 								</p>
 								<p className="s-title text-main-green-3 text-anime-wave">
 									Discover the Features that Make Us Your
@@ -39,21 +39,37 @@ export default function Section5() {
 									<li className={`item ${isTab === 1 ? 'active' : ''}`} onClick={() => handleTab(1)}>
 										<a>
 											<span>
-												Retirement Solutions
+												Accounting & Reporting
 											</span>
 										</a>
 									</li>
 									<li className={`item ${isTab === 2 ? 'active' : ''}`} onClick={() => handleTab(2)}>
 										<a>
 											<span>
-												Strategic &amp; Financial Solutions
+												Taxation
 											</span>
 										</a>
 									</li>
 									<li className={`item ${isTab === 3 ? 'active' : ''}`} onClick={() => handleTab(3)}>
 										<a>
 											<span>
-												TAX, VAT and Investment Planning
+												Internal Control
+											</span>
+										</a>
+									</li>
+
+									<li className={`item ${isTab === 4 ? 'active' : ''}`} onClick={() => handleTab(4)}>
+										<a>
+											<span>
+												ERP Support
+											</span>
+										</a>
+									</li>
+
+									<li className={`item ${isTab === 5 ? 'active' : ''}`} onClick={() => handleTab(5)}>
+										<a>
+											<span>
+												HR & Payroll
 											</span>
 										</a>
 									</li>

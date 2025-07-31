@@ -5043,7 +5043,8 @@ fieldset {
 
 .tf-accordion-type-3 .accordion-button:not(.collapsed) .step {
 	border: 1px solid var(--Main-black);
-	background-color: var(--Main-yellow);
+	background-color: var(--Main-dark-blue);
+
 }
 
 .tf-accordion-type-3 .accordion-button:not(.collapsed):not(.step) {
@@ -5111,11 +5112,11 @@ fieldset {
 	line-height: 16px;
 	letter-spacing: 0.5em;
 	text-transform: uppercase;
-	color: var(--Main-black);
+	color: var(--White);
 	display: block;
 	border-radius: 7px;
 	border: 1px solid var(--Border-2);
-	background-color: var(--Main-gray);
+	background-color: var(--Main-dark-blue);
 	padding: 7px 9px 7px 15px;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
@@ -10283,7 +10284,7 @@ a.mapboxgl-ctrl-logo {
 	display: block;
 	width: 175px;
 	height: 350px;
-	background-color: var(--Main-yellow);
+	background-color: var(--Main-dark-blue);
 	border-top-left-radius: 175px;
 	border-bottom-left-radius: 175px;
 }
@@ -12835,7 +12836,7 @@ a.mapboxgl-ctrl-logo {
 }
 
 .s-break .s2 {
-	background-color: var(--Bg-10);
+	background-color: var(--Main-blue);
 }
 
 .s-break p {
