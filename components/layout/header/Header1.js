@@ -15,7 +15,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 									<div className="icon">
 										<i className="flaticon-tag" />
 									</div>
-									<p>Welcome to Awards Winning Consulting Agency</p>
+									<p>Welcome to GLobirix Consulting Agency</p>
 								</div>
 								<div className="topbar-right">
 									<ul className="infor-list">
@@ -24,7 +24,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 												<i className="flaticon-open-mail" />
 											</div>
 											<Link href="mailto:Themesflat@gmail.com">
-												Themesflat@gmail.com
+												info@globirix.com
 											</Link>
 										</li>
 										<li>
@@ -60,10 +60,12 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 								<div className="header-left">
 									<div className="logo-site">
 										<Link href="/">
-											<Image
+											{/* <Image
 												width="139"
 													height="39"
-												id="logo_header" src="/images/logo/logo.png" data-retina="./images/logo/logo@2x.png" alt="" />
+												id="logo_header" src="/images/logo/logo.png" data-retina="./images/logo/logo@2x.png" alt="" /> */}
+												<h2 className="text-white">Globirix</h2>
+
 										</Link>
 									</div>
 								</div>
@@ -73,7 +75,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 									</nav>
 								</div>
 								<div className="header-right">
-									<Link href="/contact" className="tf-btn small">
+									<Link href="/" className="tf-btn small">
 										Get In Touch
 										<i className="icon-chevron-right" />
 									</Link>
@@ -95,12 +97,13 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 									<div className="top">
 										<div className="logo">
 											<Link href="/" rel="home" className="main-logo">
-												<Image
+												{/* <Image
 													width="139"
 													height="39"
 													// sizes="(max-width: 768px) auto, 80vw"
 													// style={{ width: "100%", height: "auto" }}
-													id="mobile-logo_header" alt="" src="/images/logo/logo-4.png" />
+													id="mobile-logo_header" alt="" src="/images/logo/logo-4.png" /> */}
+													<h4>Globirix</h4>
 											</Link>
 											<div className="mobile-nav-close" onClick={handleMobileMenu}>
 												<i className="icon-xmark" />
@@ -126,7 +129,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 												<li>
 													<p>
 														Email: <Link href="mailto:themesflat@gmail.com">
-															themesflat@gmail.com
+															info@globirix.com
 														</Link>
 													</p>
 												</li>

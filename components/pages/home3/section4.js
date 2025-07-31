@@ -43,7 +43,7 @@ export default function Section4() {
 														Development and management of seen diversified investment
 														portfolio.
 													</p>
-													<Link href="/service-details" className="btn-view style-3 has-text">
+													<Link href="/" className="btn-view style-3 has-text">
 														<span className="plus"> + </span>
 														<span className="read font-main-2">View More</span>
 													</Link>
@@ -54,7 +54,7 @@ export default function Section4() {
 														height="0"
 														sizes="100vw"
 														style={{ width: "100%", height: "auto" }}
-														src="/images/section/service.jpg" data-src="/images/section/service.jpg" alt="" className="lazyload" />
+														src="/images/section/service.webp" data-src="/images/section/service.jpg" alt="" className="lazyload" />
 												</div>
 											</div>
 										</SwiperSlide>
@@ -73,7 +73,7 @@ export default function Section4() {
 														Development and management of seen diversified investment
 														portfolio.
 													</p>
-													<Link href="/service-details" className="btn-view style-3 has-text">
+													<Link href="/" className="btn-view style-3 has-text">
 														<span className="plus"> + </span>
 														<span className="read font-main-2">View More</span>
 													</Link>
@@ -84,7 +84,7 @@ export default function Section4() {
 														height="0"
 														sizes="100vw"
 														style={{ width: "100%", height: "auto" }}
-														src="/images/section/service.jpg" data-src="/images/section/service.jpg" alt="" className="lazyload" />
+														src="/images/section/service.webp" data-src="/images/section/service.jpg" alt="" className="lazyload" />
 												</div>
 											</div>
 										</SwiperSlide>

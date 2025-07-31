@@ -47,7 +47,7 @@ export default function Hero1() {
 										development, process organizational.
 									</p>
 									<div className="bot">
-										<Link href="/our-service" className="tf-btn">
+										<Link href="/" className="tf-btn">
 											Explore Services
 											<i className="icon-chevron-right" />
 										</Link>
@@ -72,7 +72,7 @@ export default function Hero1() {
 											height="0"
 											sizes="100vw"
 											style={{ width: "100%", height: "auto" }}
-											src="/images/section/page-title-home-1.jpg" data-src="/images/section/page-title-home-1.jpg" alt="" className="lazyload" />
+											src="/images/section/page-title-home-1.webp" data-src="/images/section/page-title-home-1.webp" alt="" className="lazyload" />
 									</div>
 									<div className="wg-curve-text tf-animate__box animate__slow">
 										<div className="icon">
@@ -93,52 +93,52 @@ export default function Hero1() {
 					<div className="wrap-marquee">
 						<div className="marquee-item">
 							<p className="font-main-2 text">
-								Saylo Consulting
+								Globirix Consulting
 							</p>
 						</div>
 						<div className="marquee-item">
 							<p className="font-main-2 text">
-								Saylo Consulting
+								Globirix Consulting
 							</p>
 						</div>
 						<div className="marquee-item">
 							<p className="font-main-2 text">
-								Saylo Consulting
+								Globirix Consulting
 							</p>
 						</div>
 						<div className="marquee-item">
 							<p className="font-main-2 text">
-								Saylo Consulting
+								Globirix Consulting
 							</p>
 						</div>
 						<div className="marquee-item">
 							<p className="font-main-2 text">
-								Saylo Consulting
+								Globirix Consulting
 							</p>
 						</div>
 						<div className="marquee-item">
 							<p className="font-main-2 text">
-								Saylo Consulting
+								Globirix Consulting
 							</p>
 						</div>
 						<div className="marquee-item">
 							<p className="font-main-2 text">
-								Saylo Consulting
+								Globirix Consulting
 							</p>
 						</div>
 						<div className="marquee-item">
 							<p className="font-main-2 text">
-								Saylo Consulting
+								Globirix Consulting
 							</p>
 						</div>
 						<div className="marquee-item">
 							<p className="font-main-2 text">
-								Saylo Consulting
+								Globirix Consulting
 							</p>
 						</div>
 						<div className="marquee-item">
 							<p className="font-main-2 text">
-								Saylo Consulting
+								Globirix Consulting
 							</p>
 						</div>
 					</div>

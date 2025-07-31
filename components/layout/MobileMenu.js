@@ -17,51 +17,55 @@ export default function MobileMenu() {
 	const menuItems = [
 		{
 			title: "Home",
-			subMenu: [
-				{ title: "Home Consulting", path: "/" },
-				{ title: "Corporate Consulting", path: "/home-2" },
-				{ title: "Financial Advisor", path: "/home-3" },
-				{ title: "Marketing Consulting", path: "/home-4" }
-			]
+			// subMenu: [
+			// 	{ title: "Home Consulting", path: "/" },
+			// 	{ title: "Corporate Consulting", path: "/home-2" },
+			// 	{ title: "Financial Advisor", path: "/home-3" },
+			// 	{ title: "Marketing Consulting", path: "/home-4" }
+			// ]
 		},
-		{
-			title: "Page",
-			subMenu: [
-				{ title: "Team Member", path: "/team-member" },
-				{ title: "Team Details", path: "/team-details" },
-				{ title: "Pricing Table", path: "/pricing-table" },
-				{ title: "Career", path: "/career" },
-				{ title: "Awards", path: "/awards" },
-				{ title: "Mission Vision", path: "/mission-vision" },
-				{ title: "FAQs", path: "/faqs" },
-				{ title: "404", path: "/404" }
-			]
-		},
-		{ title: "About", path: "/about-us" },
+		// {
+		// 	title: "Page",
+		// 	subMenu: [
+		// 		{ title: "Team Member", path: "/team-member" },
+		// 		{ title: "Team Details", path: "/team-details" },
+		// 		{ title: "Pricing Table", path: "/pricing-table" },
+		// 		{ title: "Career", path: "/career" },
+		// 		{ title: "Awards", path: "/awards" },
+		// 		{ title: "Mission Vision", path: "/mission-vision" },
+		// 		{ title: "FAQs", path: "/faqs" },
+		// 		{ title: "404", path: "/404" }
+		// 	]
+		// },
+		{ title: "About", path: "/" },
+		
 		{
 			title: "Services",
 			subMenu: [
-				{ title: "Our Service", path: "/our-service" },
-				{ title: "Our Service 02", path: "/our-service-02" },
-				{ title: "Service Details", path: "/service-details" }
+				{ title: "Accounting and reporting", path: "/1" },
+				{ title: "Taxation", path: "/2" },
+				{ title: "Internal Control over financial reporting", path: "/3" },
+				{ title: "ERP Functional Support", path: "/4" },
+				{ title: "HR & Payroll", path: "/5" }
+				// { title: "Service Details", path: "/" }
 			]
 		},
+		// {
+		// 	title: "Case",
+		// 	subMenu: [
+		// 		{ title: "Case Study 01", path: "/case-study-01" },
+		// 		{ title: "Case Study 02", path: "/case-study-02" },
+		// 		{ title: "Case Details", path: "/case-details" }
+		// 	]
+		// },
 		{
-			title: "Case",
-			subMenu: [
-				{ title: "Case Study 01", path: "/case-study-01" },
-				{ title: "Case Study 02", path: "/case-study-02" },
-				{ title: "Case Details", path: "/case-details" }
-			]
+			title: "Blogs",
+			// subMenu: [
+			// 	{ title: "Blog Standard", path: "/blog-standard" },
+			// 	{ title: "Blog Details", path: "/blog-details" }
+			// ]
 		},
-		{
-			title: "Blog",
-			subMenu: [
-				{ title: "Blog Standard", path: "/blog-standard" },
-				{ title: "Blog Details", path: "/blog-details" }
-			]
-		},
-		{ title: "Contact", path: "/contact" }
+		{ title: "Contact", path: "/" }
 	]
 
 	return (

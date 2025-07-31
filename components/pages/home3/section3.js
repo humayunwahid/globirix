@@ -17,7 +17,7 @@ export default function Section3() {
 										<div className="icon style-circle">
 											<i className="flaticon-problem-solving hover-icon-2" />
 										</div>
-										<Link href="/our-service" className="title fw-7 fs-22">
+										<Link href="/" className="title fw-7 fs-22">
 											Personalized Solutions
 										</Link>
 										<p className="text">
@@ -31,7 +31,7 @@ export default function Section3() {
 										<div className="icon style-circle">
 											<i className="flaticon-persuasive hover-icon-2" />
 										</div>
-										<Link href="/our-service" className="title fw-7 fs-22">
+										<Link href="/" className="title fw-7 fs-22">
 											Experience Guidance
 										</Link>
 										<p className="text">
@@ -45,7 +45,7 @@ export default function Section3() {
 										<div className="icon style-circle">
 											<i className="flaticon-statistics hover-icon-2" />
 										</div>
-										<Link href="/our-service" className="title fw-7 fs-22">
+										<Link href="/" className="title fw-7 fs-22">
 											Comprehensive Reporting
 										</Link>
 										<p className="text">
@@ -59,7 +59,7 @@ export default function Section3() {
 										<div className="icon style-circle">
 											<i className="flaticon-interactivity hover-icon-2" />
 										</div>
-										<Link href="/our-service" className="title fw-7 fs-22">
+										<Link href="/" className="title fw-7 fs-22">
 											Advanced Technology
 										</Link>
 										<p className="text">

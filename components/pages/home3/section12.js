@@ -24,7 +24,7 @@ export default function Section12() {
 										</span>
 									</p>
 								</div>
-								<Link href="/blog-standard" className="tf-btn style-15 text-anime-style-1">
+								<Link href="/" className="tf-btn style-15 text-anime-style-1">
 									View All Blog
 									<i className="icon-chevron-right" />
 								</Link>
@@ -33,14 +33,14 @@ export default function Section12() {
 								<div className="swiper-wrapper">
 									<SwiperSlide>
 										<div className="card-blog-item style-2 tf-hover">
-											<Link href="/blog-details">
+											<Link href="/">
 												<div className="entry-image hover-1 hover-14">
 													<Image
 														width="0"
 														height="0"
 														sizes="100vw"
 														style={{ width: "100%", height: "auto" }}
-														src="/images/blog/card-blog-item-4.jpg" data-src="/images/blog/card-blog-item-4.jpg" alt="" className="lazyload" />
+														src="/images/blog/card-blog-item-7.webp" data-src="/images/blog/card-blog-item-7.webp" alt="" className="lazyload" />
 													<div className="tag-wrap">
 														<p>Consulting</p>
 													</div>
@@ -63,14 +63,14 @@ export default function Section12() {
 														</li>
 													</ul>
 												</div>
-												<Link href="/blog-details" className="title fw-7 mb-25">
+												<Link href="/" className="title fw-7 mb-25">
 													The Leadership Development in Business Success
 												</Link>
 												<p className="text mb-25">
 													Our investment philosophy is based on the balanced approach
 													to risk reward
 												</p>
-												<Link href="/blog-details" className="btn-view has-text">
+												<Link href="/" className="btn-view has-text">
 													<span className="plus"> + </span>
 													<span className="read font-main-2">Read More</span>
 												</Link>
@@ -79,14 +79,14 @@ export default function Section12() {
 									</SwiperSlide>
 									<SwiperSlide>
 										<div className="card-blog-item style-2 tf-hover">
-											<Link href="/blog-details">
+											<Link href="/">
 												<div className="entry-image hover-1 hover-14">
 													<Image
 														width="0"
 														height="0"
 														sizes="100vw"
 														style={{ width: "100%", height: "auto" }}
-														src="/images/blog/card-blog-item-5.jpg" data-src="/images/blog/card-blog-item-5.jpg" alt="" className="lazyload" />
+														src="/images/blog/card-blog-item-8.webp" data-src="/images/blog/card-blog-item-8.webp" alt="" className="lazyload" />
 													<div className="tag-wrap">
 														<p>Finance</p>
 													</div>
@@ -109,7 +109,7 @@ export default function Section12() {
 														</li>
 													</ul>
 												</div>
-												<Link href="/blog-details" className="title fw-7 mb-25">
+												<Link href="/" className="title fw-7 mb-25">
 													The Leadership Development
 													in Business Success
 												</Link>
@@ -117,7 +117,7 @@ export default function Section12() {
 													Our investment philosophy is based on the balanced approach
 													to risk reward
 												</p>
-												<Link href="/blog-details" className="btn-view has-text">
+												<Link href="/" className="btn-view has-text">
 													<span className="plus"> + </span>
 													<span className="read font-main-2">Read More</span>
 												</Link>
@@ -126,14 +126,14 @@ export default function Section12() {
 									</SwiperSlide>
 									<SwiperSlide>
 										<div className="card-blog-item style-2 tf-hover">
-											<Link href="/blog-details">
+											<Link href="/">
 												<div className="entry-image hover-1 hover-14">
 													<Image
 														width="0"
 														height="0"
 														sizes="100vw"
 														style={{ width: "100%", height: "auto" }}
-														src="/images/blog/card-blog-item-6.jpg" data-src="/images/blog/card-blog-item-6.jpg" alt="" className="lazyload" />
+														src="/images/blog/card-blog-item-9.webp" data-src="/images/blog/card-blog-item-9.webp" alt="" className="lazyload" />
 													<div className="tag-wrap">
 														<p>Consulting</p>
 													</div>
@@ -156,14 +156,14 @@ export default function Section12() {
 														</li>
 													</ul>
 												</div>
-												<Link href="/blog-details" className="title fw-7 mb-25">
+												<Link href="/" className="title fw-7 mb-25">
 													The Leadership Development in Business Success
 												</Link>
 												<p className="text mb-25">
 													Our investment philosophy is based on the balanced approach
 													to risk reward
 												</p>
-												<Link href="/blog-details" className="btn-view has-text">
+												<Link href="/" className="btn-view has-text">
 													<span className="plus"> + </span>
 													<span className="read font-main-2">Read More</span>
 												</Link>
@@ -172,14 +172,14 @@ export default function Section12() {
 									</SwiperSlide>
 									<SwiperSlide>
 										<div className="card-blog-item style-2 tf-hover">
-											<Link href="/blog-details">
+											<Link href="/">
 												<div className="entry-image hover-1 hover-14">
 													<Image
 														width="0"
 														height="0"
 														sizes="100vw"
 														style={{ width: "100%", height: "auto" }}
-														src="/images/blog/card-blog-item-5.jpg" data-src="/images/blog/card-blog-item-5.jpg" alt="" className="lazyload" />
+														src="/images/blog/card-blog-item-7.webp" data-src="/images/blog/card-blog-item-7.webp" alt="" className="lazyload" />
 													<div className="tag-wrap">
 														<p>Finance</p>
 													</div>
@@ -202,7 +202,7 @@ export default function Section12() {
 														</li>
 													</ul>
 												</div>
-												<Link href="/blog-details" className="title fw-7 mb-25">
+												<Link href="/" className="title fw-7 mb-25">
 													The Leadership Development
 													in Business Success
 												</Link>
@@ -210,7 +210,7 @@ export default function Section12() {
 													Our investment philosophy is based on the balanced approach
 													to risk reward
 												</p>
-												<Link href="/blog-details" className="btn-view has-text">
+												<Link href="/" className="btn-view has-text">
 													<span className="plus"> + </span>
 													<span className="read font-main-2">Read More</span>
 												</Link>
@@ -219,14 +219,14 @@ export default function Section12() {
 									</SwiperSlide>
 									<SwiperSlide>
 										<div className="card-blog-item style-2 tf-hover">
-											<Link href="/blog-details">
+											<Link href="/">
 												<div className="entry-image hover-1 hover-14">
 													<Image
 														width="0"
 														height="0"
 														sizes="100vw"
 														style={{ width: "100%", height: "auto" }}
-														src="/images/blog/card-blog-item-6.jpg" data-src="/images/blog/card-blog-item-6.jpg" alt="" className="lazyload" />
+														src="/images/blog/card-blog-item-8.webp" data-src="/images/blog/card-blog-item-8.webp" alt="" className="lazyload" />
 													<div className="tag-wrap">
 														<p>Consulting</p>
 													</div>
@@ -249,14 +249,14 @@ export default function Section12() {
 														</li>
 													</ul>
 												</div>
-												<Link href="/blog-details" className="title fw-7 mb-25">
+												<Link href="/" className="title fw-7 mb-25">
 													The Leadership Development in Business Success
 												</Link>
 												<p className="text mb-25">
 													Our investment philosophy is based on the balanced approach
 													to risk reward
 												</p>
-												<Link href="/blog-details" className="btn-view has-text">
+												<Link href="/" className="btn-view has-text">
 													<span className="plus"> + </span>
 													<span className="read font-main-2">Read More</span>
 												</Link>
