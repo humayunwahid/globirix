@@ -1,6 +1,6 @@
-
 import Image from 'next/image'
 import Link from 'next/link'
+
 export default function Section13() {
     return (
         <>
@@ -16,10 +16,7 @@ export default function Section13() {
                                         Mission & Vision
                                     </p>
                                     <p className="s-title mb-60 text-anime-wave-right text-clamp-4">
-                                        We Work For Building a Brighter Future Together
-                                        and <span>
-                                            Grow Business
-                                        </span>Link
+                                        We Work For Building a Brighter Future Together and <span>Grow Business</span>
                                     </p>
                                     <ul className="list mb-50">
                                         <li>
@@ -27,9 +24,7 @@ export default function Section13() {
                                                 Company Mission
                                             </p>
                                             <p className="text">
-                                                We provide expert consulting services designed help businesses
-                                                thrive in
-                                                today’s dynamic marketplace team experienced
+                                                To deliver reliable, technology-driven, and cost-effective accounting solutions that empower businesses to achieve financial clarity, ensure compliance, and focus on growth. We are committed to excellence, confidentiality, and building long-term partnerships based on trust and value creation.
                                             </p>
                                         </li>
                                         <li>
@@ -37,15 +32,12 @@ export default function Section13() {
                                                 Company Vision
                                             </p>
                                             <p className="text">
-                                                To be the trusted partner that empowers businesses worldwide to
-                                                unlock
-                                                their
-                                                full potential, driving sustainable growth
+                                                To be a globally trusted accounting outsourcing partner recognized for our Professionalism, Precision, Performance, Proactivity, and Partnership — enabling organizations to simplify financial management and achieve sustainable success.
                                             </p>
                                         </li>
                                     </ul>
                                     <Link href="/" className="tf-btn">
-                                        Learn More Us
+                                        Learn More About Us
                                         <i className="icon-chevron-right" />
                                     </Link>
                                 </div>

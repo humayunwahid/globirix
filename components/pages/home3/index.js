@@ -22,13 +22,15 @@ export default function Home3() {
 			<Section2 />
 			<Section3 />
 			<Section13/>
-			<Section4 />
+			<Section9 />
 			<Section5 />
-			<Section6 />
+			{/* <Section4 /> */}
+			{/* <Section5 /> */}
+			{/* <Section6 /> */}
 			<Section14 />
 			{/* <Section7 /> */}
 			<Section8 />
-			<Section9 />
+			
 			<Section10 />
 			<Section11 />
 			<Section12 />

@@ -67,9 +67,9 @@
 	--Bg-10: #0c2626;
 	--Color-1: #ff3b30;
 
-		--Main-blue: #06003c;
+		--Main-blue: #3e5571;
 
-	--Main-dark-blue: #080330;
+	--Main-dark-blue: #283648;
 }
 
 /*---------- Reset css styles ----------- */
@@ -1665,7 +1665,7 @@ a.hover-text-main-golden:hover {
 }
 
 .header-inner .logo-site img {
-	max-width: 139px;
+	max-width: 220px;
 }
 
 .header-inner .header-right {
@@ -6162,8 +6162,10 @@ a.mapboxgl-ctrl-logo {
 	-ms-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
-	visibility: hidden;
-	opacity: 0;
+	/* visibility: hidden;
+	opacity: 0; */
+	 visibility: visible;
+	opacity: 1;
 }
 
 .tag-text-wrap {

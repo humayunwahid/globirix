@@ -1,8 +1,8 @@
-
 'use client'
 import { sliderBoxIcon } from '@/utils/swiperOptions'
 import Link from 'next/link'
 import { Swiper, SwiperSlide } from "swiper/react"
+
 export default function Section3() {
 	return (
 		<>
@@ -21,8 +21,7 @@ export default function Section3() {
 											Facility
 										</Link>
 										<p className="text">
-											Personalized solutions tailored strategies and
-											services that are specifically designed.
+											Our state-of-the-art outsourcing facility offers secure infrastructure, advanced technology, and scalable resources.
 										</p>
 									</div>
 								</SwiperSlide>
@@ -35,8 +34,7 @@ export default function Section3() {
 											Culture
 										</Link>
 										<p className="text">
-											Experienced guidance is the cornerstone of effective financial business
-											advisory
+											We foster a culture of integrity, transparency, and excellence, building trust and delivering measurable results.
 										</p>
 									</div>
 								</SwiperSlide>
@@ -49,8 +47,7 @@ export default function Section3() {
 											People
 										</Link>
 										<p className="text">
-											Comprehensive reporting refers the detailed thorough presentation of data,
-											insights.
+											Our team of skilled professionals ensures the accuracy of financial reporting and keeps you compliant with regulations.
 										</p>
 									</div>
 								</SwiperSlide>
@@ -63,8 +60,7 @@ export default function Section3() {
 											Strategy
 										</Link>
 										<p className="text">
-											Advanced technology refers to cutting-edge systems innovations business
-											operations.
+											Leveraging cutting-edge technology and automation tools, we streamline financial operations for faster, more accurate reporting.
 										</p>
 									</div>
 								</SwiperSlide>

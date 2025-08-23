@@ -60,11 +60,11 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 								<div className="header-left">
 									<div className="logo-site">
 										<Link href="/">
-											{/* <Image
-												width="139"
-													height="39"
-												id="logo_header" src="/images/logo/logo.png" data-retina="./images/logo/logo@2x.png" alt="" /> */}
-												<h2 className="text-white">Globirix</h2>
+											<Image
+												width="220"
+													height="220"
+												id="logo_header" src="/images/logo/logo.png" data-retina="./images/logo/logo@2x.png" alt="" />
+												{/* <h2 className="text-white">Globirix</h2> */}
 
 										</Link>
 									</div>

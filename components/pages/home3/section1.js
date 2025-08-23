@@ -1,7 +1,7 @@
-
 import CounterUp from '@/components/elements/CounterUp'
 import Image from 'next/image'
 import Link from 'next/link'
+
 export default function Section1() {
 	return (
 		<>
@@ -50,8 +50,8 @@ export default function Section1() {
 										</Link>
 									</div>
 									<p className="text text-white">
-										A global customer refers to an individual <br />
-										or business entity that operates.
+										We have built long-term relationships with businesses worldwide, <br />
+										providing cost-effective and accurate financial solutions.
 									</p>
 								</div>
 								<span className="line style-stand" />
@@ -61,7 +61,7 @@ export default function Section1() {
 										<span className="sub-odo">%</span>
 									</div>
 									<p className="text text-white">
-										Customers are Satisfied with the Services
+										Customers are Satisfied with Our Financial Services
 									</p>
 								</div>
 							</div>
@@ -98,7 +98,7 @@ export default function Section1() {
 								<ul className="list-skill">
 									<li>
 										<p className="skill-name">
-											Financial Management
+											Accounting & Reporting
 										</p>
 										<div className="wg-progress">
 											<div className="progress style-2 tf-animate-1">
@@ -111,9 +111,9 @@ export default function Section1() {
 										</div>
 									</li>
 									<li>
-										<div >
+										<div>
 											<p className="skill-name">
-												Sales Marketing
+												Payroll & HR Services
 											</p>
 										</div>
 										<div className="wg-progress">

@@ -1,6 +1,7 @@
 'use client'
-import Image from 'next/image'
 import { useState } from 'react'
+import Image from 'next/image'
+
 export default function Section14() {
     const [isAccordion, setIsAccordion] = useState(1)
 
@@ -17,17 +18,13 @@ export default function Section14() {
                             <div className="content">
                                 <p className="s-sub-title mb-18 justify-center">
                                     <i className="icon-angles-right moveLeftToRight" />
-                                    Why we are uniquely positioned
+                                    Why We Are Uniquely Positioned
                                 </p>
                                 <p className="s-title mb-70 text-center text-anime-wave">
-                                    Services  Methodology 
-                                    {/* <br /> */}
-                                    
-                                    {/* <span>
-                                        Process
-                                    </span> */}
+                                    Our Service Methodology
                                 </p>
                                 <div className="tf-accordion-type-3 accordion" id="accordionExample">
+                                    {/* Find a Resource */}
                                     <div className={`accordion-item ${isAccordion === 1 ? 'active' : ''}`} onClick={() => handleAccordion(1)}>
                                         <h2 className="accordion-header">
                                             <button className={`accordion-button  ${isAccordion === 1 ? '' : 'collapsed'}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -45,29 +42,9 @@ export default function Section14() {
                                                     Find a Resource
                                                 </p>
                                                 <p className="text mb-25 tf-fade-item fade-1">
-                                                    This initial phase involves understanding the client’s
-                                                    needs,
-                                                    <br />
-                                                    challenges, and goals. Consultants conduct in-depth.
+                                                    We help you identify and onboard the right accounting professional based on your requirements. Whether it’s for bookkeeping, payroll, financial reporting, or compliance — we match you with the best-fit resource to seamlessly integrate with your team.
                                                 </p>
-                                                <ul className="benefit-list">
-                                                    <li className="tf-fade-item fade-2">
-                                                        <div className="icon">
-                                                            <i className="flaticon-check-mark" />
-                                                        </div>
-                                                        <p>
-                                                            Stakeholder Interviews &amp; Data Gathering
-                                                        </p>
-                                                    </li>
-                                                    <li className="tf-fade-item fade-3">
-                                                        <div className="icon">
-                                                            <i className="flaticon-check-mark" />
-                                                        </div>
-                                                        <p>
-                                                            Comprehensive Business Analysis
-                                                        </p>
-                                                    </li>
-                                                </ul>
+                                                <p><strong>Best for:</strong> Businesses looking for dedicated, long-term accounting professionals.</p>
                                             </div>
                                         </div>
                                         <div className="image tf-hover">
@@ -81,6 +58,8 @@ export default function Section14() {
                                             </div>
                                         </div>
                                     </div>
+
+                                    {/* Rent a Resource */}
                                     <div className={`accordion-item ${isAccordion === 2 ? 'active' : ''}`} onClick={() => handleAccordion(2)}>
                                         <h2 className="accordion-header">
                                             <button className={`accordion-button  ${isAccordion === 2 ? '' : 'collapsed'}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -98,29 +77,14 @@ export default function Section14() {
                                                     Rent a Resource
                                                 </p>
                                                 <p className="text mb-25 tf-fade-item fade-1">
-                                                    This initial phase involves understanding the client’s
-                                                    needs,
-                                                    <br />
-                                                    challenges, and goals. Consultants conduct in-depth.
+                                                    Choose a flexible engagement model that suits your workload and budget. Our accounting experts are available:
                                                 </p>
                                                 <ul className="benefit-list">
-                                                    <li className="tf-fade-item fade-2">
-                                                        <div className="icon">
-                                                            <i className="flaticon-check-mark" />
-                                                        </div>
-                                                        <p>
-                                                            Stakeholder Interviews &amp; Data Gathering
-                                                        </p>
-                                                    </li>
-                                                    <li className="tf-fade-item fade-3">
-                                                        <div className="icon">
-                                                            <i className="flaticon-check-mark" />
-                                                        </div>
-                                                        <p>
-                                                            Comprehensive Business Analysis
-                                                        </p>
-                                                    </li>
+                                                    <li className="tf-fade-item fade-2"><strong>Part-Time</strong> – Few hours per week/month</li>
+                                                    <li className="tf-fade-item fade-3"><strong>Full-Time</strong> – Dedicated resource working exclusively for you</li>
+                                                    <li className="tf-fade-item fade-4"><strong>Project-Based</strong> – For specific tasks like data entry, audits, ERP migration, or financial modeling</li>
                                                 </ul>
+                                                <p><strong>Best for:</strong> Startups, SMEs, or companies with fluctuating accounting needs.</p>
                                             </div>
                                         </div>
                                         <div className="image tf-hover">
@@ -134,6 +98,8 @@ export default function Section14() {
                                             </div>
                                         </div>
                                     </div>
+
+                                    {/* Delivery-Based Model */}
                                     <div className={`accordion-item ${isAccordion === 3 ? 'active' : ''}`} onClick={() => handleAccordion(3)}>
                                         <h2 className="accordion-header">
                                             <button className={`accordion-button  ${isAccordion === 3 ? '' : 'collapsed'}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -141,39 +107,19 @@ export default function Section14() {
                                                     Step 03
                                                 </span>
                                                 <span>
-                                                    Delivery Based Model
+                                                    Delivery-Based Model
                                                 </span>
                                             </button>
                                         </h2>
                                         <div id="collapseThree" className={`accordion-collapse collapse ${isAccordion === 3 ? 'show' : ''}`} data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
                                                 <p className="title">
-                                                    Delivery Based Model
+                                                    Delivery-Based Model
                                                 </p>
                                                 <p className="text mb-25 tf-fade-item fade-1">
-                                                    This initial phase involves understanding the client’s
-                                                    needs,
-                                                    <br />
-                                                    challenges, and goals. Consultants conduct in-depth.
+                                                    Outsource your accounting function to us on a results-oriented basis. We take full responsibility for delivering agreed outcomes — such as monthly financial statements, compliance reports, payroll processing, or tax filings — with accuracy and timeliness.
                                                 </p>
-                                                <ul className="benefit-list">
-                                                    <li className="tf-fade-item fade-2">
-                                                        <div className="icon">
-                                                            <i className="flaticon-check-mark" />
-                                                        </div>
-                                                        <p>
-                                                            Stakeholder Interviews &amp; Data Gathering
-                                                        </p>
-                                                    </li>
-                                                    <li className="tf-fade-item fade-3">
-                                                        <div className="icon">
-                                                            <i className="flaticon-check-mark" />
-                                                        </div>
-                                                        <p>
-                                                            Comprehensive Business Analysis
-                                                        </p>
-                                                    </li>
-                                                </ul>
+                                                <p><strong>Best for:</strong> Businesses that want end-to-end accounting support without managing staff.</p>
                                             </div>
                                         </div>
                                         <div className="image tf-hover">
