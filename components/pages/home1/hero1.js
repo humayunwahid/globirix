@@ -20,17 +20,17 @@ export default function Hero1() {
 										consulting agency
 									</p>
 									<p className="s-title text-white-yellow mb-70 text-fs-70">
-										Modern Business <br />
-										Consulting
+										Let's Transform <br />
 										<span className="animationtext clip">
 											<TypeAnimation
 												sequence={[
-													' Service',
+													'Together',
 													1000,
-													' Firm',
+													'Your Business',
 													1000,
-													' Office',
+													'The Industry',
 													1000,
+													'The Future',
 												]}
 												wrapper="span"
 												speed={50}
@@ -42,9 +42,7 @@ export default function Hero1() {
 									</p>
 									<span className="line mb-75" />
 									<p className="text font-main-2 fw-5 mb-40">
-										We provide expert guidance across various business functions, <br /> including
-										strategy
-										development, process organizational.
+										We offer tailored accounting solutions, from bookkeeping to tax compliance, <br /> enabling businesses to streamline operations and ensure financial accuracy.
 									</p>
 									<div className="bot">
 										<Link href="/" className="tf-btn">

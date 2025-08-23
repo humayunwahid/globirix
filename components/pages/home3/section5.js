@@ -1,297 +1,139 @@
 'use client'
+import CounterUp from '@/components/elements/CounterUp'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useState } from "react"
+
 export default function Section5() {
-	const [isTab, setIsTab] = useState(1)
-	const handleTab = (i) => {
-		setIsTab(i)
-	}
 	return (
 		<>
 
-			<section className="s-our-saylo tf-spacing-1">
+			<section className="s-service tf-spacing-1 mt-60">
 				<div className="tf-container">
 					<div className="row">
-						<div className="col-lg-8">
-							<div className="heading">
-								<p className="s-sub-title">
+						<div className="col-lg-6">
+							<div className="content">
+								<p className="s-sub-title mb-17">
 									<i className="icon-angles-right moveLeftToRight" />
-									explore our saylo
+									Consulting Services
 								</p>
-								<p className="s-title text-main-green-3 text-anime-wave">
-									Discover the Features that Make Us Your
-									<span>
-										Financial Partner
+								<p className="s-title mb-70 text-anime-wave-right">
+									The Quality Consulting Service to Grow Your Business <span>and Sales</span>
+								</p>
+
+								<p className="text mb-30">
+									Scale your accounting team without the cost of permanent hiring. Choose the engagement model that fits your business
+								</p>
+
+								{/* <div className="image tf-hover mb-40">
+									<div className="hover-1 hover-14">
+										<Image
+											width="0"
+											height="0"
+											sizes="100vw"
+											style={{ width: "100%", height: "auto" }}
+											src="/images/section/s-service.jpg" data-src="/images/section/s-service.jpg" alt="" className="lazyload tf-animate-2" />
+									</div>
+								</div> */}
+								{/* Why Rent a Resource with Us */}
+								<p className="s-sub-title mb-17 text-black">
+									<i className="moveLeftToRight" />
+									Why Rent a Resource with Us?
+								</p>
+								
+								<ul class="benefit-list mb-70">
+										<li class="tf-fade-item fade-2">
+											<div class="icon">
+												<i class="flaticon-check-mark"></i>
+											</div>
+											<p>Flexible hiring model without long-term commitments.</p>
+										</li>
+										<li class="tf-fade-item fade-2">
+											<div class="icon">
+												<i class="flaticon-check-mark"></i>
+											</div>
+											<p>Access to skilled and qualified professionals on demand</p>
+										</li>
+										<li class="tf-fade-item fade-2">
+											<div class="icon">
+												<i class="flaticon-check-mark"></i>
+											</div>
+											<p>Cost savings compared to permanent in-house hires</p>
+										</li>
+										<li class="tf-fade-item fade-2">
+											<div class="icon">
+												<i class="flaticon-check-mark"></i>
+											</div>
+											<p>Quick onboarding with minimal downtime.</p>
+										</li>
+									</ul>
+
+								<div className="bot mt-5">
+									<div className="counter-wrap">
+										<div className="wg-counter">
+											<div className="odometer"><CounterUp count={10} /></div>
+											<span className="sub-odo">+</span>
+										</div>
+										<p className="sub-counter font-main-3 lh-21">
+											Satisfied Clients
+										</p>
+									</div>
+									<span className="line style-stand">
 									</span>
-								</p>
-								<p className="text">
-									For financial advisors or consulting firms, advanced technology allows for
-									real-time
-									tracking, in-depth <br /> data analysis, and the ability to offer more personalized,
-									precise solutions to clients.
-								</p>
-							</div>
-						</div>
-						<div className="col-lg-12">
-							<div className="wg-tabs">
-								<ul className="overflow-x-auto menu-tab">
-									<li className={`item ${isTab === 1 ? 'active' : ''}`} onClick={() => handleTab(1)}>
-										<a>
-											<span>
-												Retirement Solutions
-											</span>
-										</a>
-									</li>
-									<li className={`item ${isTab === 2 ? 'active' : ''}`} onClick={() => handleTab(2)}>
-										<a>
-											<span>
-												Strategic &amp; Financial Solutions
-											</span>
-										</a>
-									</li>
-									<li className={`item ${isTab === 3 ? 'active' : ''}`} onClick={() => handleTab(3)}>
-										<a>
-											<span>
-												TAX, VAT and Investment Planning
-											</span>
-										</a>
-									</li>
-								</ul>
-								<div className="widget-content-tab">
-									<div className={`widget-content-inner ${isTab === 1 ? 'active' : ''}`} style={{ display: `${isTab == 1 ? "block" : "none"}` }}>
-										<div className="wg-our-saylo">
-											<div className="image-left ">
-												<div className="image">
-													<Image
-														width="0"
-														height="0"
-														sizes="100vw"
-														style={{ width: "100%", height: "auto" }}
-														src="/images/section/our-saylo.webp" data-src="/images/section/our-saylo.jpg" alt="" className="lazyload tf-animate-2" />
-												</div>
-												<div className="wg-graph default rellax" data-rellax-speed="-0.2">
-													<p className="number">
-														$1250
-													</p>
-													<p className="text">
-														Your total saving so far
-													</p>
-													<Image
-														width="0"
-														height="0"
-														sizes="100vw"
-														style={{ width: "100%", height: "auto" }}
-														src="/images/item/graph.jpg" alt="" />
-												</div>
-											</div>
-											<div className="content-right">
-												<h3 className="title mb-20">
-													Retire with Confidence Customized <br /> Planning for Your Golden
-													Years
-												</h3>
-												<p className="text">
-													Retirement solutions refer to a range of financial strategies and
-													services designed to help individuals plan, save, and manage their
-													finances for a comfortable and secure retirement.
-												</p>
-												<ul className="list">
-													<li>
-														<div className="icon">
-															<i className="icon-check-2" />
-														</div>
-														<p>
-															Expertise Across Industries
-														</p>
-													</li>
-													<li>
-														<div className="icon">
-															<i className="icon-check-2" />
-														</div>
-														<p>
-															Customized Strategies
-														</p>
-													</li>
-													<li>
-														<div className="icon">
-															<i className="icon-check-2" />
-														</div>
-														<p>
-															Proven Track Record
-														</p>
-													</li>
-													<li>
-														<div className="icon">
-															<i className="icon-check-2" />
-														</div>
-														<p>
-															Problem-Solving
-														</p>
-													</li>
-												</ul>
-												<Link href="/" className="tf-btn style-15 text-anime-style-1">
-													Learn More Features
-													<i className="icon-chevron-right" />
-												</Link>
-											</div>
-										</div>
-									</div>
-									<div className={`widget-content-inner ${isTab === 2 ? 'active' : ''}`} style={{ display: `${isTab == 2 ? "block" : "none"}` }}>
-										<div className="wg-our-saylo">
-											<div className="image-left">
-												<div className="image">
-													<Image
-														width="0"
-														height="0"
-														sizes="100vw"
-														style={{ width: "100%", height: "auto" }}
-														src="/images/section/our-saylo.jpg" data-src="/images/section/our-saylo.jpg" alt="" className="lazyload" />
-												</div>
-												<div className="wg-graph">
-													<p className="number">
-														$1250
-													</p>
-													<p className="text">
-														Your total saving so far
-													</p>
-													<Image
-														width="0"
-														height="0"
-														sizes="100vw"
-														style={{ width: "100%", height: "auto" }}
-														src="/images/item/graph.jpg" alt="" />
-												</div>
-											</div>
-											<div className="content-right">
-												<h3 className="title mb-20">
-													Retire with Confidence Customized <br /> Planning for Your Golden
-													Years
-												</h3>
-												<p className="text mb-40">
-													Retirement solutions refer to a range of financial strategies and
-													services designed to help individuals plan, save, and manage their
-													finances for a comfortable and secure retirement.
-												</p>
-												<ul className="list mb-50">
-													<li>
-														<div className="icon">
-															<i className="icon-check-2" />
-														</div>
-														<p>
-															Expertise Across Industries
-														</p>
-													</li>
-													<li>
-														<div className="icon">
-															<i className="icon-check-2" />
-														</div>
-														<p>
-															Customized Strategies
-														</p>
-													</li>
-													<li>
-														<div className="icon">
-															<i className="icon-check-2" />
-														</div>
-														<p>
-															Proven Track Record
-														</p>
-													</li>
-													<li>
-														<div className="icon">
-															<i className="icon-check-2" />
-														</div>
-														<p>
-															Innovative Problem-Solving
-														</p>
-													</li>
-												</ul>
-												<Link href="/" className="tf-btn style-15">
-													Learn More Features
-													<i className="icon-chevron-right" />
-												</Link>
-											</div>
-										</div>
-									</div>
-									<div className={`widget-content-inner ${isTab === 3 ? 'active' : ''}`} style={{ display: `${isTab == 3 ? "block" : "none"}` }}>
-										<div className="wg-our-saylo">
-											<div className="image-left">
-												<div className="image">
-													<Image
-														width="0"
-														height="0"
-														sizes="100vw"
-														style={{ width: "100%", height: "auto" }}
-														src="/images/section/our-saylo.jpg" data-src="/images/section/our-saylo.jpg" alt="" className="lazyload" />
-												</div>
-												<div className="wg-graph">
-													<p className="number">
-														$1250
-													</p>
-													<p className="text">
-														Your total saving so far
-													</p>
-													<Image
-														width="0"
-														height="0"
-														sizes="100vw"
-														style={{ width: "100%", height: "auto" }}
-														src="/images/item/graph.jpg" alt="" />
-												</div>
-											</div>
-											<div className="content-right">
-												<h3 className="title mb-20">
-													Retire with Confidence Customized <br /> Planning for Your Golden
-													Years
-												</h3>
-												<p className="text mb-40">
-													Retirement solutions refer to a range of financial strategies and
-													services designed to help individuals plan, save, and manage their
-													finances for a comfortable and secure retirement.
-												</p>
-												<ul className="list mb-50">
-													<li>
-														<div className="icon">
-															<i className="icon-check-2" />
-														</div>
-														<p>
-															Expertise Across Industries
-														</p>
-													</li>
-													<li>
-														<div className="icon">
-															<i className="icon-check-2" />
-														</div>
-														<p>
-															Customized Strategies
-														</p>
-													</li>
-													<li>
-														<div className="icon">
-															<i className="icon-check-2" />
-														</div>
-														<p>
-															Proven Track Record
-														</p>
-													</li>
-													<li>
-														<div className="icon">
-															<i className="icon-check-2" />
-														</div>
-														<p>
-															Innovative Problem-Solving
-														</p>
-													</li>
-												</ul>
-												<Link href="/" className="tf-btn style-15">
-													Learn More Features
-													<i className="icon-chevron-right" />
-												</Link>
-											</div>
-										</div>
-									</div>
+									<Link href="/our-service" className="tf-btn style-3">Explore All Services <i className="icon-chevron-right" /></Link>
 								</div>
 							</div>
+						</div>
+						<div className="col-lg-5 offset-lg-1">
+							{/* Rent a Resource Accordion */}
+							<div className="box-icon default tf-hover-icon mb-20 wow fadeInUp" data-wow-delay="0s">
+								<div className="icon hover-icon-2">
+									<i className="flaticon-data-management" />
+								</div>
+								<Link href="/#" className="title fw-7">
+									Part-Time Resource
+								</Link>
+								<p className="text">
+									Flexible support for a few hours a week or month. Perfect for startups, SMEs, and businesses needing light but consistent assistance.
+								</p>
+								{/* <Link href="/our-service" className="tf-btn-readmore style-3">
+									Read More
+									<i className="icon-chevron-right" />
+								</Link> */}
+							</div>
+
+							<div className="box-icon default tf-hover-icon mb-20 wow fadeInUp" data-wow-delay="0.1s">
+								<div className="icon hover-icon-2">
+									<i className="flaticon-human-resources" />
+								</div>
+								<Link href="/#" className="title fw-7">
+									Full-Time Resource
+								</Link>
+								<p className="text">
+									A dedicated professional working exclusively for you. Get the benefits of an in-house accountant without payroll, benefits, or overhead costs.
+								</p>
+								{/* <Link href="/our-service" className="tf-btn-readmore style-3">
+									Read More
+									<i className="icon-chevron-right" />
+								</Link> */}
+							</div>
+
+							<div className="box-icon default tf-hover-icon mb-20 wow fadeInUp" data-wow-delay="0.2s">
+								<div className="icon hover-icon-2">
+									<i className="flaticon-target-1" />
+								</div>
+								<Link href="/#" className="title fw-7">
+									Project-Based Resource
+								</Link>
+								<p className="text">
+									Specialized expertise for one-off assignments. Ideal for audits, financial modeling, ERP migration, compliance, or short-term projects.
+								</p>
+								{/* <Link href="/our-service" className="tf-btn-readmore style-3">
+									Read More
+									<i className="icon-chevron-right" />
+								</Link> */}
+							</div>
+
+
 						</div>
 					</div>
 				</div>

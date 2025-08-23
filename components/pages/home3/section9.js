@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+
 export default function Section9() {
 	const [isAccordion, setIsAccordion] = useState(1)
 
@@ -11,7 +12,7 @@ export default function Section9() {
 	return (
 		<>
 
-			<section className="s-faq tf-spacing-2">
+			<section className="s-faq tf-spacing-2 mb-100">
 				<div className="image">
 					<Image
 						width="0"
@@ -24,17 +25,16 @@ export default function Section9() {
 					<div className="content-left">
 						<p className="s-sub-title text-white mb-15">
 							<i className="icon-angles-right moveLeftToRight" />
-							faqs
+							Services Offered
 						</p>
 						<p className="s-title text-white mb-30 text-anime-wave">
-							Frequently Asked
+							Our Key Services
 							<span>
-								Querstions
+								To Empower Your Business
 							</span>
 						</p>
 						<p className="text text-white mb-40">
-							A financial advisor helps individuals and businesses make informed decisions about their
-							finances, offering guidance on investments, retirement planning, tax strategies.
+							We offer a comprehensive suite of accounting and financial outsourcing solutions, designed to streamline your operations, ensure compliance, and support strategic decision-making.
 						</p>
 						<Link href="/" className="tf-btn style-15 type-2 small text-anime-style-1">
 							Get A Quote
@@ -43,73 +43,72 @@ export default function Section9() {
 					</div>
 					<div className="content-right">
 						<div className="tf-accordion style-2 accordion" id="accordionExample">
+							{/* Accounting & Reporting */}
 							<div className="accordion-item">
-								<h2 className="accordion-header"onClick={() => handleAccordion(1)}>
+								<h2 className="accordion-header" onClick={() => handleAccordion(1)}>
 									<button className={`accordion-button ${isAccordion === 1 ? 'collapsed' : ''}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-										What does a financial advisor do?
+										Accounting & Reporting
 									</button>
 								</h2>
 								<div id="collapseOne" className={`accordion-collapse collapse ${isAccordion === 1 ? 'show' : ''}`} data-bs-parent="#accordionExample">
 									<div className="accordion-body">
-										Process typically starts with a discovery phase, where we assess your business
-										needs and goals develop a customized strategy, followed by implementation and
-										continuous.
+										We handle everything from end-to-end bookkeeping to financial statements, management reporting, and budgeting. We ensure compliance with both local and international accounting standards.
 									</div>
 								</div>
 							</div>
+
+							{/* Data Entry & Audit Support */}
 							<div className="accordion-item">
-								<h2 className="accordion-header"onClick={() => handleAccordion(2)}>
+								<h2 className="accordion-header" onClick={() => handleAccordion(2)}>
 									<button className={`accordion-button ${isAccordion === 2 ? 'collapsed' : ''}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-										Who should work with a financial advisor?
+										Data Entry & Audit Support
 									</button>
 								</h2>
 								<div id="collapseTwo" className={`accordion-collapse collapse ${isAccordion === 2 ? 'show' : ''}`} data-bs-parent="#accordionExample">
 									<div className="accordion-body">
-										Process typically starts with a discovery phase, where we assess your business
-										needs and goals develop a customized strategy, followed by implementation and
-										continuous.
+										We provide accurate data entry, bank reconciliations, and audit-ready documentation for seamless financial operations.
 									</div>
 								</div>
 							</div>
+
+							{/* Internal Control over Financial Reporting */}
 							<div className="accordion-item">
-								<h2 className="accordion-header"onClick={() => handleAccordion(3)}>
+								<h2 className="accordion-header" onClick={() => handleAccordion(3)}>
 									<button className={`accordion-button ${isAccordion === 3 ? 'collapsed' : ''}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-										How are financial advisors compensated?
+										Internal Control
 									</button>
 								</h2>
 								<div id="collapseThree" className={`accordion-collapse collapse ${isAccordion === 3 ? 'show' : ''}`} data-bs-parent="#accordionExample">
 									<div className="accordion-body">
-										Process typically starts with a discovery phase, where we assess your business
-										needs and goals develop a customized strategy, followed by implementation and
-										continuous.
+										We design and implement internal control frameworks to ensure compliance, transparency, and fraud prevention.
 									</div>
 								</div>
 							</div>
+
+							{/* ERP Functional Support */}
 							<div className="accordion-item">
-								<h2 className="accordion-header"onClick={() => handleAccordion(4)}>
+								<h2 className="accordion-header" onClick={() => handleAccordion(4)}>
 									<button className={`accordion-button ${isAccordion === 4 ? 'collapsed' : ''}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-										How do you create a financial plan?
+										ERP Functional Support
 									</button>
 								</h2>
 								<div id="collapseFour" className={`accordion-collapse collapse ${isAccordion === 4 ? 'show' : ''}`} data-bs-parent="#accordionExample">
 									<div className="accordion-body">
-										Process typically starts with a discovery phase, where we assess your business
-										needs and goals develop a customized strategy, followed by implementation and
-										continuous.
+										We assist with ERP user training, process documentation, and system integration support to ensure smooth implementation.
 									</div>
 								</div>
 							</div>
+
+							{/* HR & Payroll Services */}
 							<div className="accordion-item">
-								<h2 className="accordion-header"onClick={() => handleAccordion(5)}>
+								<h2 className="accordion-header" onClick={() => handleAccordion(5)}>
 									<button className={`accordion-button ${isAccordion === 5 ? 'collapsed' : ''}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-										What is your investment philosophy?
+										HR & Payroll Services
 									</button>
 								</h2>
 								<div id="collapseFive" className={`accordion-collapse collapse ${isAccordion === 5 ? 'show' : ''}`} data-bs-parent="#accordionExample">
 									<div className="accordion-body">
-										Process typically starts with a discovery phase, where we assess your business
-										needs and goals develop a customized strategy, followed by implementation and
-										continuous.
+										We manage payroll processing, employee benefits, statutory compliance, and HR data management for smooth operations.
 									</div>
 								</div>
 							</div>

@@ -1,7 +1,7 @@
-
 import CounterUp from '@/components/elements/CounterUp'
 import Image from 'next/image'
 import Link from 'next/link'
+
 export default function Section2() {
 	return (
 		<>
@@ -57,18 +57,16 @@ export default function Section2() {
 							<div className="content">
 								<p className="s-sub-title mb-15">
 									<i className="icon-angles-right moveLeftToRight" />
-									about company
+									Executive Summary
 								</p>
 								<p className="s-title text-main-green-3 mb-30 text-anime-wave">
-									Expert Financial Advice, Tailored to Your
+									Expert Accounting Solutions, Tailored to Your
 									<span>
-										Goals
+										Business
 									</span>
 								</p>
 								<p className="text mb-40">
-									We are dedicated to helping individuals and businesses achieve financial stability
-									and growth through expert, personalized advice. Our team of experienced financial
-									advisors works closely
+									We are dedicated to providing businesses with reliable, technology-driven accounting services that help streamline financial operations and ensure compliance.
 								</p>
 								<div className="experience mb-40">
 									<div className="counter-wrap style-3">
@@ -88,18 +86,17 @@ export default function Section2() {
 											<span className="sub-odo">+</span>
 										</div>
 										<p className="sub-counter">
-											Our Global <br />
-											Clients
+											Successful <br />
+											Projects
 										</p>
 									</div>
 								</div>
 								<p className="text mb-40">
-									We offer tailored strategies that provide clarity and confidence, helping you make
-									informed decisions to secure
+									Our approach is centered around delivering tailored financial solutions that drive business growth and success.
 								</p>
 								<div className="bot">
 									<Link href="/" className="tf-btn style-15 text-anime-style-1">
-										Learn More Us
+										Learn More About Us
 										<i className="icon-chevron-right" />
 									</Link>
 									<div className="author-wrap">
