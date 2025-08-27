@@ -15,7 +15,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 									<div className="icon">
 										<i className="flaticon-tag" />
 									</div>
-									<p>Welcome to GLobirix Consulting Agency</p>
+									<p>Welcome to Globirix</p>
 								</div>
 								<div className="topbar-right">
 									<ul className="infor-list">
@@ -76,7 +76,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 								</div>
 								<div className="header-right">
 									<Link href="/" className="tf-btn small">
-										Get In Touch
+										Rent a Resource
 										<i className="icon-chevron-right" />
 									</Link>
 									<div className="union mobile-button" onClick={handleMobileMenu}>

@@ -5,7 +5,7 @@ export default function Section13() {
     return (
         <>
 
-            <section className="s-about-company tf-spacing-2">
+            <section className="s-about-company tf-spacing-2" id="vision-mission">
                 <div className="relative z-5">
                     <div className="tf-container">
                         <div className="row">

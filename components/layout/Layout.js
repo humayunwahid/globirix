@@ -74,13 +74,13 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 				{hero == 2 && <Hero2 />}
 				{hero == 3 && <Hero3 />}
 				{hero == 4 && <Hero4 />}
-				<Breadcrumb breadcrumbTitle={breadcrumbTitle} breadcrumbAlt={breadcrumbAlt} />
+				{/* <Breadcrumb breadcrumbTitle={breadcrumbTitle} breadcrumbAlt={breadcrumbAlt} /> */}
 				<div className={`main-content mt-5 ${mainCls ? mainCls : ""}`}>
 
 					{children}
 				</div>
 
-				{!footerStyle && < Footer4 />}
+				{!footerStyle && < Footer1 />}
 				{footerStyle == 1 ? < Footer1 /> : null}
 				{footerStyle == 2 ? < Footer2 /> : null}
 				{footerStyle == 3 ? < Footer3 /> : null}

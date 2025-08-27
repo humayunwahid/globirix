@@ -4,11 +4,11 @@ import { sliderPartner } from "@/utils/swiperOptions"
 import Image from 'next/image'
 import Link from 'next/link'
 import { Swiper, SwiperSlide } from "swiper/react"
-export default function Section11() {
+export default function Section7() {
 	return (
 		<>
 
-			<section className="s-partner" id="partners">
+			<section className="s-partner">
 				<Swiper {...sliderPartner} className="swiper-container slider-partner">
 					<div className="swiper-wrapper">
 						<SwiperSlide>
