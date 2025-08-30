@@ -51,14 +51,14 @@ export default function Menu() {
 					
 				</ul>
 			</li>
-			<li className={`item has-child ${isParentActive(["/1", "/2", "/3", "/4", "/5"])}`}>
-				<Link href="/services"><span>Services</span></Link>
+			<li className={`item has-child ${isParentActive(["/our-services/accounting-reporting", "/our-services/data-entry-audit-support", "/our-services/internal-control-financial-reporting", "/our-services/erp-functional-support", "/our-services/hr-payroll-services"])}`}>
+				<Link href="/our-services"><span>Services</span></Link>
 				<ul className="sub-nav">
-					<li className={isActive("/service-details")}><Link href="/1"><span> Accounting and reporting </span></Link></li>
-					<li className={isActive("/service-details")}><Link href="/3"><span> Data Entry & Audit Support </span></Link></li>
-					<li className={isActive("/service-details")}><Link href="/2"><span> Internal Control over Financial Reporting </span></Link></li>
-					<li className={isActive("/service-details")}><Link href="/3"><span> ERP Functional Support </span></Link></li>
-					<li className={isActive("/service-details")}><Link href="/3"><span> HR & Payroll </span></Link></li>
+					<li className={isActive("/our-services/accounting-reporting")}><Link href="/our-services/accounting-reporting"><span> Accounting and reporting </span></Link></li>
+					<li className={isActive("/our-services/data-entry-audit-support")}><Link href="/our-services/data-entry-audit-support"><span> Data Entry & Audit Support </span></Link></li>
+					<li className={isActive("/our-services/internal-control-financial-reporting")}><Link href="/our-services/internal-control-financial-reporting"><span> Internal Control over Financial Reporting </span></Link></li>
+					<li className={isActive("/our-services/erp-functional-support")}><Link href="/our-services/erp-functional-support"><span> ERP Functional Support </span></Link></li>
+					<li className={isActive("/our-services/hr-payroll-services")}><Link href="/our-services/hr-payroll-services"><span> HR & Payroll </span></Link></li>
 				</ul>
 			</li>
 			<li className={`item ${isActive("/benefits-outsourcing")}`}><Link href="/benefits-outsourcing"><span>Benefits of Outsourcing</span></Link></li>
@@ -80,10 +80,10 @@ export default function Menu() {
 					<li className={isActive("/case-details")}><Link href="/case-details"><span> Case Details </span></Link></li>
 				</ul>
 			</li> */}
-						<li className={`item ${isActive("/blogs")}`}><Link href="/"><span>Blogs</span></Link></li>
+						<li className={`item ${isActive("/blogs")}`}><Link href="/blogs"><span>Blogs</span></Link></li>
 
 		
-			<li className={`item ${isActive("/contact")}`}><Link href="/"><span>Contact</span></Link></li>
+			<li className={`item ${isActive("/contact")}`}><Link href="/contact"><span>Contact</span></Link></li>
 		</ul>
 	)
 }

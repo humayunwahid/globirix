@@ -1,7 +1,8 @@
 import Image from "next/image"
 import Link from "next/link"
 
-export default function Breadcrumb({ breadcrumbTitle, breadcrumbAlt }) {
+export default function Breadcrumb({ breadcrumbTitle, breadcrumbAlt, serviceName }) {
+
 	const words = breadcrumbTitle?.split(" ")
 	const formattedTitle = words?.length > 1 ? (
 		<>
@@ -24,7 +25,7 @@ export default function Breadcrumb({ breadcrumbTitle, breadcrumbAlt }) {
 									sizes="100vw"
 									style={{ width: "100%", height: "auto" }}
 
-									src="/images/page-title/page-title.jpg"
+									src="/images/page-title/page-title.webp"
 									alt={""}
 								/>
 							</div>
@@ -52,7 +53,7 @@ export default function Breadcrumb({ breadcrumbTitle, breadcrumbAlt }) {
 					<div className="tf-marquee slider-saylo mt-65">
 						<div className="wrap-marquee">
 							{Array(10)
-								.fill("Saylo Consulting")
+								.fill("Globirix Consulting")
 								.map((text, index) => (
 									<div className="marquee-item" key={index}>
 										<p className="font-main-2 text">{text}</p>
@@ -68,7 +69,7 @@ export default function Breadcrumb({ breadcrumbTitle, breadcrumbAlt }) {
 					<div className="content-wrap">
 						<div className="bg-image">
 							<div className="rellax" data-rellax-speed={-10}>
-								<img src="/images/page-title/page-title.jpg" alt />
+								<img src="/images/page-title/page-title.webp" alt />
 							</div>
 						</div>
 						<div className="tf-overlay" />
@@ -125,52 +126,52 @@ export default function Breadcrumb({ breadcrumbTitle, breadcrumbAlt }) {
 						<div className="wrap-marquee">
 							<div className="marquee-item">
 								<p className="font-main-2 text">
-									Saylo Consulting
+									Globirix Consulting
 								</p>
 							</div>
 							<div className="marquee-item">
 								<p className="font-main-2 text">
-									Saylo Consulting
+									Globirix Consulting
 								</p>
 							</div>
 							<div className="marquee-item">
 								<p className="font-main-2 text">
-									Saylo Consulting
+									Globirix Consulting
 								</p>
 							</div>
 							<div className="marquee-item">
 								<p className="font-main-2 text">
-									Saylo Consulting
+									Globirix Consulting
 								</p>
 							</div>
 							<div className="marquee-item">
 								<p className="font-main-2 text">
-									Saylo Consulting
+									Globirix Consulting
 								</p>
 							</div>
 							<div className="marquee-item">
 								<p className="font-main-2 text">
-									Saylo Consulting
+									Globirix Consulting
 								</p>
 							</div>
 							<div className="marquee-item">
 								<p className="font-main-2 text">
-									Saylo Consulting
+									Globirix Consulting
 								</p>
 							</div>
 							<div className="marquee-item">
 								<p className="font-main-2 text">
-									Saylo Consulting
+									Globirix Consulting
 								</p>
 							</div>
 							<div className="marquee-item">
 								<p className="font-main-2 text">
-									Saylo Consulting
+									Globirix Consulting
 								</p>
 							</div>
 							<div className="marquee-item">
 								<p className="font-main-2 text">
-									Saylo Consulting
+									Globirix Consulting
 								</p>
 							</div>
 						</div>
@@ -183,7 +184,7 @@ export default function Breadcrumb({ breadcrumbTitle, breadcrumbAlt }) {
 					<div className="content-wrap">
 						<div className="bg-image">
 							<div className="rellax" data-rellax-speed={-10}>
-								<img src="/images/page-title/page-title-2.jpg" alt />
+								<img src="/images/page-title/page-title.webp" alt />
 							</div>
 						</div>
 						<div className="tf-overlay" />
@@ -192,10 +193,11 @@ export default function Breadcrumb({ breadcrumbTitle, breadcrumbAlt }) {
 								<div className="row">
 									<div className="col-lg-12">
 										<p className="title mb-30">
-											Marketing 
+											{/* Marketing 
 											<span className="ms-2">
 												 Consulting
-											</span>
+											</span> */}
+											{serviceName}
 										</p>
 										<div className="breadcrums">
 											<Link href="/">
@@ -211,7 +213,7 @@ export default function Breadcrumb({ breadcrumbTitle, breadcrumbAlt }) {
 												<i className="icon-chevron-r" />
 											</div>
 											<Link href="#" className="current">
-												Marketing Consulting
+												{serviceName}
 											</Link>
 										</div>
 									</div>
@@ -223,52 +225,52 @@ export default function Breadcrumb({ breadcrumbTitle, breadcrumbAlt }) {
 						<div className="wrap-marquee">
 							<div className="marquee-item">
 								<p className="font-main-2 text">
-									Saylo Consulting
+									Globirix Consulting
 								</p>
 							</div>
 							<div className="marquee-item">
 								<p className="font-main-2 text">
-									Saylo Consulting
+									Globirix Consulting
 								</p>
 							</div>
 							<div className="marquee-item">
 								<p className="font-main-2 text">
-									Saylo Consulting
+									Globirix Consulting
 								</p>
 							</div>
 							<div className="marquee-item">
 								<p className="font-main-2 text">
-									Saylo Consulting
+									Globirix Consulting
 								</p>
 							</div>
 							<div className="marquee-item">
 								<p className="font-main-2 text">
-									Saylo Consulting
+									Globirix Consulting
 								</p>
 							</div>
 							<div className="marquee-item">
 								<p className="font-main-2 text">
-									Saylo Consulting
+									Globirix Consulting
 								</p>
 							</div>
 							<div className="marquee-item">
 								<p className="font-main-2 text">
-									Saylo Consulting
+									Globirix Consulting
 								</p>
 							</div>
 							<div className="marquee-item">
 								<p className="font-main-2 text">
-									Saylo Consulting
+									Globirix Consulting
 								</p>
 							</div>
 							<div className="marquee-item">
 								<p className="font-main-2 text">
-									Saylo Consulting
+									Globirix Consulting
 								</p>
 							</div>
 							<div className="marquee-item">
 								<p className="font-main-2 text">
-									Saylo Consulting
+									Globirix Consulting
 								</p>
 							</div>
 						</div>

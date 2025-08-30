@@ -3,127 +3,136 @@ export default function BenefitsOutsourcing() {
 	return (
 		<>
 
-			<section className="s-popular-category tf-spacing-3">
+			<section className="s-we-do tf-spacing-3" id="outsourcing-benefits">
 				<div className="tf-container">
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="heading mb-70">
 								<p className="s-sub-title mb-15 justify-center">
 									<i className="icon-angles-right moveLeftToRight" />
-									popular category
+									Benefits of Outsourcing
 								</p>
-								<p className="s-title text-center text-anime-wave">
-									Explore Popular
-									<span>
-										Category
-									</span>
+								<p className="s-title text-center text-anime-style-2">
+									Smart, Efficient & Reliable <br />
+									<span>Financial Outsourcing Solutions</span>
 								</p>
 							</div>
-							<div className="grid-layout-3">
-								<div className="wg-career wow fadeInUp" data-wow-delay="0s">
-									<div className="icon">
-										<i className="flaticon-graphic-design" />
-									</div>
-									<Link href="/#" className="font-main-2">
-										UX/UI Design
-										<span className="font-main">
-											(05 Jobs)
-										</span>
-									</Link>
+
+							{/* Row 1 with 3 services */}
+							<div className="feature-group overflow-hidden grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+
+								{/* Cost Efficiency */}
+								<div className="box-icon style-8">
+									<h3 className="title">Cost Efficiency</h3>
+									<span className="line mb-30" />
+									<p className="text">
+										Save on hiring, training, and maintaining in-house staff. Reduce overhead expenses and pay only for the services you need.
+									</p>
 								</div>
-								<div className="wg-career wow fadeInUp" data-wow-delay="0.1s">
-									<div className="icon">
-										<i className="flaticon-cooperation" />
-									</div>
-									<Link href="/#" className="font-main-2">
-										Business Sales
-										<span className="font-main">
-											(105 Jobs)
-										</span>
-									</Link>
+
+								{/* Access to Expertise */}
+								<div className="box-icon style-8">
+									<h3 className="title">Access to Expertise</h3>
+									<span className="line mb-30" />
+									<p className="text">
+										Work with qualified professionals, stay compliant with tax laws, and gain industry-specific knowledge without full-time hires.
+									</p>
 								</div>
-								<div className="wg-career wow fadeInUp" data-wow-delay="0.2s">
-									<div className="icon">
-										<i className="flaticon-megaphone" />
-									</div>
-									<Link href="/#" className="font-main-2">
-										SEO Marketing
-										<span className="font-main">
-											(04 Jobs)
-										</span>
-									</Link>
-								</div>
-								<div className="wg-career wow fadeInUp" data-wow-delay="0s">
-									<div className="icon">
-										<i className="flaticon-healthcare" />
-									</div>
-									<Link href="/#" className="font-main-2">
-										Medical &amp; Health
-										<span className="font-main">
-											(03 Jobs)
-										</span>
-									</Link>
-								</div>
-								<div className="wg-career wow fadeInUp" data-wow-delay="0.1s">
-									<div className="icon">
-										<i className="flaticon-pc" />
-									</div>
-									<Link href="/#" className="font-main-2">
-										Computer &amp; Tech
-										<span className="font-main">
-											(105 Jobs)
-										</span>
-									</Link>
-								</div>
-								<div className="wg-career wow fadeInUp" data-wow-delay="0.2s">
-									<div className="icon">
-										<i className="flaticon-insurance" />
-									</div>
-									<Link href="/#" className="font-main-2">
-										Insurance &amp; Bank
-										<span className="font-main">
-											(08 Jobs)
-										</span>
-									</Link>
-								</div>
-								<div className="wg-career wow fadeInUp" data-wow-delay="0s">
-									<div className="icon">
-										<i className="flaticon-video-file" />
-									</div>
-									<Link href="/#" className="font-main-2">
-										Video Grapy
-										<span className="font-main">
-											(05 Jobs)
-										</span>
-									</Link>
-								</div>
-								<div className="wg-career wow fadeInUp" data-wow-delay="0.1s">
-									<div className="icon">
-										<i className="flaticon-coding" />
-									</div>
-									<Link href="/#" className="font-main-2">
-										Development
-										<span className="font-main">
-											(20 Jobs)
-										</span>
-									</Link>
-								</div>
-								<div className="wg-career wow fadeInUp" data-wow-delay="0.2s">
-									<div className="icon">
-										<i className="flaticon-art" />
-									</div>
-									<Link href="/#" className="font-main-2">
-										Art &amp; Fashion
-										<span className="font-main">
-											(10 Jobs)
-										</span>
-									</Link>
+
+								{/* Focus on Core Business */}
+								<div className="box-icon style-8">
+									<h3 className="title">Focus on Core Business</h3>
+									<span className="line mb-30" />
+									<p className="text">
+										Free up your time for sales and growth while experts handle accounting so you can focus on strategy.
+									</p>
 								</div>
 							</div>
+
+							{/* Row 2 with 2 services */}
+							<div className="feature-group overflow-hidden grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+
+								{/* Scalability & Flexibility */}
+								<div className="box-icon style-8">
+									<h3 className="title">Scalability & Flexibility</h3>
+									<span className="line mb-30" />
+									<p className="text">
+										Easily scale services up or down with flexible packages for bookkeeping, payroll, tax filing, and reporting.
+									</p>
+								</div>
+
+								{/* Improved Accuracy & Compliance */}
+								<div className="box-icon style-8">
+									<h3 className="title">Improved Accuracy & Compliance</h3>
+									<span className="line mb-30" />
+									<p className="text">
+										Minimize errors and ensure timely financial reporting with compliance to local and international regulations.
+									</p>
+								</div>
+							</div>
+
+							{/* Row 3 with 3 services */}
+							<div className="feature-group overflow-hidden grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+
+								{/* Peace of Mind */}
+								<div className="box-icon style-8">
+									<h3 className="title">Peace of Mind</h3>
+									<span className="line mb-30" />
+									<p className="text">
+										No worries about staff turnover or training — rely on professional outsourcing support year-round.
+									</p>
+								</div>
+
+								{/* Enhanced Data Security */}
+								<div className="box-icon style-8">
+									<h3 className="title">Enhanced Data Security</h3>
+									<span className="line mb-30" />
+									<p className="text">
+										Protect sensitive financial data with strict confidentiality protocols and advanced security systems.
+									</p>
+								</div>
+
+								{/* Reduced Risk */}
+								<div className="box-icon style-8">
+									<h3 className="title">Reduced Risk</h3>
+									<span className="line mb-30" />
+									<p className="text">
+										Lower fraud and compliance risks with external checks, controls, and shared accountability.
+									</p>
+								</div>
+
+								
+							</div>
+
+							{/* Row 4 with 2 services */}
+							<div className="feature-group overflow-hidden grid grid-cols-1 md:grid-cols-2 gap-6">
+
+								{/* Timely Reporting & Decision Support */}
+								<div className="box-icon style-8">
+									<h3 className="title">Timely Reporting & Decision Support</h3>
+									<span className="line mb-30" />
+									<p className="text">
+										Get accurate financial statements and MIS reports on time for smarter business decisions.
+									</p>
+								</div>
+								
+								{/* Access to Advanced Technology */}
+								<div className="box-icon style-8">
+									<h3 className="title">Access to Advanced Technology</h3>
+									<span className="line mb-30" />
+									<p className="text">
+										Benefit from modern accounting software, automation tools, and real-time insights without extra investment.
+									</p>
+								</div>
+								
+							</div>
+
 						</div>
 					</div>
 				</div>
 			</section>
+
+
 
 		</>
 	)
