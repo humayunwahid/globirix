@@ -37,16 +37,21 @@ export default function MobileMenu() {
 		// 		{ title: "404", path: "/404" }
 		// 	]
 		// },
-		{ title: "About", path: "/" },
-		
+		{
+			title: "About Us",
+			subMenu: [
+				{ title: "Executive Summary", path: "/about-us#summary" },
+				{ title: "Vision & Mission", path: "/about-us#vision-mission" },
+				{ title: "Partners Profile", path: "/about-us#partners" }
+			]},
 		{
 			title: "Services",
 			subMenu: [
-				{ title: "Accounting and reporting", path: "/1" },
-				{ title: "Taxation", path: "/2" },
-				{ title: "Internal Control over financial reporting", path: "/3" },
-				{ title: "ERP Functional Support", path: "/4" },
-				{ title: "HR & Payroll", path: "/5" }
+				{ title: "Accounting and reporting", path: "/our-services/accounting-reporting" },
+				{ title: "Data Entry & Audit Support", path: "/our-services/data-entry-audit-support" },
+				{ title: "Internal Control over Financial Reporting", path: "/our-services/internal-control-financial-reporting" },
+				{ title: "ERP Functional Support", path: "/our-services/erp-functional-support" },
+				{ title: "HR & Payroll", path: "/our-services/hr-payroll-services" }
 				// { title: "Service Details", path: "/" }
 			]
 		},
@@ -58,14 +63,18 @@ export default function MobileMenu() {
 		// 		{ title: "Case Details", path: "/case-details" }
 		// 	]
 		// },
+		{ title: "Benefits of Outsourcing", path: "/benefits-outsourcing" },
 		{
-			title: "Blogs",
-			// subMenu: [
-			// 	{ title: "Blog Standard", path: "/blog-standard" },
-			// 	{ title: "Blog Details", path: "/blog-details" }
-			// ]
+			title: "Why Choose Us",
+			subMenu: [
+				{ title: "Why we are Uniquely Positioned", path: "/why-choose-us#unique" },
+				{ title: "Service Methodology", path: "/why-choose-us#methodology" },
+				{ title: "Tools & Technology", path: "/why-choose-us#technology" },
+				{ title: "Confidentiality and Security", path: "/why-choose-us#security" }
+			]
 		},
-		{ title: "Contact", path: "/" }
+		{ title: "Blogs", path: "/blogs" },
+		{ title: "Contact", path: "/contact" }
 	]
 
 	return (
