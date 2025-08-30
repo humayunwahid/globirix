@@ -107,20 +107,20 @@ export default function Footer1() {
 											<p className="footer-title footer-title-mobile" onClick={() => handleAccordion1(1)}>Services</p>
 											<ul className="list tf-collapse-content" style={{ display: getDisplayStyle1(1) }}>
 												<li>
-													<Link href="/">Financial Analysis</Link>
-												</li>
-												<li>
-													<Link href="/">Market Research</Link>
-												</li>
-												<li>
-													<Link href="/">Competitive Analysis</Link>
-												</li>
-												<li>
-													<Link href="/">Team Building</Link>
-												</li>
-												<li>
-													<Link href="/">HR Management</Link>
-												</li>
+    <Link href="/our-services/accounting-reporting">Accounting &amp; Reporting</Link>
+</li>
+<li>
+    <Link href="/our-services/data-entry-audit-support">Data Entry &amp; Audit Support</Link>
+</li>
+<li>
+    <Link href="/our-services/internal-control-financial-reporting">Internal Control over Financial Reporting</Link>
+</li>
+<li>
+    <Link href="/our-services/erp-functional-support">ERP Functional Support</Link>
+</li>
+<li>
+    <Link href="/our-services/hr-payroll-services">HR &amp; Payroll Services</Link>
+</li>
 											</ul>
 										</div>
 										<div className={`footer-inner-wrap footer-col-block ${isAccordion1 === 1 ? 'open' : ''} `}>
@@ -128,18 +128,20 @@ export default function Footer1() {
 											<p className="footer-title footer-title-mobile" onClick={() => handleAccordion2(1)}>Quick Links</p>
 											<ul className="list tf-collapse-content" style={{ display: getDisplayStyle2(1) }}>
 												<li>
-													<Link href="/">About Company</Link>
+													<Link href="/about-us">About Company</Link>
 												</li>
 												<li>
-													<Link href="/">Carrier</Link>
+													<Link href="/why-choose-us">Why Choose Us</Link>
 												</li>
 												<li>
-													<Link href="/">Applications</Link>
+													<Link href="/rent-a-resource">Rent A Resource</Link>
 												</li>
+												
+																								<li><Link href="/blogs">Blogs</Link></li>
+
 												<li>
-													<Link href="/">Contact Us</Link>
+													<Link href="/contact">Contact Us</Link>
 												</li>
-												<li><Link href="/">Case Studies</Link></li>
 											</ul>
 										</div>
 									</div>

@@ -5,7 +5,7 @@ export default function Home() {
 
 	return (
 		<>
-			<Layout breadcrumbTitle="Blog Standard">
+			<Layout breadcrumbTitle="Blog">
 				<BlogStandard />
 			</Layout>
 		</>

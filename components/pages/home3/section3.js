@@ -18,7 +18,7 @@ export default function Section3() {
 											<i className="flaticon-problem-solving hover-icon-2" />
 										</div>
 										<Link href="/" className="title fw-7 fs-22">
-											Facility
+											Our Facility
 										</Link>
 										<p className="text">
 											Our state-of-the-art outsourcing facility offers secure infrastructure, advanced technology, and scalable resources.
@@ -31,7 +31,7 @@ export default function Section3() {
 											<i className="flaticon-persuasive hover-icon-2" />
 										</div>
 										<Link href="/" className="title fw-7 fs-22">
-											Culture
+											Our Culture
 										</Link>
 										<p className="text">
 											We foster a culture of integrity, transparency, and excellence, building trust and delivering measurable results.
@@ -44,7 +44,7 @@ export default function Section3() {
 											<i className="flaticon-statistics hover-icon-2" />
 										</div>
 										<Link href="/" className="title fw-7 fs-22">
-											People
+											Our Peoples
 										</Link>
 										<p className="text">
 											Our team of skilled professionals ensures the accuracy of financial reporting and keeps you compliant with regulations.
@@ -57,7 +57,7 @@ export default function Section3() {
 											<i className="flaticon-interactivity hover-icon-2" />
 										</div>
 										<Link href="/" className="title fw-7 fs-22">
-											Strategy
+											Our Strategy
 										</Link>
 										<p className="text">
 											Leveraging cutting-edge technology and automation tools, we streamline financial operations for faster, more accurate reporting.

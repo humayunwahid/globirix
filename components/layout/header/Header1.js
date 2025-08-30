@@ -15,7 +15,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 									<div className="icon">
 										<i className="flaticon-tag" />
 									</div>
-									<p>Welcome to GLobirix Consulting Agency</p>
+									<p>Welcome to Globirix</p>
 								</div>
 								<div className="topbar-right">
 									<ul className="infor-list">
@@ -23,7 +23,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 											<div className="icon">
 												<i className="flaticon-open-mail" />
 											</div>
-											<Link href="mailto:Themesflat@gmail.com">
+											<Link href="mailto:info@globirix.com">
 												info@globirix.com
 											</Link>
 										</li>
@@ -75,8 +75,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 									</nav>
 								</div>
 								<div className="header-right">
-									<Link href="/" className="tf-btn small">
-										Get In Touch
+									<Link href="/rent-a-resource" className="tf-btn small">
+										Rent a Resource
 										<i className="icon-chevron-right" />
 									</Link>
 									<div className="union mobile-button" onClick={handleMobileMenu}>
@@ -128,7 +128,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 												</li>
 												<li>
 													<p>
-														Email: <Link href="mailto:themesflat@gmail.com">
+														Email: <Link href="mailto:info@globirix.com">
 															info@globirix.com
 														</Link>
 													</p>

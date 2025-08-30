@@ -11,14 +11,14 @@ export default function Section14() {
     return (
         <>
 
-            <section className="s-working tf-spacing-1">
+            <section className="s-working tf-spacing-1" id="methodology">
                 <div className="tf-container">
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="content">
                                 <p className="s-sub-title mb-18 justify-center">
                                     <i className="icon-angles-right moveLeftToRight" />
-                                    Why We Are Uniquely Positioned
+                                    Service Methodology
                                 </p>
                                 <p className="s-title mb-70 text-center text-anime-wave">
                                     Our Service Methodology

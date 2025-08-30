@@ -8,7 +8,7 @@ export default function Section11() {
 	return (
 		<>
 
-			<section className="s-partner">
+			<section className="s-partner" id="partners">
 				<Swiper {...sliderPartner} className="swiper-container slider-partner">
 					<div className="swiper-wrapper">
 						<SwiperSlide>

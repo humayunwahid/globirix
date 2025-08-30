@@ -16,8 +16,7 @@ export default function BoxWelcome({ handleWelcomeBox, isWelcomeBox }) {
 							Globirix
 						</p>
 						<p className="text">
-							Nam augue velit, fermentum sed erat non, efficitur interdum lectus. Donec hendrerit lorem a dui
-							euismod tempus. Vivamus auctor blandit tellus et interdum.
+							We are a trusted Accounting Outsourcing Partner, helping businesses streamline their finance functions through cost-effective, technology-driven, and reliable solutions. Our mission is to enable organizations to focus on growth while we ensure their financial operations run with accuracy, compliance, and efficiency.
 						</p>
 					</div>
 					<div className="wrap">
@@ -34,7 +33,7 @@ export default function BoxWelcome({ handleWelcomeBox, isWelcomeBox }) {
 							</li>
 							<li>
 								<p>
-									Email: <Link href="mailto:themesflat@gmail.com">
+									Email: <Link href="mailto:info@globirix.com">
 										info@globirix.com
 									</Link>
 								</p>
@@ -70,7 +69,7 @@ export default function BoxWelcome({ handleWelcomeBox, isWelcomeBox }) {
 							</li>
 						</ul>
 					</div>
-					<div className="gallery-image">
+					{/* <div className="gallery-image">
 						<div className="image tf-hover">
 							<Link href="/#" className="hover-1 hover-2">
 								<Image
@@ -111,7 +110,7 @@ export default function BoxWelcome({ handleWelcomeBox, isWelcomeBox }) {
 									src="/images/widget/card-service-4.jpg" data-src="/images/widget/card-service-4.jpg" alt="" className="lazyload" />
 							</Link>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</div>
 

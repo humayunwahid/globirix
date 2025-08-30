@@ -3625,6 +3625,11 @@ form {
 	z-index: 30;
 }
 
+form.form-contact.style-3 span {
+    font-size: 12px !important;
+    color: red;
+}
+
 form textarea,
 form input[type=text],
 form input[type=password],
@@ -3639,7 +3644,10 @@ form input[type=email],
 form input[type=url],
 form input[type=search],
 form input[type=tel],
-form input[type=color] {
+form input[type=color], 
+form input[type=file],
+form select
+{
 	outline: 0;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
@@ -3671,6 +3679,7 @@ form input[type=email]::placeholder,
 form input[type=url]::placeholder,
 form input[type=search]::placeholder,
 form input[type=tel]::placeholder,
+form input[type=file]::placeholder,
 form input[type=color]::placeholder {
 	font-size: 16px;
 	font-weight: 400;
@@ -3681,6 +3690,7 @@ form input[type=color]::placeholder {
 form button,
 form input[type=button],
 form input[type=reset],
+form input[type=file],
 form input[type=submit] {
 	background-color: transparent;
 	overflow: hidden;
@@ -3723,7 +3733,7 @@ form.style-2 input::placeholder {
 	color: #a3aaab;
 }
 
-form.style-3 input {
+form.style-3 input, form.style-3 select {
 	border: 1px solid var(--Border-2);
 	padding: 13px 19px 10px;
 	color: var(--Main-black);
@@ -3735,15 +3745,15 @@ form.style-3 input {
 	transition: all 300ms cubic-bezier(0.4, 0, 1, 1);
 }
 
-form.style-3 input:focus {
+form.style-3 input:focus, form.style-3 select:focus {
 	border-color: var(--Main-black);
 }
 
-form.style-3 input:hover {
+form.style-3 input:hover, form.style-3 select:hover {
 	border-color: var(--Main-black);
 }
 
-form.style-3 input:valid {
+form.style-3 input:valid, form.style-3 select:valid {
 	background-color: var(--White);
 	border-color: var(--Main-black);
 }
@@ -4209,11 +4219,11 @@ fieldset {
 	background-color: var(--Main-black);
 	position: relative;
 	z-index: 1;
-	padding-top: 60px;
+	padding-top: 0px;
 }
 
 .tf-page-title .content-wrap {
-	border-radius: 15px;
+	border-radius: 0px;
 	min-height: 587px;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -4238,7 +4248,7 @@ fieldset {
 	width: 100%;
 	min-height: 0;
 	transition: unset;
-	border-radius: 15px;
+	border-radius: 0px;
 	overflow: hidden;
 }
 
@@ -16220,4 +16230,10 @@ a.mapboxgl-ctrl-logo {
 	}
 }
 
+
+.header-inner .sub-nav a{
+color:  var(--Main-dark-blue);
+}
 /*# sourceMappingURL=styles.css.map */
+
+

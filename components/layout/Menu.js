@@ -13,7 +13,7 @@ export default function Menu() {
 		<ul className="nav-list">
 			{/* <li className={`item has-child ${isParentActive(["/home-2", "/home-3", "/home-4"])}`}> */}
 			<li className={`item ${isParentActive(["/home-2", "/home-3", "/home-4"])}`}>
-				<Link href="#"><span>Home</span></Link>
+				<Link href="/"><span>Home</span></Link>
 				{/* <ul className="sub-nav">
 					<li className={isActive("/")}>
 						<Link href="/"><span> Home Consulting </span></Link>
@@ -42,16 +42,35 @@ export default function Menu() {
 					<li className={isActive("/404")}><Link href="/404"><span> 404 </span></Link></li>
 				</ul>
 			</li> */}
-			<li className={`item ${isActive("/about-us")}`}><Link href="/"><span>About</span></Link></li>
-			<li className={`item has-child ${isParentActive(["/1", "/2", "/3", "/4", "/5"])}`}>
-				<Link href="#"><span>Services</span></Link>
-				{/* <ul className="sub-nav">
-					<li className={isActive("/our-service")}><Link href="/1"><span> Accounting and reporting </span></Link></li>
-					<li className={isActive("/our-service-02")}><Link href="/3"><span> Taxation </span></Link></li>
-					<li className={isActive("/service-details")}><Link href="/2"><span> Internal Control over financial reporting </span></Link></li>
-					<li className={isActive("/our-service-02")}><Link href="/3"><span> ERP Functional Support </span></Link></li>
-					<li className={isActive("/our-service-02")}><Link href="/3"><span> HR & Payroll </span></Link></li>
-				</ul> */}
+			<li className={`item has-child ${isParentActive(["/about-us", "/about-us"])}`}>
+				<Link href="/about-us"><span>About Us</span></Link>
+				<ul className="sub-nav">
+					<li className={isActive("/about-us#summary")}><Link href="/about-us#summary"><span> Executive Summary </span></Link></li>
+					<li className={isActive("/about-us#vision-mission")}><Link href="/about-us#vision-mission"><span> Vision & Mission </span></Link></li>
+					<li className={isActive("/about-us#partners")}><Link href="/about-us#partners"><span> Partners Profile </span></Link></li>
+					
+				</ul>
+			</li>
+			<li className={`item has-child ${isParentActive(["/our-services/accounting-reporting", "/our-services/data-entry-audit-support", "/our-services/internal-control-financial-reporting", "/our-services/erp-functional-support", "/our-services/hr-payroll-services"])}`}>
+				<Link href="/our-services"><span>Services</span></Link>
+				<ul className="sub-nav">
+					<li className={isActive("/our-services/accounting-reporting")}><Link href="/our-services/accounting-reporting"><span> Accounting and reporting </span></Link></li>
+					<li className={isActive("/our-services/data-entry-audit-support")}><Link href="/our-services/data-entry-audit-support"><span> Data Entry & Audit Support </span></Link></li>
+					<li className={isActive("/our-services/internal-control-financial-reporting")}><Link href="/our-services/internal-control-financial-reporting"><span> Internal Control over Financial Reporting </span></Link></li>
+					<li className={isActive("/our-services/erp-functional-support")}><Link href="/our-services/erp-functional-support"><span> ERP Functional Support </span></Link></li>
+					<li className={isActive("/our-services/hr-payroll-services")}><Link href="/our-services/hr-payroll-services"><span> HR & Payroll </span></Link></li>
+				</ul>
+			</li>
+			<li className={`item ${isActive("/benefits-outsourcing")}`}><Link href="/benefits-outsourcing"><span>Benefits of Outsourcing</span></Link></li>
+
+			<li className={`item has-child ${isParentActive(["/why-choose-us", "/why-choose-us"])}`}>
+				<Link href="/why-choose-us"><span>Why Choose Us</span></Link>
+				<ul className="sub-nav">
+					<li className={isActive("/why-choose-us#unique")}><Link href="/why-choose-us#unique"><span> Why we are Uniquely Positioned </span></Link></li>
+					<li className={isActive("/why-choose-us#methodology")}><Link href="/why-choose-us#methodology"><span> Service Methodology </span></Link></li>
+					<li className={isActive("/why-choose-us#technology")}><Link href="/why-choose-us#technology"><span> Tools & Technology </span></Link></li>
+					<li className={isActive("/why-choose-us#security")}><Link href="/why-choose-us#security"><span> Confidentiality and Security </span></Link></li>
+				</ul>
 			</li>
 			{/* <li className={`item has-child ${isParentActive(["/case-study-01", "/case-study-02", "/case-details"])}`}>
 				<Link href="#"><span>Case</span></Link>
@@ -61,14 +80,10 @@ export default function Menu() {
 					<li className={isActive("/case-details")}><Link href="/case-details"><span> Case Details </span></Link></li>
 				</ul>
 			</li> */}
-			<li className={`item has-child ${isParentActive(["/blog-standard", "/blog-details"])}`}>
-				<Link href="#"><span>Blogs</span></Link>
-				{/* <ul className="sub-nav">
-					<li className={isActive("/blog-standard")}><Link href="/blog-standard"><span> Blog Standard </span></Link></li>
-					<li className={isActive("/blog-details")}><Link href="/blog-details"><span> Blog Details </span></Link></li>
-				</ul> */}
-			</li>
-			<li className={`item ${isActive("/contact")}`}><Link href="/"><span>Contact</span></Link></li>
+						<li className={`item ${isActive("/blogs")}`}><Link href="/blogs"><span>Blogs</span></Link></li>
+
+		
+			<li className={`item ${isActive("/contact")}`}><Link href="/contact"><span>Contact</span></Link></li>
 		</ul>
 	)
 }

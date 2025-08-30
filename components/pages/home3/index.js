@@ -13,6 +13,10 @@ import Section9 from "./section9"
 import Section13 from "./section13"
 import Section14 from "./section14"
 import Section15 from "./section15"
+import RentAccountantForm from "@/components/resuable/rentAccountantForm"
+import RegistrationForm from "@/components/resuable/registerationForm"
+import OfficeLocations from "@/components/resuable/officeLocations"
+import Platforms from "@/components/resuable/platforms"
 
 export default function Home3() {
 
@@ -23,18 +27,22 @@ export default function Home3() {
 			<Section3 />
 			<Section13/>
 			<Section9 />
+			<Platforms/>
 			<Section5 />
 			{/* <Section4 /> */}
 			{/* <Section5 /> */}
 			{/* <Section6 /> */}
 			<Section14 />
 			{/* <Section7 /> */}
+			<RentAccountantForm/>
+			<RegistrationForm/>
+
 			<Section8 />
 			
 			<Section10 />
 			<Section11 />
 			<Section12 />
-			<Section15 />
+			<OfficeLocations/>
 		</>
 	)
 }

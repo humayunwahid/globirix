@@ -6,7 +6,7 @@ export default function Section2() {
 	return (
 		<>
 
-			<section className="s-about-company-3 tf-spacing-1">
+			<section className="s-about-company-3 tf-spacing-1" id="summary">
 				<div className="tf-container">
 					<div className="row">
 						<div className="col-lg-6">

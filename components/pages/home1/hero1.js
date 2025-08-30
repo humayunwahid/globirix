@@ -19,7 +19,7 @@ export default function Hero1() {
 										<i className="icon-angles-right moveLeftToRight" />
 										consulting agency
 									</p>
-									<p className="s-title text-white-yellow mb-70 text-fs-70">
+									<p className="s-title text-white-yellow mb-20 text-fs-70">
 										Let's Transform <br />
 										<span className="animationtext clip">
 											<TypeAnimation
@@ -40,9 +40,9 @@ export default function Hero1() {
 											</TypeAnimation>
 										</span>
 									</p>
-									<span className="line mb-75" />
+									<span className="line mb-10" />
 									<p className="text font-main-2 fw-5 mb-40">
-										We offer tailored accounting solutions, from bookkeeping to tax compliance, <br /> enabling businesses to streamline operations and ensure financial accuracy.
+										We offer tailored accounting solutions, from bookkeeping to tax compliance, enabling businesses to streamline operations and ensure financial accuracy.
 									</p>
 									<div className="bot">
 										<Link href="/" className="tf-btn">
