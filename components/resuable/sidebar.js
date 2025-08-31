@@ -1,13 +1,12 @@
 import Link from "next/link";
 
 const Sidebar = () => {
-  const services = [
-    "Marketing Consulting",
-    "Resources Consulting",
-    "Management Consulting",
-    "Financial Consulting",
-    "Operations Management",
-    "Management Consulting",
+ const services = [
+    { name: "Accounting & Reporting", href: "/our-services/accounting-reporting" },
+    { name: "Data Entry & Audit Support", href: "/our-services/data-entry-audit-support" },
+    { name: "Internal Control over Financial Reporting", href: "/our-services/internal-control-financial-reporting" },
+    { name: "ERP Functional Support", href: "/our-services/erp-functional-support" },
+    { name: "HR & Payroll Services", href: "/our-services/hr-payroll-services" },
   ];
 
   const downloads = [
@@ -27,8 +26,8 @@ const Sidebar = () => {
           <ul className="category-list">
             {services.map((service, index) => (
               <li key={index}>
-                <Link href="/#">
-                  {service}
+                <Link href={service.href}>
+                  {service.name}
                   <i className="icon-chevron-right" />
                 </Link>
               </li>
