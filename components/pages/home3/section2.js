@@ -110,7 +110,7 @@ export default function Section2() {
 										</div>
 										<div className="infor">
 											<Link href="/#" className="name">
-												Johnny S. Patterson
+												Naveed Arif
 											</Link>
 											<div className="duty">
 												CEO &amp; Founder
