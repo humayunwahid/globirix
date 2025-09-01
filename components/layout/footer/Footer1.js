@@ -62,7 +62,7 @@ export default function Footer1() {
 											<div className="box-cta wow fadeInUp" data-wow-delay="0s">
 												<p className="caption font-main-2 ">Become a Team Member?</p>
 												<p className="mb-20">We are always looking for talented Member</p>
-												<Link href="" className="tf-btn style-10 small">
+												<Link href="/rent-a-resource" className="tf-btn style-10 small">
 													Get Started
 													<i className="icon-chevron-right" />
 												</Link>
@@ -72,7 +72,7 @@ export default function Footer1() {
 											<div className="box-cta wow fadeInUp" data-wow-delay="0.1s">
 												<p className="caption font-main-2">Need Quality Consultations?</p>
 												<p className="mb-20">We are always looking for talented Member</p>
-												<Link href="" className="tf-btn style-10 small">
+												<Link href="/rent-a-resource" className="tf-btn style-10 small">
 													Get Consultation
 													<i className="icon-chevron-right" />
 												</Link>
@@ -82,7 +82,7 @@ export default function Footer1() {
 											<div className="box-cta wow fadeInUp" data-wow-delay="0.2s">
 												<p className="caption font-main-2">Are You Looking For A Jobs?</p>
 												<p className="mb-20">We are always looking for talented Member</p>
-												<Link href="" className="tf-btn style-10 small">
+												<Link href="/rent-a-resource" className="tf-btn style-10 small">
 													Join With Us
 													<i className="icon-chevron-right" />
 												</Link>
@@ -107,20 +107,20 @@ export default function Footer1() {
 											<p className="footer-title footer-title-mobile" onClick={() => handleAccordion1(1)}>Services</p>
 											<ul className="list tf-collapse-content" style={{ display: getDisplayStyle1(1) }}>
 												<li>
-    <Link href="/our-services/accounting-reporting">Accounting &amp; Reporting</Link>
-</li>
-<li>
-    <Link href="/our-services/data-entry-audit-support">Data Entry &amp; Audit Support</Link>
-</li>
-<li>
-    <Link href="/our-services/internal-control-financial-reporting">Internal Control over Financial Reporting</Link>
-</li>
-<li>
-    <Link href="/our-services/erp-functional-support">ERP Functional Support</Link>
-</li>
-<li>
-    <Link href="/our-services/hr-payroll-services">HR &amp; Payroll Services</Link>
-</li>
+													<Link href="/our-services/accounting-reporting">Accounting &amp; Reporting</Link>
+												</li>
+												<li>
+													<Link href="/our-services/data-entry-audit-support">Data Entry &amp; Audit Support</Link>
+												</li>
+												<li>
+													<Link href="/our-services/internal-control-financial-reporting">Internal Control over Financial Reporting</Link>
+												</li>
+												<li>
+													<Link href="/our-services/erp-functional-support">ERP Functional Support</Link>
+												</li>
+												<li>
+													<Link href="/our-services/hr-payroll-services">HR &amp; Payroll Services</Link>
+												</li>
 											</ul>
 										</div>
 										<div className={`footer-inner-wrap footer-col-block ${isAccordion1 === 1 ? 'open' : ''} `}>
@@ -136,8 +136,8 @@ export default function Footer1() {
 												<li>
 													<Link href="/rent-a-resource">Rent A Resource</Link>
 												</li>
-												
-																								<li><Link href="/blogs">Blogs</Link></li>
+
+												<li><Link href="/blogs">Blogs</Link></li>
 
 												<li>
 													<Link href="/contact">Contact Us</Link>
@@ -154,7 +154,7 @@ export default function Footer1() {
 													sizes="100vw"
 													style={{ width: "100%", height: "auto" }}
 													id="logo_footer" data-retina="./images/logo/logo@2x.png" src="/images/logo/logo.png" alt="" /> */}
-													<h3 className='text-white'>Globirix</h3>
+												<h3 className='text-white'>Globirix</h3>
 											</Link>
 										</div>
 										<p>

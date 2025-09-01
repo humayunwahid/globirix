@@ -36,7 +36,7 @@ export default function Section13() {
                                             </p>
                                         </li>
                                     </ul>
-                                    <Link href="/" className="tf-btn">
+                                    <Link href="/about-us" className="tf-btn">
                                         Learn More About Us
                                         <i className="icon-chevron-right" />
                                     </Link>
