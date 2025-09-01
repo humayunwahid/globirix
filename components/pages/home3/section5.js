@@ -79,7 +79,7 @@ export default function Section5() {
 									</div>
 									<span className="line style-stand">
 									</span>
-									<Link href="/our-service" className="tf-btn style-3">Explore All Services <i className="icon-chevron-right" /></Link>
+									<Link href="/our-services" className="tf-btn style-3">Explore All Services <i className="icon-chevron-right" /></Link>
 								</div>
 							</div>
 						</div>
