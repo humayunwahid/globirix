@@ -60,13 +60,13 @@ export default function Section2() {
 									Executive Summary
 								</p>
 								<p className="s-title text-main-green-3 mb-30 text-anime-wave">
-									Expert Accounting Solutions, Tailored to Your
+									Who we
 									<span>
-										Business
+										Are
 									</span>
 								</p>
 								<p className="text mb-40">
-									We are dedicated to providing businesses with reliable, technology-driven accounting services that help streamline financial operations and ensure compliance.
+									We are a trusted Accounting Outsourcing Partner, helping businesses streamline their finance functions through cost-effective, technology-driven, and reliable solutions. Our mission is to enable organizations to focus on growth while we ensure their financial operations run with accuracy, compliance, and efficiency.
 								</p>
 								<div className="experience mb-40">
 									<div className="counter-wrap style-3">
@@ -92,10 +92,9 @@ export default function Section2() {
 									</div>
 								</div>
 								<p className="text mb-40">
-									Our approach is centered around delivering tailored financial solutions that drive business growth and success.
-								</p>
+Our company established with the vision of delivering world-class accounting and financial services, our company caters to startups, SMEs, and large enterprises across industries. We provide tailored outsourcing solutions — from bookkeeping and payroll to tax compliance, financial reporting, and CFO advisory.								</p>
 								<div className="bot">
-									<Link href="/" className="tf-btn style-15 text-anime-style-1">
+									<Link href="/about-us" className="tf-btn style-15 text-anime-style-1">
 										Learn More About Us
 										<i className="icon-chevron-right" />
 									</Link>
