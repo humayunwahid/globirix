@@ -34,8 +34,7 @@ export default function Section9() {
 							</span>
 						</p>
 						<p className="text text-white mb-40">
-							We offer a comprehensive suite of accounting and financial outsourcing solutions, designed to streamline your operations, ensure compliance, and support strategic decision-making.
-						</p>
+							We provide flexible accounting and financial outsourcing solutions designed to streamline operations, ensure compliance, and support strategic decision-making. You can either <b>hire a dedicated professional through our Rent-a-Resource model </b>or rely on us to <b>deliver full-service outsourcing </b>— whichever best fits your needs.						</p>
 						<Link href="/" className="tf-btn style-15 type-2 small text-anime-style-1">
 							Get A Quote
 							<i className="icon-chevron-right" />
@@ -52,7 +51,7 @@ export default function Section9() {
 								</h2>
 								<div id="collapseOne" className={`accordion-collapse collapse ${isAccordion === 1 ? 'show' : ''}`} data-bs-parent="#accordionExample">
 									<div className="accordion-body">
-										We handle everything from end-to-end bookkeeping to financial statements, management reporting, and budgeting. We ensure compliance with both local and international accounting standards.
+										End-to-end support covering bookkeeping, financial statements, management reporting, and budgeting — with compliance to local and international standards.
 									</div>
 								</div>
 							</div>
@@ -66,7 +65,7 @@ export default function Section9() {
 								</h2>
 								<div id="collapseTwo" className={`accordion-collapse collapse ${isAccordion === 2 ? 'show' : ''}`} data-bs-parent="#accordionExample">
 									<div className="accordion-body">
-										We provide accurate data entry, bank reconciliations, and audit-ready documentation for seamless financial operations.
+										Accurate and timely data management, plus professional support for audits and reviews.
 									</div>
 								</div>
 							</div>
@@ -80,7 +79,7 @@ export default function Section9() {
 								</h2>
 								<div id="collapseThree" className={`accordion-collapse collapse ${isAccordion === 3 ? 'show' : ''}`} data-bs-parent="#accordionExample">
 									<div className="accordion-body">
-										We design and implement internal control frameworks to ensure compliance, transparency, and fraud prevention.
+										Strengthening processes and controls to safeguard assets, reduce risk, and ensure compliance.
 									</div>
 								</div>
 							</div>
@@ -94,7 +93,7 @@ export default function Section9() {
 								</h2>
 								<div id="collapseFour" className={`accordion-collapse collapse ${isAccordion === 4 ? 'show' : ''}`} data-bs-parent="#accordionExample">
 									<div className="accordion-body">
-										We assist with ERP user training, process documentation, and system integration support to ensure smooth implementation.
+										Assistance with ERP system configuration, maintenance, and finance-related process optimization.
 									</div>
 								</div>
 							</div>
@@ -108,7 +107,7 @@ export default function Section9() {
 								</h2>
 								<div id="collapseFive" className={`accordion-collapse collapse ${isAccordion === 5 ? 'show' : ''}`} data-bs-parent="#accordionExample">
 									<div className="accordion-body">
-										We manage payroll processing, employee benefits, statutory compliance, and HR data management for smooth operations.
+										Complete HR administration and payroll processing with accuracy, confidentiality, and compliance.
 									</div>
 								</div>
 							</div>

@@ -42,7 +42,7 @@ export default function Hero1() {
 									</p>
 									<span className="line mb-10" />
 									<p className="text font-main-2 fw-5 mb-40">
-										We offer tailored accounting solutions, from bookkeeping to tax compliance, enabling businesses to streamline operations and ensure financial accuracy.
+										We offer tailored accounting solutions—from flexible Rent-a-Resource services and financial modelling to accounting and tax compliance—empowering your business to streamline operations and ensure financial accuracy.
 									</p>
 									<div className="bot">
 										<Link href="/" className="tf-btn">
