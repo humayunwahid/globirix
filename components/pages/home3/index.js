@@ -17,6 +17,7 @@ import RentAccountantForm from "@/components/resuable/rentAccountantForm"
 import RegistrationForm from "@/components/resuable/registerationForm"
 import OfficeLocations from "@/components/resuable/officeLocations"
 import Platforms from "@/components/resuable/platforms"
+import ToggleForms from "@/components/resuable/toggleForms"
 
 export default function Home3() {
 
@@ -34,9 +35,9 @@ export default function Home3() {
 			{/* <Section6 /> */}
 			<Section14 />
 			{/* <Section7 /> */}
-			<RentAccountantForm/>
-			<RegistrationForm/>
-
+			{/* <RentAccountantForm/>
+			<RegistrationForm/> */}
+			<ToggleForms/>
 			<Section8 />
 			
 			<Section10 />
