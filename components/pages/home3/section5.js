@@ -14,10 +14,10 @@ export default function Section5() {
 							<div className="content">
 								<p className="s-sub-title mb-17">
 									<i className="icon-angles-right moveLeftToRight" />
-									Consulting Services
+									Rent a Resource Services
 								</p>
 								<p className="s-title mb-70 text-anime-wave-right">
-									The Quality Consulting Service to Grow Your Business <span>and Sales</span>
+									On-Demand Accounting Experts to <span>Support Your Growth</span>
 								</p>
 
 								<p className="text mb-30">
@@ -39,38 +39,38 @@ export default function Section5() {
 									<i className="moveLeftToRight" />
 									Why Rent a Resource with Us?
 								</p>
-								
+
 								<ul class="benefit-list mb-70">
-										<li class="tf-fade-item fade-2">
-											<div class="icon">
-												<i class="flaticon-check-mark"></i>
-											</div>
-											<p>Flexible hiring model without long-term commitments.</p>
-										</li>
-										<li class="tf-fade-item fade-2">
-											<div class="icon">
-												<i class="flaticon-check-mark"></i>
-											</div>
-											<p>Access to skilled and qualified professionals on demand</p>
-										</li>
-										<li class="tf-fade-item fade-2">
-											<div class="icon">
-												<i class="flaticon-check-mark"></i>
-											</div>
-											<p>Cost savings compared to permanent in-house hires</p>
-										</li>
-										<li class="tf-fade-item fade-2">
-											<div class="icon">
-												<i class="flaticon-check-mark"></i>
-											</div>
-											<p>Quick onboarding with minimal downtime.</p>
-										</li>
-									</ul>
+									<li class="tf-fade-item fade-2">
+										<div class="icon">
+											<i class="flaticon-check-mark"></i>
+										</div>
+										<p>Flexible hiring model without long-term commitments.</p>
+									</li>
+									<li class="tf-fade-item fade-2">
+										<div class="icon">
+											<i class="flaticon-check-mark"></i>
+										</div>
+										<p>Access to skilled and qualified professionals on demand</p>
+									</li>
+									<li class="tf-fade-item fade-2">
+										<div class="icon">
+											<i class="flaticon-check-mark"></i>
+										</div>
+										<p>Cost savings compared to permanent in-house hires</p>
+									</li>
+									<li class="tf-fade-item fade-2">
+										<div class="icon">
+											<i class="flaticon-check-mark"></i>
+										</div>
+										<p>Quick onboarding with minimal downtime.</p>
+									</li>
+								</ul>
 
 								<div className="bot mt-5">
 									<div className="counter-wrap">
 										<div className="wg-counter">
-											<div className="odometer"><CounterUp count={10} /></div>
+											<div className="odometer"><CounterUp count={90} /></div>
 											<span className="sub-odo">+</span>
 										</div>
 										<p className="sub-counter font-main-3 lh-21">

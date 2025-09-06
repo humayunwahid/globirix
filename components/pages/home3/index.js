@@ -30,7 +30,7 @@ export default function Home3() {
 			<Platforms/>
 			<Section5 />
 			{/* <Section4 /> */}
-			{/* <Section5 /> */}
+
 			{/* <Section6 /> */}
 			<Section14 />
 			{/* <Section7 /> */}

@@ -16,7 +16,7 @@ export default function Section13() {
                                         Mission & Vision
                                     </p>
                                     <p className="s-title mb-60 text-anime-wave-right text-clamp-4">
-                                        We Work For Building a Brighter Future Together and <span>Grow Business</span>
+                                        Simplifying Finance, Fueling Growth, & Building <span> long-term success together</span>
                                     </p>
                                     <ul className="list mb-50">
                                         <li>
@@ -24,7 +24,7 @@ export default function Section13() {
                                                 Company Mission
                                             </p>
                                             <p className="text">
-                                                To deliver reliable, technology-driven, and cost-effective accounting solutions that empower businesses to achieve financial clarity, ensure compliance, and focus on growth. We are committed to excellence, confidentiality, and building long-term partnerships based on trust and value creation.
+                                            To empower businesses worldwide with <b>flexible financial talent and technology-driven accounting solutions.</b> Through our Rent-a-Resource model and end-to-end accounting services, we deliver clarity, compliance, and confidence — enabling clients to focus on growth while we safeguard accuracy, confidentiality, and trust.
                                             </p>
                                         </li>
                                         <li>
@@ -32,8 +32,11 @@ export default function Section13() {
                                                 Company Vision
                                             </p>
                                             <p className="text">
-                                                To be a globally trusted accounting outsourcing partner recognized for our Professionalism, Precision, Performance, Proactivity, and Partnership — enabling organizations to simplify financial management and achieve sustainable success.
-                                            </p>
+                                                To be the world's most <b>trusted partner for on-demand financial expertise and outsourced accounting</b> — 
+  recognized for our Professionalism, Precision, Performance, Proactivity, and Partnership. 
+  We envision a future where organizations of every size and industry can simplify financial 
+  management, scale effortlessly, and achieve sustainable success with us by their side.
+  </p>
                                         </li>
                                     </ul>
                                     <Link href="/about-us" className="tf-btn">

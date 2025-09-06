@@ -50,9 +50,7 @@ export default function RentAccountantForm() {
                   Hire Professional <span>Accountants</span> as per your need.
                 </p>
                 <p>
-                  If you want to hire an accountant on full-time, part-time, or project basis, 
-                  we can provide you the best resource. Professionals from other fields can also 
-                  be provided as per requirement.
+                 Whether you need an accountant on a full-time, part-time, or project basis, we can provide the right resource. Alternatively, our team can deliver complete accounting and financial services — from bookkeeping and reporting to compliance — tailored to your business needs.
                 </p>
               </div>
 
