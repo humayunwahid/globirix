@@ -57,8 +57,8 @@ export default function Section1() {
 								<span className="line style-stand" />
 								<div className="percent-customer">
 									<div className="wg-counter style-6 text-white">
-										<div className="odometer style-6"><CounterUp count={98} /></div>
-										<span className="sub-odo">%</span>
+										<div className="odometer style-6"><CounterUp count={90} /></div>
+										<span className="sub-odo">+</span>
 									</div>
 									<p className="text text-white">
 										Customers are Satisfied with Our Financial Services
@@ -98,25 +98,25 @@ export default function Section1() {
 								<ul className="list-skill">
 									<li>
 										<p className="skill-name">
+											Rent a Resource
+										</p>
+										{/*  */}
+										<p className="skill-name">
 											Accounting & Reporting
 										</p>
-										<div className="wg-progress">
-											<div className="progress style-2 tf-animate-1">
-												<div className="progress-bar" role="progressbar" style={{ width: '89%' }} aria-valuenow={89} aria-valuemin={0} aria-valuemax={100} />
-											</div>
-											<div className="wg-counter style-5">
-												<div className="odometer style-5"><CounterUp count={98} /></div>
-												<span className="sub-odo">%</span>
-											</div>
-										</div>
 									</li>
 									<li>
 										<div>
 											<p className="skill-name">
-												Payroll & HR Services
+												Financial Modelling
 											</p>
+											
 										</div>
-										<div className="wg-progress">
+										
+										<p className="skill-name">
+												HR & Payroll Services 
+											</p>
+										{/* <div className="wg-progress">
 											<div className="progress style-2 tf-animate-1">
 												<div className="progress-bar" role="progressbar" style={{ width: '89%' }} aria-valuenow={89} aria-valuemin={0} aria-valuemax={100} />
 											</div>
@@ -124,7 +124,7 @@ export default function Section1() {
 												<div className="odometer style-5-2"><CounterUp count={73} /></div>
 												<span className="sub-odo">%</span>
 											</div>
-										</div>
+										</div> */}
 									</li>
 								</ul>
 							</div>

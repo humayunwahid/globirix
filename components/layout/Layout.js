@@ -26,6 +26,7 @@ import Header4 from "./header/Header4"
 // import { hoverTextAnimate } from "@/utils/hoverTextAnimate"
 
 export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, children, mainCls, breadcrumbAlt, hero, serviceName }) {
+	// alert(hero)
 	const [scroll, setScroll] = useState(0)
 	// MobilleMenu
 	const [isMobileMenu, setMobileMenu] = useState(false)
