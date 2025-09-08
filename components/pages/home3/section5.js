@@ -68,7 +68,7 @@ export default function Section5() {
 								</ul>
 
 								<div className="bot mt-5">
-									<div className="counter-wrap">
+									{/* <div className="counter-wrap">
 										<div className="wg-counter">
 											<div className="odometer"><CounterUp count={90} /></div>
 											<span className="sub-odo">+</span>
@@ -78,7 +78,7 @@ export default function Section5() {
 										</p>
 									</div>
 									<span className="line style-stand">
-									</span>
+									</span> */}
 									<Link href="/our-services" className="tf-btn style-3">Explore All Services <i className="icon-chevron-right" /></Link>
 								</div>
 							</div>

@@ -20,7 +20,7 @@ export default function Section10() {
             customer feedback
           </p>
           <p className="s-title text-center text-anime-style-2">
-            1380+ Customer
+            Customer
             <span> Say Us</span>
           </p>
         </div>
