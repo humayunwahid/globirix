@@ -16,7 +16,7 @@ export default function Preloader() {
 									height="0"
 									sizes="100vw"
 									style={{ width: "100%", height: "auto" }}
-									src="/images/logo/logo3x.png" alt="" />
+									src="/images/logo/short-logo-blue.png" alt="" />
 							</div>
 						</div>
 					</div>

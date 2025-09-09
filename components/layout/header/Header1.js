@@ -15,7 +15,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 									<div className="icon">
 										<i className="flaticon-tag" />
 									</div>
-									<p>Welcome to Globirix</p>
+									<p>WELCOME TO GLOBIRIX</p>
 								</div>
 								<div className="topbar-right">
 									<ul className="infor-list">
@@ -27,7 +27,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 												info@globirix.com
 											</Link>
 										</li>
-										<li>
+										{/* <li>
 											<div className="icon">
 												<i className="flaticon-phone-call" />
 											</div>
@@ -43,7 +43,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 											<a>
 												Working Hours : 08am - 05pm
 											</a>
-										</li>
+										</li> */}
 									</ul>
 								</div>
 							</div>

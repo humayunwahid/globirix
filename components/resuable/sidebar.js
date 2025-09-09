@@ -11,7 +11,7 @@ const Sidebar = () => {
 
   const downloads = [
     { label: "Download PDF", icon: "icon-file-pdf", href: "/#", style: "" },
-    { label: "Download Doc", icon: "icon-file", href: "/#", style: "style-2" },
+    // { label: "Download Doc", icon: "icon-file", href: "/#", style: "style-2" },
   ];
 
   return (
@@ -20,7 +20,7 @@ const Sidebar = () => {
       <div className="sb-item mb-20">
         <div className="sb-title">
           <i className="icon-repair fs-20 color-main-black" />
-          <h5 className="title">Popular Services</h5>
+          <h5 className="title">Our Services</h5>
         </div>
         <div className="sb-content sb-category">
           <ul className="category-list">

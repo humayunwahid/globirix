@@ -51,7 +51,7 @@ export default function Footer1() {
 	return (
 		<>
 
-			<footer className="tf-footer style-2">
+			<footer className="tf-footer style-2 mt-5">
 				<div className="footer-top">
 					<div className="tf-container">
 						<div className="row">
@@ -146,34 +146,34 @@ export default function Footer1() {
 										</div>
 									</div>
 									<div className="inner-right">
-										<div className="logo-site">
+										<div className="mb-5">
 											<Link href="/">
-												{/* <Image
-													width="0"
-													height="0"
-													sizes="100vw"
-													style={{ width: "100%", height: "auto" }}
-													id="logo_footer" data-retina="./images/logo/logo@2x.png" src="/images/logo/logo.png" alt="" /> */}
-												<h3 className='text-white'>Globirix</h3>
+												<h3 className='text-white'>Office Locations</h3>
 											</Link>
 										</div>
-										<p>
-											Stay up-to-date with the latest trends in digital
-											marketing and receive exclusive <br /> tips and insights by
-											subscribing to our newsletter.
+										<p >
+											Find our offices around the world. Get in touch with us for any inquiries or assistance.
 										</p>
-										<form action="#" id="form-sub" className="form-sub style-4">
-											<fieldset>
-												<div className="icon">
-													<i className="icon-envelope" />
-												</div>
-												<input type="text" placeholder="Email Address" required />
-											</fieldset>
-											<button type="submit" className="tf-btn">
-												Subscribe
-												<i className="icon-chevron-right" />
-											</button>
-										</form>
+										<div className="office-locations flex gap-5">
+											<div className="office">
+												<h4>Pakistan Office</h4>
+											
+												 <ul>
+                <li>Address: 55 Main Road, Melbourne</li>
+                <li>Email: <a href="mailto:contact@globirix.com">contact@globirix.com</a></li>
+                <li>Phone: +000 (123) 456 888</li>
+            </ul>
+											</div>
+
+											<div className="office">
+												<h4>Canada Office</h4>
+												<ul>
+                <li>Address: 56 Main Road, Melbourne</li>
+                <li>Email: <a href="mailto:contact@globirix.com">contact@globirix.com</a></li>
+                <li>Phone: +000 (123) 456 889</li>
+            </ul>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
