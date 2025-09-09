@@ -18,6 +18,7 @@ import RegistrationForm from "@/components/resuable/registerationForm"
 import OfficeLocations from "@/components/resuable/officeLocations"
 import Platforms from "@/components/resuable/platforms"
 import ToggleForms from "@/components/resuable/toggleForms"
+import UniquePositioned from "./uniquePositioned"
 
 export default function Home3() {
 
@@ -26,7 +27,7 @@ export default function Home3() {
 			<Section1 />
 			<Section2 />
 			<Section3 />
-			<Section13/>
+			{/* <Section13/> */}
 			<Section9 />
 			<Platforms/>
 			<Section5 />
@@ -38,12 +39,14 @@ export default function Home3() {
 			{/* <RentAccountantForm/>
 			<RegistrationForm/> */}
 			<ToggleForms/>
+
+			<UniquePositioned/>
 			<Section8 />
 			
 			<Section10 />
 			<Section11 />
 			<Section12 />
-			<OfficeLocations/>
+			{/* <OfficeLocations/> */}
 		</>
 	)
 }

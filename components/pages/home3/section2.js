@@ -43,7 +43,8 @@ export default function Section2() {
 								</div>
 								<div className="wg-curve-text style-3 tf-animate__box-2 animate__slow">
 									<div className="icon">
-										<i className="flaticon-rocket" />
+										{/* <i className="flaticon-rocket" /> */}
+										<img src="/images/logo/short-logo-blue-2.png" alt="Globirix" />
 									</div>
 									<div className="text-rotate">
 										<div className="circle">
@@ -68,7 +69,7 @@ export default function Section2() {
 								<p className="text mb-40">
 									We are a trusted Accounting Outsourcing Partner, helping businesses streamline their finance functions through cost-effective, technology-driven, and reliable solutions. Our mission is to enable organizations to focus on growth while we ensure their financial operations run with accuracy, compliance, and efficiency.
 								</p>
-								<div className="experience mb-40">
+								{/* <div className="experience mb-40">
 									<div className="counter-wrap style-3">
 										<div className="wg-counter style-2 type-2">
 											<div className="odometer style-2"><CounterUp count={10} /></div>
@@ -90,7 +91,7 @@ export default function Section2() {
 											Projects
 										</p>
 									</div>
-								</div>
+								</div> */}
 								<p className="text mb-40">
 Our company established with the vision of delivering world-class accounting and financial services, our company caters to startups, SMEs, and large enterprises across industries. We provide tailored outsourcing solutions — from bookkeeping and payroll to tax compliance, financial reporting, and CFO advisory.								</p>
 								<div className="bot">

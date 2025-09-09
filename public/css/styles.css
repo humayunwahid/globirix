@@ -299,7 +299,7 @@ img {
 
 p {
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 30px;
 	letter-spacing: 0px;
 }
@@ -16237,3 +16237,37 @@ color:  var(--Main-dark-blue);
 /*# sourceMappingURL=styles.css.map */
 
 
+.office-locations {
+    margin-top: 20px;
+}
+
+.office {
+    margin-bottom: 20px;
+	
+}
+
+.office h4 {
+    font-size: 1.2em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.office ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.office li {
+    font-size: 1em;
+    color: #ccc;
+    margin-bottom: 8px;
+}
+
+.office a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.office a:hover {
+    text-decoration: underline;
+}

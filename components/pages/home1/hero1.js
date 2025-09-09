@@ -45,7 +45,7 @@ export default function Hero1() {
 										We offer tailored accounting solutions—from flexible Rent-a-Resource services and financial modelling to accounting and tax compliance—empowering your business to streamline operations and ensure financial accuracy.
 									</p>
 									<div className="bot">
-										<Link href="/" className="tf-btn">
+										<Link href="/our-services" className="tf-btn">
 											Explore Services
 											<i className="icon-chevron-right" />
 										</Link>
@@ -74,7 +74,8 @@ export default function Hero1() {
 									</div>
 									<div className="wg-curve-text tf-animate__box animate__slow">
 										<div className="icon">
-											<i className="flaticon-rocket" />
+											{/* <i className="flaticon-rocket" /> */}
+											<img src="/images/logo/short-logo-blue-2.png" alt="Globirix" />
 										</div>
 										<div className="text-rotate">
 											<div className="circle">
@@ -91,54 +92,30 @@ export default function Hero1() {
 					<div className="wrap-marquee">
 						<div className="marquee-item">
 							<p className="font-main-2 text">
-								Globirix Consulting
+								Accounting & Reporting
 							</p>
 						</div>
 						<div className="marquee-item">
 							<p className="font-main-2 text">
-								Globirix Consulting
+								Data Entry & Audit Support
 							</p>
 						</div>
 						<div className="marquee-item">
 							<p className="font-main-2 text">
-								Globirix Consulting
+								HR & Payroll							
 							</p>
 						</div>
 						<div className="marquee-item">
 							<p className="font-main-2 text">
-								Globirix Consulting
+								ERP Financial Support
 							</p>
 						</div>
 						<div className="marquee-item">
 							<p className="font-main-2 text">
-								Globirix Consulting
+								Internal Controls Over Financial Reporting
 							</p>
 						</div>
-						<div className="marquee-item">
-							<p className="font-main-2 text">
-								Globirix Consulting
-							</p>
-						</div>
-						<div className="marquee-item">
-							<p className="font-main-2 text">
-								Globirix Consulting
-							</p>
-						</div>
-						<div className="marquee-item">
-							<p className="font-main-2 text">
-								Globirix Consulting
-							</p>
-						</div>
-						<div className="marquee-item">
-							<p className="font-main-2 text">
-								Globirix Consulting
-							</p>
-						</div>
-						<div className="marquee-item">
-							<p className="font-main-2 text">
-								Globirix Consulting
-							</p>
-						</div>
+						
 					</div>
 				</div>
 			</div>
