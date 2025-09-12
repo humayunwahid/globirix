@@ -27,6 +27,14 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 												info@globirix.com
 											</Link>
 										</li>
+										<li>
+    <div className="icon">
+        <i className="flaticon-opportunity" />  {/* Updated icon */}
+    </div>
+    <Link href="/career">
+        Current Job Openings
+    </Link>
+</li>
 										{/* <li>
 											<div className="icon">
 												<i className="flaticon-phone-call" />
@@ -77,6 +85,10 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 								<div className="header-right">
 									<Link href="/rent-a-resource" className="tf-btn small">
 										Rent a Resource
+										<i className="icon-chevron-right" />
+									</Link>
+									<Link href="/rent-a-resource?tab=2" className="tf-btn2 small">
+										Join Our Team
 										<i className="icon-chevron-right" />
 									</Link>
 									<div className="union mobile-button" onClick={handleMobileMenu}>
