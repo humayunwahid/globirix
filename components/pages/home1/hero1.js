@@ -17,7 +17,7 @@ export default function Hero1() {
 								<div className="content">
 									<p className="s-sub-title text-white ">
 										<i className="icon-angles-right moveLeftToRight" />
-										consulting agency
+										 Resource Outsourcing Firm
 									</p>
 									<p className="s-title text-white-yellow mb-20 text-fs-70">
 										Let's Transform <br />

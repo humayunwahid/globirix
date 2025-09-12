@@ -1,218 +1,121 @@
 
+
+"use client"
+
 import Image from 'next/image'
 import Link from 'next/link'
-export default function Section1() {
+
+export default function Section1({ blogData }) {
+	// Helper function to format date
+	const formatDate = (dateString) => {
+		const options = { year: 'numeric', month: 'long', day: 'numeric' }
+		return new Date(dateString).toLocaleDateString('en-US', options)
+	}
+
+	// Helper function to create excerpt from content
+	const createExcerpt = (content, wordLimit = 50) => {
+		const strippedContent = content.replace(/<[^>]*>/g, '')
+		const words = strippedContent.split(' ')
+		if (words.length > wordLimit) {
+			return words.slice(0, wordLimit).join(' ') + '...'
+		}
+		return strippedContent
+	}
+
+	// Get primary category for tag display
+	const primaryCategory = blogData.categories?.[0]
+
 	return (
 		<>
-
 			<section className="s-blog-details">
 				<div className="tf-container">
 					<div className="row">
 						<div className="col-lg-8">
-							<div className="content ">
-								<div className="entry-image tf-hover mb-40 ">
+							<div className="content">
+								{/* Featured Image */}
+								<div className="entry-image tf-hover mb-40">
 									<div className="hover-1">
 										<Image
 											width="0"
 											height="0"
 											sizes="100vw"
 											style={{ width: "100%", height: "auto" }}
-											className="lazyload" data-src="/images/blog/blog-details.jpg" src="/images/blog/blog-details.jpg" alt="" />
+											className="lazyload" 
+											src={blogData.image || "/images/blog/blog-details.jpg"} 
+											alt={blogData.title || ""} 
+										/>
 									</div>
-									<div className="tag-wrap">
-										<p>Consulting</p>
-									</div>
+									{primaryCategory && (
+										<div className="tag-wrap">
+											<p>{primaryCategory.name}</p>
+										</div>
+									)}
 								</div>
+
+								{/* Blog Title */}
 								<p className="title font-main-2 s1 text-anime-wave">
-									Tailored Solutions Every Business Needs
-									a Custom Consulting Strategy Consulting
-									Expertise
+									{blogData.title}
 								</p>
-								<p className="text mb-35">
-									Business consulting provides companies
-									with expert advice and tailored
-									solutions to help them overcome
-									challenges, enhance operations, and
-									achieve growth. By analyzing current
-									processes, identifying areas for
-									improvement, and developing actionable
-									strategies, consultants offer valuable
-									insights that lead to greater
-									efficiency, profitability, and
-									competitiveness. Whether you’re a
-									startup looking to establish a strong
-									foundation or an established business
-									aiming to scale or adapt to market
-									changes, business consulting offers the
-									expertise and guidance needed to
-									navigate complex environments and reach
-									your full potential
-								</p>
-								<ul className="benefit-list style-2">
-									<li>
-										<div className="icon">
-											<i className="icon-check" />
-										</div>
-										<p>
-											Assisting customers in booking
-											domestic and international
-											flights.
-										</p>
-									</li>
-									<li>
-										<div className="icon">
-											<i className="icon-check" />
-										</div>
-										<p>
-											Organizing adventure activities
-											such as trekking, diving,
-											safaris, or extreme sports.
-										</p>
-									</li>
-									<li>
-										<div className="icon">
-											<i className="icon-check" />
-										</div>
-										<p>
-											Tailoring travel plans to meet
-											the specific needs and
-											preferences of the customer.
-										</p>
-									</li>
-									<li>
-										<div className="icon">
-											<i className="icon-check" />
-										</div>
-										<p>
-											Providing professional guides
-											for city tours, cultural
-											experiences, adventure
-											activities, etc.
-										</p>
-									</li>
-									<li>
-										<div className="icon">
-											<i className="icon-check" />
-										</div>
-										<p>
-											Arranging local transportation
-											such as car rentals, airport
-											transfers, or bus tours.
-										</p>
-									</li>
-									<li>
-										<div className="icon">
-											<i className="icon-check" />
-										</div>
-										<p>
-											Helping customers navigate the
-											visa application process for
-											international travel.
-										</p>
-									</li>
-								</ul>
-								<div className="block-quote mb-70">
-									<p className="cite font-main-2">
-										"Success in business just about
-										working harder working smarter
-										business consultant helps you see
-										what you can't, turning challenges
-										into opportunities and guiding ."
-									</p>
-									<div className="bot">
-										<Link href="/#" className="author-name hover-text-main-yellow">
-											William D. Galindo
-										</Link>
-									</div>
+
+								{/* Blog Meta Info */}
+								<div className="blog-meta mb-20">
+									<span className="author">By {blogData.author?.name}</span>
+									<span className="date"> • {formatDate(blogData.pub_date)}</span>
+									{blogData.views > 0 && <span className="views"> • {blogData.views} views</span>}
+									{blogData.seo?.estimated_reading_time && (
+										<span className="read-time"> • {blogData.seo.estimated_reading_time} min read</span>
+									)}
 								</div>
-								<div className="entry-image-2 mb-40">
-									<div className="image tf-hover wow fadeInUp" data-wow-delay="0s">
-										<div className="hover-14 hover-5">
-											<figure>
-												<Image
-													width="0"
-													height="0"
-													sizes="100vw"
-													style={{ width: "100%", height: "auto" }}
-													className="lazyload" src="/images/blog/blog-details-1.jpg" data-src="/images/blog/blog-details-1.jpg" alt="" />
-											</figure>
-										</div>
-									</div>
-									<div className="image tf-hover wow fadeInUp" data-wow-delay="0.1s">
-										<div className="hover-14 hover-5">
-											<figure>
-												<Image
-													width="0"
-													height="0"
-													sizes="100vw"
-													style={{ width: "100%", height: "auto" }}
-													className="lazyload" src="/images/blog/blog-details-2.jpg" data-src="/images/blog/blog-details-2.jpg" alt="" />
-											</figure>
-										</div>
-									</div>
-								</div>
-								<p className="title font-main-2 mb-15 text-anime-wave">
-									Smart Choice for Business Consulting
-									Excellence
-								</p>
-								<p className="text mb-50">
-									By analyzing current processes,
-									identifying areas for improvement, and
-									developing actionable strategies,
-									consultants offer valuable insights that
-									lead to greater efficiency,
-									profitability, and competitiveness.
-									Whether you’re a startup looking to
-									establish a strong foundation or an
-									established business aiming to scale or
-									adapt to market changes, business
-									consulting offers the expertise and
-									guidance needed to navigate
-								</p>
+
+								{/* Blog Content */}
+								<div 
+									className="blog-content mb-35"
+									dangerouslySetInnerHTML={{ __html: blogData.content }}
+								/>
+
+								{/* Tags and Social Share */}
 								<span className="line" />
 								<div className="bot mb-70">
 									<div className="tags">
-										<h6>
-											Tags
-										</h6>
+										<h6>Tags</h6>
 										<ul className="tag-popular-list style-2">
-											<li>
-												<Link href="/#">Business</Link>
-											</li>
-											<li>
-												<Link href="/#">Consulting</Link>
-											</li>
-											<li><Link href="/#">Marketing</Link></li>
+											{blogData.categories?.map((category, index) => (
+												<li key={index}>
+													<Link href={`/category/${category.slug}`}>
+														{category.name}
+													</Link>
+												</li>
+											))}
 										</ul>
 									</div>
 									<div className="socials">
-										<h6>
-											Share
-										</h6>
+										<h6>Share</h6>
 										<ul className="social-list style-2">
 											<li>
-												<Link href="/#">
+												<Link href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(blogData.url || '')}`} target="_blank">
 													<i className="icon-facebook" />
 												</Link>
 											</li>
 											<li>
-												<Link href="/#">
+												<Link href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(blogData.title || '')}&url=${encodeURIComponent(blogData.url || '')}`} target="_blank">
 													<i className="icon-twitter" />
 												</Link>
 											</li>
 											<li>
-												<Link href="/#">
+												<Link href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(blogData.url || '')}`} target="_blank">
 													<i className="icon-linkedin" />
 												</Link>
 											</li>
 											<li>
-												<Link href="/#">
+												<Link href={`https://www.youtube.com/`} target="_blank">
 													<i className="icon-youtube" />
 												</Link>
 											</li>
 										</ul>
 									</div>
 								</div>
+
+								{/* Author Box */}
 								<div className="author-post mb-70">
 									<div className="entry-image-author wow zoomIn">
 										<Image
@@ -220,19 +123,20 @@ export default function Section1() {
 											height="0"
 											sizes="100vw"
 											style={{ width: "100%", height: "100%" }}
-											className="lazyload" src="/images/avatar/entry-author.jpg" data-src="/images/avatar/entry-author.jpg" alt="" />
+											className="lazyload" 
+											src={blogData.author?.image || "/images/avatar/entry-author.jpg"} 
+											alt={blogData.author?.name || "Author"} 
+										/>
 									</div>
 									<div className="entry-infor-author">
-										<h6 className="name ">
-											<Link href="/#" className="hover-text-main-golden">
-												Richard M. Fudge
+										<h6 className="name">
+											<Link href={`/author/${blogData.author?.slug}`} className="hover-text-main-golden">
+												{blogData.author?.name}
 											</Link>
 										</h6>
-										<p className="duty mb-10">Autor</p>
+										<p className="duty mb-10">Author</p>
 										<p className="text-note mb-20">
-											The world is a book, and those who do not travel read only one page
-											every
-											journey we undertake is a chapter filled with lessons, experiences
+											{blogData.author?.description || "Passionate writer and content creator sharing insights and stories."}
 										</p>
 										<ul className="social-list style-3">
 											<li>
@@ -258,6 +162,8 @@ export default function Section1() {
 										</ul>
 									</div>
 								</div>
+
+								{/* Navigation to Previous/Next Posts */}
 								<div className="btn-blog-group mb-70">
 									<div className="btn-next btn-blog tf-hover">
 										<div className="image hover-2">
@@ -266,19 +172,19 @@ export default function Section1() {
 												height="0"
 												sizes="100vw"
 												style={{ width: "100%", height: "auto" }}
-												className="lazyload" src="/images/blog/recent-new-1.jpg" data-src="/images/blog/recent-new-1.jpg" alt="" />
+												className="lazyload" 
+												src="/images/blog/recent-new-1.jpg" 
+												alt="" 
+											/>
 										</div>
 										<div className="content">
 											<div className="caption">
 												<Link href="/#" className="font-main-2">
-													Business
-													Consulting Can
-													Transform
-													Company’s
+													Previous Post
 												</Link>
 											</div>
 											<p className="date">
-												20 September 2024
+												{formatDate(blogData.pub_date)}
 											</p>
 										</div>
 									</div>
@@ -289,63 +195,70 @@ export default function Section1() {
 												height="0"
 												sizes="100vw"
 												style={{ width: "100%", height: "auto" }}
-												className="lazyload" src="/images/blog/recent-new-2.jpg" data-src="/images/blog/recent-new-2.jpg" alt="" />
+												className="lazyload" 
+												src="/images/blog/recent-new-2.jpg" 
+												alt="" 
+											/>
 										</div>
 										<div className="content">
 											<div className="caption">
 												<Link href="/#" className="font-main-2">
-													Role Business Consulting
-													in Driving Innovation
+													Next Post
 												</Link>
 											</div>
 											<p className="date">
-												20 September 2024
+												{formatDate(blogData.pub_date)}
 											</p>
 										</div>
 									</div>
 								</div>
-								<div className="comment-wrap">
-									<h3 className="text-anime-wave">
-										Leave A Comments
-									</h3>
-									<p className="note mb-30">
-										Your email address will not be published. Required fields are marked *
-									</p>
-									<form action="#" className="form-comment style-3">
-										<div className="cols mb-20">
-											<fieldset>
-												<input type="text" placeholder="Name" required />
-											</fieldset>
-											<fieldset>
-												<input type="text" placeholder="Email" required />
-											</fieldset>
-										</div>
-										<div className="cols fieldset-text">
-											<fieldset>
-												<textarea placeholder="Message" />
-											</fieldset>
-										</div>
-										<div className="checkbox-item">
-											<label>
-												<span className="text">Save my name, email, and website in this browser
-													for
-													the next time I comment.</span>
-												<input type="checkbox" className="checkbox-item" defaultChecked />
-												<span className="btn-checkbox" />
-											</label>
-										</div>
-										<div className="bot">
-											<button type="submit" className="tf-btn style-3 text-anime-style-1">
-												Send Comment
-												<i className="icon-chevron-right" />
-											</button>
-										</div>
-									</form>
-								</div>
+
+								{/* Comments Section */}
+								{blogData.comment_status === 'open' && (
+									<div className="comment-wrap">
+										<h3 className="text-anime-wave">
+											Leave A Comment
+										</h3>
+										<p className="note mb-30">
+											Your email address will not be published. Required fields are marked *
+										</p>
+										<form action="#" className="form-comment style-3">
+											<div className="cols mb-20">
+												<fieldset>
+													<input type="text" placeholder="Name" required />
+												</fieldset>
+												<fieldset>
+													<input type="email" placeholder="Email" required />
+												</fieldset>
+											</div>
+											<div className="cols fieldset-text">
+												<fieldset>
+													<textarea placeholder="Message" required />
+												</fieldset>
+											</div>
+											<div className="checkbox-item">
+												<label>
+													<span className="text">Save my name, email, and website in this browser for the next time I comment.</span>
+													<input type="checkbox" className="checkbox-item" />
+													<span className="btn-checkbox" />
+												</label>
+											</div>
+											<div className="bot">
+												<button type="submit" className="tf-btn style-3 text-anime-style-1">
+													Send Comment
+													<i className="icon-chevron-right" />
+												</button>
+											</div>
+										</form>
+									</div>
+								)}
 							</div>
 						</div>
+
+						{/* Sidebar */}
 						<div className="col-lg-4">
 							<div className="tf-sidebar">
+								{/* Search */}
 								<div className="sb-item sb-search mb-30">
 									<form action="#" className="form-sb-search">
 										<fieldset>
@@ -356,52 +269,41 @@ export default function Section1() {
 										</button>
 									</form>
 								</div>
+
+								{/* Categories */}
 								<div className="sb-item mb-30">
 									<div className="sb-title">
 										<i className="icon-bolt fs-20 color-main-black" />
-										<h5 className="title">Category</h5>
+										<h5 className="title">Categories</h5>
 									</div>
 									<div className="sb-content sb-category">
 										<ul className="category-list">
+											{blogData.categories?.map((category, index) => (
+												<li key={index}>
+													<Link href={`/category/${category.slug}`}>
+														{category.name}
+														<i className="icon-chevron-right" />
+													</Link>
+												</li>
+											))}
+											{/* Add static categories if needed */}
 											<li>
-												<Link href="/#">
+												<Link href="/category/marketing">
 													Marketing Consulting
 													<i className="icon-chevron-right" />
 												</Link>
 											</li>
 											<li>
-												<Link href="/#">
+												<Link href="/category/resources">
 													Resources Consulting
-													<i className="icon-chevron-right" />
-												</Link>
-											</li>
-											<li>
-												<Link href="/#">
-													Management Consulting
-													<i className="icon-chevron-right" />
-												</Link>
-											</li>
-											<li>
-												<Link href="/#">
-													Financial Consulting
-													<i className="icon-chevron-right" />
-												</Link>
-											</li>
-											<li>
-												<Link href="/#">
-													Operations Management
-													<i className="icon-chevron-right" />
-												</Link>
-											</li>
-											<li>
-												<Link href="/#">
-													Management Consulting
 													<i className="icon-chevron-right" />
 												</Link>
 											</li>
 										</ul>
 									</div>
 								</div>
+
+								{/* Recent News - You'll need to fetch this separately */}
 								<div className="sb-item mb-30">
 									<div className="sb-title">
 										<i className="icon-bolt fs-20 color-main-black" />
@@ -409,6 +311,7 @@ export default function Section1() {
 									</div>
 									<div className="sb-content sb-news">
 										<ul className="news-list">
+											{/* You'll need to pass recent posts as a separate prop */}
 											<li className="tf-hover">
 												<div className="image hover-1">
 													<img
@@ -421,89 +324,19 @@ export default function Section1() {
 												<div className="content">
 													<div className="caption">
 														<Link href="/#" className="font-main-2">
-															Business
-															Consulting Can
-															Transform
-															Company’s
+															Recent Blog Post
 														</Link>
 													</div>
 													<p className="date">
-														20 September 2024
-													</p>
-												</div>
-											</li>
-											<li className="tf-hover">
-												<div className="image hover-1">
-													<img
-														width="0"
-														height="0"
-														sizes="100vw"
-														style={{ width: "100%", height: "auto" }}
-														src="/images/blog/recent-new-2.jpg" alt="" />
-												</div>
-												<div className="content">
-													<div className="caption">
-														<Link href="/#" className="font-main-2">
-															Business
-															Consulting Can
-															Transform
-															Company’s
-														</Link>
-													</div>
-													<p className="date">
-														20 September 2024
-													</p>
-												</div>
-											</li>
-											<li className="tf-hover">
-												<div className="image hover-1">
-													<img
-														width="0"
-														height="0"
-														sizes="100vw"
-														style={{ width: "100%", height: "auto" }}
-														src="/images/blog/recent-new-3.jpg" alt="" />
-												</div>
-												<div className="content">
-													<div className="caption">
-														<Link href="/#" className="font-main-2">
-															Business
-															Consulting Can
-															Transform
-															Company’s
-														</Link>
-													</div>
-													<p className="date">
-														20 September 2024
-													</p>
-												</div>
-											</li>
-											<li className="tf-hover">
-												<div className="image hover-1">
-													<img
-														width="0"
-														height="0"
-														sizes="100vw"
-														style={{ width: "100%", height: "auto" }}
-														src="/images/blog/recent-new-4.jpg" alt="" />
-												</div>
-												<div className="content">
-													<div className="caption">
-														<Link href="/#" className="font-main-2">
-															Business
-															Consulting Can
-															Transform
-															Company’s
-														</Link>
-													</div>
-													<p className="date">
-														20 September 2024
+														{formatDate(new Date())}
 													</p>
 												</div>
 											</li>
 										</ul>
 									</div>
 								</div>
+
+								{/* Popular Tags */}
 								<div className="sb-item sb-tag mb-30">
 									<div className="sb-title">
 										<i className="icon-bolt fs-20 color-main-black" />
@@ -511,27 +344,23 @@ export default function Section1() {
 									</div>
 									<div className="sb-content sb-tag">
 										<ul className="tag-popular-list">
-											<li>
-												<Link href="/#">Business</Link>
-											</li>
-											<li>
-												<Link href="/#">Consulting</Link>
-											</li>
-											<li><Link href="/#">Tech</Link></li>
-											<li><Link href="/#">Finance</Link></li>
-											<li><Link href="/#">Startup</Link></li>
-											<li>
-												<Link href="/#">Marketing</Link>
-											</li>
-											<li>
-												<Link href="/#">Management</Link>
-											</li>
-											<li>
-												<Link href="/#">Corporate</Link>
-											</li>
+											{blogData.categories?.map((category, index) => (
+												<li key={index}>
+													<Link href={`/category/${category.slug}`}>
+														{category.name}
+													</Link>
+												</li>
+											))}
+											{/* Add static popular tags */}
+											<li><Link href="/tag/business">Business</Link></li>
+											<li><Link href="/tag/consulting">Consulting</Link></li>
+											<li><Link href="/tag/tech">Tech</Link></li>
+											<li><Link href="/tag/finance">Finance</Link></li>
 										</ul>
 									</div>
 								</div>
+
+								{/* Service CTA */}
 								<div className="sb-item sb-service">
 									<div className="tf-overlay" />
 									<div className="image">
@@ -544,11 +373,10 @@ export default function Section1() {
 									</div>
 									<div className="content">
 										<p className="font-main-2 text-anime-wave">
-											Professional &amp; Experience
-											Business
+											Professional &amp; Experience Business
 											<span> Services </span>
 										</p>
-										<Link href="/#" className="tf-btn text-anime-style-1">
+										<Link href="/contact" className="tf-btn text-anime-style-1">
 											Get Consultation
 											<i className="icon-chevron-right" />
 										</Link>
@@ -559,7 +387,6 @@ export default function Section1() {
 					</div>
 				</div>
 			</section>
-
 		</>
 	)
 }

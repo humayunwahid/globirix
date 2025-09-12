@@ -19,6 +19,7 @@ import OfficeLocations from "@/components/resuable/officeLocations"
 import Platforms from "@/components/resuable/platforms"
 import ToggleForms from "@/components/resuable/toggleForms"
 import UniquePositioned from "./uniquePositioned"
+import RecentBlogs from "@/components/resuable/recentBlogs"
 
 export default function Home3() {
 
@@ -45,7 +46,8 @@ export default function Home3() {
 			
 			<Section10 />
 			<Section11 />
-			<Section12 />
+			<RecentBlogs/>
+			{/* <Section12 /> */}
 			{/* <OfficeLocations/> */}
 		</>
 	)
