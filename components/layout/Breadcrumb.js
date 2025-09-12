@@ -52,13 +52,38 @@ export default function Breadcrumb({ breadcrumbTitle, breadcrumbAlt, serviceName
 					</div>
 					<div className="tf-marquee slider-saylo mt-65">
 						<div className="wrap-marquee">
-							{Array(10)
+							{/* {Array(10)
 								.fill("Globirix Consulting")
 								.map((text, index) => (
 									<div className="marquee-item" key={index}>
 										<p className="font-main-2 text">{text}</p>
 									</div>
-								))}
+								))} */}
+							<div className="marquee-item">
+							<p className="font-main-2 text">
+								Accounting & Reporting
+							</p>
+						</div>
+						<div className="marquee-item">
+							<p className="font-main-2 text">
+								Data Entry & Audit Support
+							</p>
+						</div>
+						<div className="marquee-item">
+							<p className="font-main-2 text">
+								HR & Payroll							
+							</p>
+						</div>
+						<div className="marquee-item">
+							<p className="font-main-2 text">
+								ERP Financial Support
+							</p>
+						</div>
+						<div className="marquee-item">
+							<p className="font-main-2 text">
+								Internal Controls Over Financial Reporting
+							</p>
+						</div>
 						</div>
 					</div>
 				</div>
@@ -122,60 +147,38 @@ export default function Breadcrumb({ breadcrumbTitle, breadcrumbAlt, serviceName
 							</div>
 						</div>
 					</div>
+
 					<div className="tf-marquee slider-saylo">
-						<div className="wrap-marquee">
-							<div className="marquee-item">
-								<p className="font-main-2 text">
-									Globirix Consulting
-								</p>
-							</div>
-							<div className="marquee-item">
-								<p className="font-main-2 text">
-									Globirix Consulting
-								</p>
-							</div>
-							<div className="marquee-item">
-								<p className="font-main-2 text">
-									Globirix Consulting
-								</p>
-							</div>
-							<div className="marquee-item">
-								<p className="font-main-2 text">
-									Globirix Consulting
-								</p>
-							</div>
-							<div className="marquee-item">
-								<p className="font-main-2 text">
-									Globirix Consulting
-								</p>
-							</div>
-							<div className="marquee-item">
-								<p className="font-main-2 text">
-									Globirix Consulting
-								</p>
-							</div>
-							<div className="marquee-item">
-								<p className="font-main-2 text">
-									Globirix Consulting
-								</p>
-							</div>
-							<div className="marquee-item">
-								<p className="font-main-2 text">
-									Globirix Consulting
-								</p>
-							</div>
-							<div className="marquee-item">
-								<p className="font-main-2 text">
-									Globirix Consulting
-								</p>
-							</div>
-							<div className="marquee-item">
-								<p className="font-main-2 text">
-									Globirix Consulting
-								</p>
-							</div>
+					<div className="wrap-marquee">
+						<div className="marquee-item">
+							<p className="font-main-2 text">
+								Accounting & Reporting
+							</p>
 						</div>
+						<div className="marquee-item">
+							<p className="font-main-2 text">
+								Data Entry & Audit Support
+							</p>
+						</div>
+						<div className="marquee-item">
+							<p className="font-main-2 text">
+								HR & Payroll							
+							</p>
+						</div>
+						<div className="marquee-item">
+							<p className="font-main-2 text">
+								ERP Financial Support
+							</p>
+						</div>
+						<div className="marquee-item">
+							<p className="font-main-2 text">
+								Internal Controls Over Financial Reporting
+							</p>
+						</div>
+						
 					</div>
+				</div>
+					
 				</div>
 
 			}
@@ -222,59 +225,35 @@ export default function Breadcrumb({ breadcrumbTitle, breadcrumbAlt, serviceName
 						</div>
 					</div>
 					<div className="tf-marquee slider-saylo">
-						<div className="wrap-marquee">
-							<div className="marquee-item">
-								<p className="font-main-2 text">
-									Globirix Consulting
-								</p>
-							</div>
-							<div className="marquee-item">
-								<p className="font-main-2 text">
-									Globirix Consulting
-								</p>
-							</div>
-							<div className="marquee-item">
-								<p className="font-main-2 text">
-									Globirix Consulting
-								</p>
-							</div>
-							<div className="marquee-item">
-								<p className="font-main-2 text">
-									Globirix Consulting
-								</p>
-							</div>
-							<div className="marquee-item">
-								<p className="font-main-2 text">
-									Globirix Consulting
-								</p>
-							</div>
-							<div className="marquee-item">
-								<p className="font-main-2 text">
-									Globirix Consulting
-								</p>
-							</div>
-							<div className="marquee-item">
-								<p className="font-main-2 text">
-									Globirix Consulting
-								</p>
-							</div>
-							<div className="marquee-item">
-								<p className="font-main-2 text">
-									Globirix Consulting
-								</p>
-							</div>
-							<div className="marquee-item">
-								<p className="font-main-2 text">
-									Globirix Consulting
-								</p>
-							</div>
-							<div className="marquee-item">
-								<p className="font-main-2 text">
-									Globirix Consulting
-								</p>
-							</div>
+					<div className="wrap-marquee">
+						<div className="marquee-item">
+							<p className="font-main-2 text">
+								Accounting & Reporting
+							</p>
 						</div>
+						<div className="marquee-item">
+							<p className="font-main-2 text">
+								Data Entry & Audit Support
+							</p>
+						</div>
+						<div className="marquee-item">
+							<p className="font-main-2 text">
+								HR & Payroll							
+							</p>
+						</div>
+						<div className="marquee-item">
+							<p className="font-main-2 text">
+								ERP Financial Support
+							</p>
+						</div>
+						<div className="marquee-item">
+							<p className="font-main-2 text">
+								Internal Controls Over Financial Reporting
+							</p>
+						</div>
+						
 					</div>
+				</div>
 				</div>
 
 			}

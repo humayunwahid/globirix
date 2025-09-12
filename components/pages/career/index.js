@@ -4,7 +4,7 @@ export default function Career() {
 
 	return (
 		<>
-			<Section1 />
+			{/* <Section1 /> */}
 			<Section2 />
 		</>
 	)

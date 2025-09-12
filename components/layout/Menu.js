@@ -83,7 +83,7 @@ export default function Menu() {
 						<li className={`item ${isActive("/blogs")}`}><Link href="/blogs"><span>Blogs</span></Link></li>
 
 		
-			<li className={`item ${isActive("/contact")}`}><Link href="/contact"><span>Contact</span></Link></li>
+			{/* <li className={`item ${isActive("/contact")}`}><Link href="/contact"><span>Contact</span></Link></li> */}
 		</ul>
 	)
 }

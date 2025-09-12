@@ -1675,7 +1675,7 @@ a.hover-text-main-golden:hover {
 	display: -webkit-flex;
 	display: flex;
 	align-items: center;
-	gap: 30px;
+	gap: 10px;
 }
 
 .union {
@@ -2964,8 +2964,33 @@ button {
 	transition: all 0.2s ease-in;
 	overflow: hidden;
 }
+.tf-btn2 {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 22px;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	font-family: "Manrope", sans-serif;
+	color: #283648;
+	background-color: silver;
+	border-radius: 7px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 15px 31px 15px 30px;
+	gap: 7px;
+	width: max-content;
+	position: relative;
+	z-index: 1;
+	transition: all 0.2s ease-in;
+	overflow: hidden;
+}
 
-.tf-btn.small {
+.tf-btn.small, .tf-btn2.small {
 	padding: 12px 21px 12px 20px;
 	font-size: 14px;
 	line-height: 19px;
@@ -7653,13 +7678,13 @@ a.mapboxgl-ctrl-logo {
 	color: var(--Main-golden);
 }
 
-.box-icon.style-6.type-2 .text {
+/* .box-icon.style-6.type-2 .text {
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	-webkit-line-clamp: 3;
-}
+} */
 
 .box-icon.style-7 {
 	border-radius: unset;
@@ -16271,3 +16296,71 @@ color:  var(--Main-dark-blue);
 .office a:hover {
     text-decoration: underline;
 }
+
+ /* Approach 1: Hide description by default, show on hover */
+        .hover-box .hover-description {
+          opacity: 0;
+          max-height: 0;
+          overflow: hidden;
+          transition: all 0.3s ease-in-out;
+          margin-top: 0;
+        }
+
+        .hover-box:hover .hover-description {
+          opacity: 1;
+          max-height: 200px; /* Adjust based on your content */
+          margin-top: 10px;
+        }
+
+        /* Optional: Add some visual enhancement on hover */
+        .hover-box {
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+          cursor: pointer;
+        }
+
+        .hover-box:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Alternative Approach 2: Tooltip style (uncomment to use instead) */
+        
+        /* .hover-box {
+          position: relative;
+        }
+
+        .hover-box .hover-description {
+          position: absolute;
+          bottom: 100%;
+          left: 50%;
+          transform: translateX(-50%);
+          background: #333;
+          color: white;
+          padding: 10px 15px;
+          border-radius: 6px;
+          font-size: 14px;
+          line-height: 1.4;
+          white-space: nowrap;
+          opacity: 0;
+          visibility: hidden;
+          transition: all 0.3s ease;
+          z-index: 1000;
+          max-width: 300px;
+          white-space: normal;
+        }
+
+        .hover-box .hover-description::after {
+          content: '';
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          transform: translateX(-50%);
+          border: 6px solid transparent;
+          border-top-color: #333;
+        }
+
+        .hover-box:hover .hover-description {
+          opacity: 1;
+          visibility: visible;
+          bottom: calc(100% + 10px);
+        } */

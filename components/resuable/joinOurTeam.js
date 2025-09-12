@@ -1,35 +1,51 @@
-"use client"
+"use client";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
 
-export default function RentAccountantForm() {
+export default function JoinOurTeam() {
   const { register, handleSubmit, watch, formState: { errors } } = useForm();
   const [loading, setLoading] = useState(false);
   const [sent, setSent] = useState(false);
 
   const natureOfJob = watch("natureOfJob");
+  const qualification = watch("qualificationDropdown");
   const country = watch("country");
 
   // Time options
   const timeOptions = [
-    "10:00 AM", "11:00 AM", "12:00 PM", "01:00 PM", "02:00 PM", "03:00 PM", "04:00 PM",
-    "05:00 PM", "06:00 PM", "07:00 PM", "08:00 PM", "09:00 PM", "10:00 PM", "11:00 PM", "12:00 AM"
+    "10:00 AM", "11:00 AM", "12:00 PM", "01:00 PM", "02:00 PM", "03:00 PM",
+    "04:00 PM", "05:00 PM", "06:00 PM", "07:00 PM", "08:00 PM", "09:00 PM",
+    "10:00 PM", "11:00 PM", "12:00 AM"
   ];
 
   // Country options
   const countryOptions = [
-    "Pakistan", "India", "Bangladesh", "Sri Lanka", "UAE", "Saudi Arabia", "USA", "UK", "Canada", "Australia", "Other"
+    "United States", "Canada", "United Kingdom", "India", "Australia", "Other"
   ];
 
   const onSubmit = async (data) => {
     setLoading(true);
+
+    // Convert CV file to base64 for EmailJS
+    let fileBase64 = "";
+    if (data.cv?.[0]) {
+      const file = data.cv[0];
+      fileBase64 = await toBase64(file);
+    }
+
+    let pictureBase64 = "";
+    if (data.formalPicture?.[0]) {
+      const picture = data.formalPicture[0];
+      pictureBase64 = await toBase64(picture);
+    }
+
     try {
       await emailjs.send(
-        "your_service_id",      // 👉 replace with your EmailJS service ID
-        "your_template_id",     // 👉 replace with your EmailJS template ID
-        data,
-        "your_user_public_key"  // 👉 replace with your EmailJS public key
+        "your_service_id",      // replace with your EmailJS service ID
+        "your_template_id",     // replace with your EmailJS template ID
+        { ...data, cv: fileBase64, formalPicture: pictureBase64 },
+        "your_user_public_key"  // replace with your EmailJS public key
       );
       setSent(true);
     } catch (error) {
@@ -39,6 +55,15 @@ export default function RentAccountantForm() {
     setLoading(false);
   };
 
+  // Helper: file to base64
+  const toBase64 = (file) =>
+    new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.readAsDataURL(file);
+      reader.onload = () => resolve(reader.result);
+      reader.onerror = (error) => reject(error);
+    });
+
   return (
     <section className="s-contact mt-5 mb-70">
       <div className="tf-container">
@@ -46,26 +71,27 @@ export default function RentAccountantForm() {
           <div className="col-lg-12">
             <div className="content-wrap">
 
-              {/* LEFT SIDE */}
+              {/* LEFT TEXT */}
               <div className="content-left">
                 <p className="s-sub-title mb-17">
                   <i className="icon-angles-right moveLeftToRight" />
-                  Rent a Resource
+                  Registration Form
                 </p>
                 <p className="s-title text-anime-wave-right">
-                  Hire Professional <span>Resources</span> as per your need.
+                  Looking for <span>Job Opportunities?</span>
                 </p>
                 <p>
-                  Whether you need a full-time, part-time, or project basis, we can provide the right resource. Alternatively, our team can deliver complete accounting and financial services — from bookkeeping and reporting to compliance — tailored to your business needs.
+                  If you are an accountant seeking full-time, part-time, or project-based 
+                  opportunities, register here. Applicants from other professions can also apply!
                 </p>
               </div>
 
-              {/* RIGHT SIDE */}
+              {/* RIGHT FORM */}
               <div className="content-right">
-                <p className="title mb-30 text-center font-main-2">Request a Resource</p>
+                <p className="title mb-30 text-center font-main-2">Join Now</p>
 
                 {sent ? (
-                  <p className="text-green-600 text-center">✅ Your request has been sent successfully!</p>
+                  <p className="text-green-600 text-center">✅ Your registration has been submitted successfully!</p>
                 ) : (
                   <form onSubmit={handleSubmit(onSubmit)} className="form-contact style-3">
 
@@ -136,7 +162,7 @@ export default function RentAccountantForm() {
                       </div>
                     )}
 
-                    {/* QUALIFICATION (DROPDOWN ONLY) */}
+                    {/* QUALIFICATION */}
                     <div className="cols mb-20">
                       <fieldset>
                         <select {...register("qualificationDropdown", { required: "Qualification is required" })}>
@@ -149,6 +175,17 @@ export default function RentAccountantForm() {
                         </select>
                         {errors.qualificationDropdown && <span className="text-red-500">{errors.qualificationDropdown.message}</span>}
                       </fieldset>
+                      {/* Show text field if "Other" selected */}
+                      {qualification === "Other" && (
+                        <fieldset>
+                          <input
+                            type="text"
+                            placeholder="Other Qualification"
+                            {...register("qualificationText", { required: "Please specify your qualification" })}
+                          />
+                          {errors.qualificationText && <span className="text-red-500">{errors.qualificationText.message}</span>}
+                        </fieldset>
+                      )}
                     </div>
 
                     {/* CONTACT */}
@@ -166,18 +203,51 @@ export default function RentAccountantForm() {
                       </fieldset>
                     </div>
 
+                    {/* EXPERIENCE */}
+                    <div className="cols mb-20">
+                      <fieldset>
+                        <input
+                          type="text"
+                          placeholder="Experience (e.g. 2 years in accounting)"
+                          {...register("experience", { required: "Experience is required" })}
+                        />
+                        {errors.experience && <span className="text-red-500">{errors.experience.message}</span>}
+                      </fieldset>
+                    </div>
+
+                    {/* UPLOAD CV */}
+                    <div className="cols mb-20">
+                      <fieldset>
+                        <label htmlFor="cv" className="block text-gray-500 mb-2 cursor-pointer">
+                          Upload Your CV
+                        </label>
+                        <input
+                          id="cv"
+                          type="file"
+                          accept=".pdf,.doc,.docx"
+                          {...register("cv", { required: "CV is required" })}
+                          className="block w-full text-sm text-gray-500
+                                     file:mr-4 file:py-2 file:px-4
+                                     file:rounded-full file:border-0
+                                     file:text-sm file:font-semibold
+                                     file:bg-blue-50 file:text-blue-700
+                                     hover:file:bg-blue-100"
+                        />
+                        {errors.cv && <span className="text-red-500">{errors.cv.message}</span>}
+                      </fieldset>
+                    </div>
+
                     {/* COUNTRY */}
                     <div className="cols mb-20">
                       <fieldset>
                         <select {...register("country", { required: "Country is required" })}>
                           <option value="">Select Country</option>
-                          {countryOptions.map((c, i) => (
-                            <option key={i} value={c}>{c}</option>
+                          {countryOptions.map((country, i) => (
+                            <option key={i} value={country}>{country}</option>
                           ))}
                         </select>
                         {errors.country && <span className="text-red-500">{errors.country.message}</span>}
                       </fieldset>
-
                       {country === "Other" && (
                         <fieldset>
                           <input
@@ -190,19 +260,34 @@ export default function RentAccountantForm() {
                       )}
                     </div>
 
-                    {/* REQUIREMENTS */}
+                    {/* FORMAL PICTURE */}
                     <div className="cols mb-20">
                       <fieldset>
-                        <textarea
-                          className="h-100px"
-                          placeholder="Write your requirements"
-                          {...register("requirements", { required: "Requirements are required" })}
+                        <label htmlFor="formalPicture" className="block text-gray-500 mb-2 cursor-pointer">
+                          Upload Formal Picture (Max Size: 2MB)
+                        </label>
+                        <input
+                          id="formalPicture"
+                          type="file"
+                          accept=".jpg,.jpeg,.png"
+                          {...register("formalPicture", {
+                            required: "Formal picture is required",
+                            validate: {
+                              maxSize: (value) => value[0]?.size <= 2 * 1024 * 1024 || "Max file size is 2MB"
+                            }
+                          })}
+                          className="block w-full text-sm text-gray-500
+                                     file:mr-4 file:py-2 file:px-4
+                                     file:rounded-full file:border-0
+                                     file:text-sm file:font-semibold
+                                     file:bg-blue-50 file:text-blue-700
+                                     hover:file:bg-blue-100"
                         />
-                        {errors.requirements && <span className="text-red-500">{errors.requirements.message}</span>}
+                        {errors.formalPicture && <span className="text-red-500">{errors.formalPicture.message}</span>}
                       </fieldset>
                     </div>
 
-                    {/* SUBMIT */}
+                                      {/* SUBMIT */}
 <button type="submit" className="tf-btn full" disabled={loading}>
   {loading ? "Sending..." : "Send"}
   <i className="icon-chevron-right" />
