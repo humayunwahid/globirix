@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-export default function Breadcrumb({ breadcrumbTitle, breadcrumbAlt, serviceName }) {
+export default function Breadcrumb({ breadcrumbTitle, breadcrumbAlt, serviceName, blogTitle }) {
 
 	const words = breadcrumbTitle?.split(" ")
 	const formattedTitle = words?.length > 1 ? (
@@ -108,15 +108,14 @@ export default function Breadcrumb({ breadcrumbTitle, breadcrumbAlt, serviceName
 												<i className="icon-chevron-r" />
 											</div>
 											<Link href="#" className="current">
-												Blog Details
+												{blogTitle ? blogTitle : "Blog"}
 											</Link>
 										</div>
 										<h2>
-											Role of a Business Consulting Agency in <br />
-											Driving Innovation Key to Business
-											Success
+																							{blogTitle ? blogTitle : "Blog"}
+
 										</h2>
-										<div className="entry-meta style-2">
+										{/* <div className="entry-meta style-2">
 											<ul className="meta-list">
 												<li className="entry author">
 													<div className="icon">
@@ -141,7 +140,7 @@ export default function Breadcrumb({ breadcrumbTitle, breadcrumbAlt, serviceName
 													<Link href="#"> Comments (05) </Link>
 												</li>
 											</ul>
-										</div>
+										</div> */}
 									</div>
 								</div>
 							</div>

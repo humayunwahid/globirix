@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Sidebar from "@/components/resuable/sidebar";
 
 export default function Section1() {
   const [blogs, setBlogs] = useState([]);
@@ -12,7 +13,7 @@ export default function Section1() {
     async function fetchBlogs() {
       try {
         const res = await fetch(
-          "https://blogs.globirix.com/api/wp-json.php?cat=blogs&count=7&page=0",
+          "https://blogs.globirix.com/api/wp-json.php?cat=blogs",
           { cache: "no-store" }
         );
         const data = await res.json();
@@ -59,7 +60,7 @@ export default function Section1() {
                     </div>
 
                     {/* Meta */}
-                    <div className="entry-meta">
+                    {/* <div className="entry-meta">
                       <ul className="meta-list">
                         <li className="entry author">
                           <div className="icon">
@@ -76,7 +77,7 @@ export default function Section1() {
                           <span>{blog.date}</span>
                         </li>
                       </ul>
-                    </div>
+                    </div> */}
 
                     {/* Title */}
                     <div className="entry-title">
@@ -110,110 +111,7 @@ export default function Section1() {
 
           {/* Sidebar */}
           <div className="col-lg-4">
-            <div className="tf-sidebar">
-              {/* Search */}
-              <div className="sb-item sb-search mb-30">
-                <form action="#" className="form-sb-search">
-                  <fieldset>
-                    <input type="text" placeholder="Search here" required />
-                  </fieldset>
-                  <button type="submit" className="btn-search">
-                    <i className="icon-search" />
-                  </button>
-                </form>
-              </div>
-
-              {/* Categories (static for now) */}
-              <div className="sb-item mb-30">
-                <div className="sb-title">
-                  <i className="icon-bolt fs-20 color-main-black" />
-                  <h5 className="title">Category</h5>
-                </div>
-                <div className="sb-content sb-category">
-                  <ul className="category-list">
-                    <li>
-                      <Link href="#">Marketing Consulting</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Resources Consulting</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Management Consulting</Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              {/* Recent Blogs */}
-              <div className="sb-item mb-30">
-                <div className="sb-title">
-                  <i className="icon-bolt fs-20 color-main-black" />
-                  <h5 className="title">Recent News</h5>
-                </div>
-                <div className="sb-content sb-news">
-                  <ul className="news-list">
-                    {blogs.slice(0, 4).map((blog) => (
-                      <li key={blog.ID} className="tf-hover">
-                        <div className="image hover-1">
-                          <Image
-                            width={100}
-                            height={70}
-                            src={blog.thumbnail || blog.image || "/images/blog/default.jpg"}
-                            alt={blog.title}
-                          />
-                        </div>
-                        <div className="content">
-                          <div className="caption">
-                            <Link href={blog.permalink} target="_blank" className="font-main-2">
-                              {blog.title}
-                            </Link>
-                          </div>
-                          <p className="date">{blog.date}</p>
-                        </div>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-
-              {/* Popular Tags */}
-              <div className="sb-item sb-tag mb-30">
-                <div className="sb-title">
-                  <i className="icon-bolt fs-20 color-main-black" />
-                  <h5 className="title">Popular Tags</h5>
-                </div>
-                <div className="sb-content sb-tag">
-                  <ul className="tag-popular-list">
-                    <li><Link href="#">Business</Link></li>
-                    <li><Link href="#">Consulting</Link></li>
-                    <li><Link href="#">Finance</Link></li>
-                    <li><Link href="#">Startup</Link></li>
-                  </ul>
-                </div>
-              </div>
-
-              {/* Sidebar Banner */}
-              <div className="sb-item sb-service">
-                <div className="tf-overlay" />
-                <div className="image">
-                  <Image
-                    width={300}
-                    height={200}
-                    style={{ width: "100%", height: "100%" }}
-                    src="/images/blog/service-sidebar.jpg"
-                    alt="sidebar service"
-                  />
-                </div>
-                <div className="content">
-                  <p className="font-main-2 text-anime-wave">
-                    Professional & Experience Business <span>Services</span>
-                  </p>
-                  <Link href="#" className="tf-btn text-anime-style-1">
-                    Get Consultation <i className="icon-chevron-right" />
-                  </Link>
-                </div>
-              </div>
-            </div>
+            <Sidebar />
           </div>
           {/* End Sidebar */}
         </div>
