@@ -20,17 +20,17 @@ export default function Hero1() {
 										 Resource Outsourcing Firm
 									</p>
 									<p className="s-title text-white-yellow mb-20 text-fs-70">
-										Let's Transform <br />
+										Driving Growth  <br />
 										<span className="animationtext clip">
 											<TypeAnimation
 												sequence={[
-													'Together',
+													'Through Transformation',
 													1000,
-													'Your Business',
+													'Through Innovation',
 													1000,
-													'The Industry',
+													'Through Strategy',
 													1000,
-													'The Future',
+													'Through Excellence',
 												]}
 												wrapper="span"
 												speed={50}
@@ -70,7 +70,7 @@ export default function Hero1() {
 											height="0"
 											sizes="100vw"
 											style={{ width: "100%", height: "auto" }}
-											src="/images/section/page-title-home-1.webp" data-src="/images/section/page-title-home-1.webp" alt="" className="lazyload" />
+											src="/images/section/hero1.webp" data-src="/images/section/hero1.webp" alt="" className="lazyload" />
 									</div>
 									<div className="wg-curve-text tf-animate__box animate__slow">
 										<div className="icon">

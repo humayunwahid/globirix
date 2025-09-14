@@ -159,18 +159,18 @@ export default function Footer1() {
 												<h4>Pakistan Office</h4>
 											
 												 <ul>
-                <li>Address: 55 Main Road, Melbourne</li>
+                <li>Address: Building A Plot 112 Sector 15 Korangi industrial area Karachi</li>
                 <li>Email: <a href="mailto:contact@globirix.com">contact@globirix.com</a></li>
-                <li>Phone: +000 (123) 456 888</li>
+                <li>Phone: 00923442140971</li>
             </ul>
 											</div>
 
 											<div className="office">
 												<h4>Canada Office</h4>
 												<ul>
-                <li>Address: 56 Main Road, Melbourne</li>
+                <li>Address: 43 Main St S Unit 4C, Milton, ON L0P 1B0</li>
                 <li>Email: <a href="mailto:contact@globirix.com">contact@globirix.com</a></li>
-                <li>Phone: +000 (123) 456 889</li>
+                <li>Phone: +19055149059</li>
             </ul>
 											</div>
 										</div>

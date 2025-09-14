@@ -54,7 +54,7 @@ export default function Section14() {
                                                     height="0"
                                                     sizes="100vw"
                                                     style={{ width: "100%", height: "auto" }}
-                                                    src="/images/widget/accordion-type-3.webp" data-src="/images/widget/accordion-type-3.jpg" alt="" className="lazyload" />
+                                                    src="/images/section/method1.webp" data-src="/images/section/method1.webp" alt="" className="lazyload" />
                                             </div>
                                         </div>
                                     </div>
@@ -89,7 +89,7 @@ export default function Section14() {
                                                     height="0"
                                                     sizes="100vw"
                                                     style={{ width: "100%", height: "auto" }}
-                                                    src="/images/widget/accordion-type-3-2.jpg" data-src="/images/widget/accordion-type-3-2.jpg" alt="" className="lazyload" />
+                                                    src="/images/section/method2.webp" data-src="/images/section/method2.webp" alt="" className="lazyload" />
                                             </div>
                                         </div>
                                     </div>
@@ -127,7 +127,7 @@ export default function Section14() {
                                                     height="0"
                                                     sizes="100vw"
                                                     style={{ width: "100%", height: "auto" }}
-                                                    src="/images/widget/accordion-type-3-3.jpg" data-src="/images/widget/accordion-type-3-3.jpg" alt="" className="lazyload" />
+                                                    src="/images/section/method3.webp" data-src="/images/section/method3.webp" alt="" className="lazyload" />
                                             </div>
                                         </div>
                                     </div>
