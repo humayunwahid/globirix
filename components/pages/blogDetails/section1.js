@@ -4,7 +4,8 @@
 
 import Sidebar from '@/components/resuable/sidebar'
 import Image from 'next/image'
-import parse from "react-html-parser";
+import parse from 'html-react-parser';
+
 
 import Link from 'next/link'
 
