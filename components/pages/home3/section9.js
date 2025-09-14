@@ -19,7 +19,7 @@ export default function Section9() {
 						height="0"
 						sizes="100vw"
 						style={{ width: "100%", height: "auto" }}
-						src="/images/section/faq.webp" data-src="/images/section/faq.webp" alt="" className="lazyload" />
+						src="/images/section/services.webp" data-src="/images/section/services.webp" alt="" className="lazyload" />
 				</div>
 				<div className="content-wrap">
 					<div className="content-left">
