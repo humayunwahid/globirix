@@ -1,6 +1,30 @@
+import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useState } from "react";
+
 
 const Sidebar = () => {
+  const [blogs, setBlogs] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    async function fetchBlogs() {
+      try {
+        const res = await fetch(
+          "https://blogs.globirix.com/api/wp-json.php?cat=blogs&count=5&page=0",
+          { cache: "no-store" }
+        );
+        const data = await res.json();
+        setBlogs(data.specific_post || []);
+      } catch (error) {
+        console.error("Error fetching blogs:", error);
+      } finally {
+        setLoading(false);
+      }
+    }
+    fetchBlogs();
+  }, []);
+
  const services = [
     { name: "Accounting & Reporting", href: "/our-services/accounting-reporting" },
     { name: "Data Entry & Audit Support", href: "/our-services/data-entry-audit-support" },
@@ -13,6 +37,8 @@ const Sidebar = () => {
     { label: "Download PDF", icon: "icon-file-pdf", href: "/#", style: "" },
     // { label: "Download Doc", icon: "icon-file", href: "/#", style: "style-2" },
   ];
+
+
 
   return (
     <div className="tf-sidebar">
@@ -35,6 +61,52 @@ const Sidebar = () => {
           </ul>
         </div>
       </div>
+
+      {/* Recent Blogs */}
+      <div className="sb-item mb-30">
+        <div className="sb-title">
+          <i className="icon-bolt fs-20 color-main-black" />
+          <h5 className="title">Recent Blogs</h5>
+        </div>
+        <div className="sb-content sb-news">
+          {loading ? (
+            <p>Loading latest blogs...</p>
+          ) : blogs.length > 0 ? (
+            <ul className="news-list">
+              {blogs.slice(0, 4).map((blog) => (
+                <li key={blog.ID} className="tf-hover">
+                  <div className="image hover-1">
+                    <Image
+                      width={100}
+                      height={70}
+                      src={
+                        blog.thumbnail || blog.image || "/images/blog/default.jpg"
+                      }
+                      alt={blog.title}
+                    />
+                  </div>
+                  <div className="content">
+                    <div className="caption">
+                      <Link
+                        href={blog.permalink}
+                        target="_blank"
+                        className="font-main-2"
+                      >
+                        {blog.title}
+                      </Link>
+                    </div>
+                    <p className="date">{blog.date}</p>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p>No recent blogs found.</p>
+          )}
+        </div>
+      </div>
+
+
 
       {/* Company Information */}
       <div className="sb-item mb-20">

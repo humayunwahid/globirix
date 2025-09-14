@@ -2,7 +2,10 @@
 
 "use client"
 
+import Sidebar from '@/components/resuable/sidebar'
 import Image from 'next/image'
+import parse from "react-html-parser";
+
 import Link from 'next/link'
 
 export default function Section1({ blogData }) {
@@ -58,20 +61,19 @@ export default function Section1({ blogData }) {
 								</p>
 
 								{/* Blog Meta Info */}
-								<div className="blog-meta mb-20">
+								{/* <div className="blog-meta mb-20">
 									<span className="author">By {blogData.author?.name}</span>
-									<span className="date"> • {formatDate(blogData.pub_date)}</span>
+									<span className="date"> {formatDate(blogData.pub_date)}</span>
 									{blogData.views > 0 && <span className="views"> • {blogData.views} views</span>}
 									{blogData.seo?.estimated_reading_time && (
 										<span className="read-time"> • {blogData.seo.estimated_reading_time} min read</span>
 									)}
-								</div>
+								</div> */}
 
 								{/* Blog Content */}
-								<div 
-									className="blog-content mb-35"
-									dangerouslySetInnerHTML={{ __html: blogData.content }}
-								/>
+								<div className="blog-content mb-35">
+  {blogData?.content ? parse(blogData.content) : null}
+</div>
 
 								{/* Tags and Social Share */}
 								<span className="line" />
@@ -116,7 +118,7 @@ export default function Section1({ blogData }) {
 								</div>
 
 								{/* Author Box */}
-								<div className="author-post mb-70">
+								{/* <div className="author-post mb-70">
 									<div className="entry-image-author wow zoomIn">
 										<Image
 											width="0"
@@ -161,10 +163,10 @@ export default function Section1({ blogData }) {
 											</li>
 										</ul>
 									</div>
-								</div>
+								</div> */}
 
 								{/* Navigation to Previous/Next Posts */}
-								<div className="btn-blog-group mb-70">
+								{/* <div className="btn-blog-group mb-70">
 									<div className="btn-next btn-blog tf-hover">
 										<div className="image hover-2">
 											<Image
@@ -211,10 +213,10 @@ export default function Section1({ blogData }) {
 											</p>
 										</div>
 									</div>
-								</div>
+								</div> */}
 
 								{/* Comments Section */}
-								{blogData.comment_status === 'open' && (
+								{/* {blogData.comment_status === 'open' && (
 									<div className="comment-wrap">
 										<h3 className="text-anime-wave">
 											Leave A Comment
@@ -251,138 +253,14 @@ export default function Section1({ blogData }) {
 											</div>
 										</form>
 									</div>
-								)}
+								)} */}
 							</div>
 						</div>
 
 						{/* Sidebar */}
 						<div className="col-lg-4">
-							<div className="tf-sidebar">
-								{/* Search */}
-								<div className="sb-item sb-search mb-30">
-									<form action="#" className="form-sb-search">
-										<fieldset>
-											<input type="text" placeholder="Search here" required />
-										</fieldset>
-										<button type="submit" className="btn-search">
-											<i className="icon-search" />
-										</button>
-									</form>
-								</div>
+							            <Sidebar />
 
-								{/* Categories */}
-								<div className="sb-item mb-30">
-									<div className="sb-title">
-										<i className="icon-bolt fs-20 color-main-black" />
-										<h5 className="title">Categories</h5>
-									</div>
-									<div className="sb-content sb-category">
-										<ul className="category-list">
-											{blogData.categories?.map((category, index) => (
-												<li key={index}>
-													<Link href={`/category/${category.slug}`}>
-														{category.name}
-														<i className="icon-chevron-right" />
-													</Link>
-												</li>
-											))}
-											{/* Add static categories if needed */}
-											<li>
-												<Link href="/category/marketing">
-													Marketing Consulting
-													<i className="icon-chevron-right" />
-												</Link>
-											</li>
-											<li>
-												<Link href="/category/resources">
-													Resources Consulting
-													<i className="icon-chevron-right" />
-												</Link>
-											</li>
-										</ul>
-									</div>
-								</div>
-
-								{/* Recent News - You'll need to fetch this separately */}
-								<div className="sb-item mb-30">
-									<div className="sb-title">
-										<i className="icon-bolt fs-20 color-main-black" />
-										<h5 className="title">Recent News</h5>
-									</div>
-									<div className="sb-content sb-news">
-										<ul className="news-list">
-											{/* You'll need to pass recent posts as a separate prop */}
-											<li className="tf-hover">
-												<div className="image hover-1">
-													<img
-														width="0"
-														height="0"
-														sizes="100vw"
-														style={{ width: "100%", height: "auto" }}
-														src="/images/blog/recent-new-1.jpg" alt="" />
-												</div>
-												<div className="content">
-													<div className="caption">
-														<Link href="/#" className="font-main-2">
-															Recent Blog Post
-														</Link>
-													</div>
-													<p className="date">
-														{formatDate(new Date())}
-													</p>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
-
-								{/* Popular Tags */}
-								<div className="sb-item sb-tag mb-30">
-									<div className="sb-title">
-										<i className="icon-bolt fs-20 color-main-black" />
-										<h5 className="title">Popular Tags</h5>
-									</div>
-									<div className="sb-content sb-tag">
-										<ul className="tag-popular-list">
-											{blogData.categories?.map((category, index) => (
-												<li key={index}>
-													<Link href={`/category/${category.slug}`}>
-														{category.name}
-													</Link>
-												</li>
-											))}
-											{/* Add static popular tags */}
-											<li><Link href="/tag/business">Business</Link></li>
-											<li><Link href="/tag/consulting">Consulting</Link></li>
-											<li><Link href="/tag/tech">Tech</Link></li>
-											<li><Link href="/tag/finance">Finance</Link></li>
-										</ul>
-									</div>
-								</div>
-
-								{/* Service CTA */}
-								<div className="sb-item sb-service">
-									<div className="tf-overlay" />
-									<div className="image">
-										<Image
-											width="0"
-											height="0"
-											sizes="100vw"
-											style={{ width: "100%", height: "auto" }}
-											src="/images/blog/service-sidebar.jpg" alt="" />
-									</div>
-									<div className="content">
-										<p className="font-main-2 text-anime-wave">
-											Professional &amp; Experience Business
-											<span> Services </span>
-										</p>
-										<Link href="/contact" className="tf-btn text-anime-style-1">
-											Get Consultation
-											<i className="icon-chevron-right" />
-										</Link>
-									</div>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>
