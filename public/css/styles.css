@@ -1,8 +1,8 @@
 /* ---------------------------------------------------------
     * Name: 
     * Version: 1.0.0
-    * Author: Themesflat
-    * Author URI: http://themesflat.com 
+    * Author: Humayun Wahid
+    * Author URI: http://humayunwahid.com 
 
 	* Abstracts variable
 
@@ -35,8 +35,11 @@
 	--Main-black-3: #121212;
 	--Main-yellow: #ffcd4c;
 	--Main-yellow-2: #f9d67c;
-	--Main-gray: #f2edea;
-	--Main-gray-2: #f7f3ec;
+	/* --Main-gray: #f2edea; */
+	--Main-gray: #f6f7f6;
+	/* --Main-gray-2: #f7f3ec; */
+	--Main-gray-2: #f6f7f6;
+	
 	--Main-gray-3: #f6f7f6;
 	--Main-gray-4: #ece8e0;
 	--Main-dark-blue: #163838;
@@ -67,9 +70,9 @@
 	--Bg-10: #0c2626;
 	--Color-1: #ff3b30;
 
-		--Main-blue: #3e5571;
-
-	--Main-dark-blue: #283648;
+		/* --Main-blue: #3e5571; */
+	--Main-blue: #000;
+	--Main-dark-blue: #1b1b1b;
 }
 
 /*---------- Reset css styles ----------- */

@@ -72,9 +72,9 @@ export default function Hero1() {
 											style={{ width: "100%", height: "auto" }}
 											src="/images/section/hero1.webp" data-src="/images/section/hero1.webp" alt="" className="lazyload" />
 									</div>
-									<div className="wg-curve-text tf-animate__box animate__slow">
+									{/* <div className="wg-curve-text tf-animate__box animate__slow">
 										<div className="icon">
-											{/* <i className="flaticon-rocket" /> */}
+											
 											<img src="/images/logo/short-logo-blue-2.png" alt="Globirix" />
 										</div>
 										<div className="text-rotate">
@@ -82,7 +82,7 @@ export default function Hero1() {
 												<div id="circularText" className="text" />
 											</div>
 										</div>
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>
