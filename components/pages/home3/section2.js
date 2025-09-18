@@ -41,9 +41,9 @@ export default function Section2() {
 											src="/images/section/about-5.webp" data-src="/images/section/about-5.jpg" alt="" className="lazyload" />
 									</div>
 								</div>
-								<div className="wg-curve-text style-3 tf-animate__box-2 animate__slow">
+								{/* <div className="wg-curve-text style-3 tf-animate__box-2 animate__slow">
 									<div className="icon">
-										{/* <i className="flaticon-rocket" /> */}
+										
 										<img src="/images/logo/short-logo-blue-2.png" alt="Globirix" />
 									</div>
 									<div className="text-rotate">
@@ -51,7 +51,7 @@ export default function Section2() {
 											<div id="circularText" className="text" />
 										</div>
 									</div>
-								</div>
+								</div> */}
 							</div>
 						</div>
 						<div className="col-lg-5 offset-lg-1">
