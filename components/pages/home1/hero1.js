@@ -19,7 +19,7 @@ export default function Hero1() {
 										<i className="icon-angles-right moveLeftToRight" />
 										 Resource Outsourcing Firm
 									</p>
-									<p className="s-title text-white-yellow mb-20 text-fs-70">
+									<p className="s-title text-white-yellow mb-20 text-fs-50">
 										Driving Growth  <br />
 										<span className="animationtext clip">
 											<TypeAnimation
