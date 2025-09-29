@@ -16399,3 +16399,25 @@ color:  var(--Main-dark-blue);
 .slider-saylo .gray p{
 	color: #00000021 !important;
 }
+
+
+.wa-fab {
+    position: fixed;
+    right: 20px;
+    bottom: 10%;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #25d366;
+    color: #fff;
+    border-radius: 999px;
+    padding: 12px 14px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.18), 0 6px 6px rgba(0,0,0,.22);
+    text-decoration: none;
+    z-index: 10000;
+    transition: transform 120ms ease, box-shadow 120ms ease;
+  }
+  .wa-fab:hover { transform: translateY(-1px); }
+  .wa-label { font-weight: 600; }
+  @media (max-width: 420px) { .wa-label { display: none; } }
+  @media (prefers-reduced-motion: reduce) { .wa-fab { transition: none; } }
