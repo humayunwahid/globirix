@@ -11,13 +11,56 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="topbar-inner">
-								<div className="topbar-left">
+
+								<div className="tf-marquee slider-saylo">
+									<div className="wrap-marquee">
+										<div className="marquee-item">
+											<p className="font-main-4 text">
+											We provide flexible accounting and financial outsourcing solutions designed to streamline operations, ensure compliance, and support strategic decision-making. You can either hire a dedicated professional through our Rent-a-Resource model or rely on us to deliver full-service outsourcing — whichever best fits your needs.
+ 
+											</p>
+										</div>
+										<div className="marquee-item">
+											<p className="font-main-4 text">
+												Our Key Services To Empower Your Business Are: 
+											</p>
+										</div>
+										<div className="marquee-item">
+											<p className="font-main-4 text">
+												Accounting & Reporting
+											</p>
+										</div>
+										<div className="marquee-item">
+											<p className="font-main-2 text">
+												Data Entry & Audit Support
+											</p>
+										</div>
+										<div className="marquee-item">
+											<p className="font-main-2 text">
+												HR & Payroll
+											</p>
+										</div>
+										<div className="marquee-item">
+											<p className="font-main-2 text">
+												ERP Financial Support
+											</p>
+										</div>
+										<div className="marquee-item">
+											<p className="font-main-2 text">
+												Internal Controls Over Financial Reporting
+											</p>
+										</div>
+
+									</div>
+								</div>
+
+								{/* <div className="topbar-left">
 									<div className="icon">
 										<i className="flaticon-tag" />
 									</div>
 									<p>WELCOME TO GLOBIRIX</p>
-								</div>
-								<div className="topbar-right">
+								</div> */}
+								{/* <div className="topbar-right">
 									<ul className="infor-list">
 										<li>
 											<div className="icon">
@@ -28,14 +71,14 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 											</Link>
 										</li>
 										<li>
-    <div className="icon">
-        <i className="flaticon-opportunity" />  {/* Updated icon */}
-    </div>
-    <Link href="/career">
-        Current Job Openings
-    </Link>
-</li>
-										{/* <li>
+											<div className="icon">
+												<i className="flaticon-opportunity" /> 
+											</div>
+											<Link href="/career">
+												Current Job Openings
+											</Link>
+										</li>
+										<li>
 											<div className="icon">
 												<i className="flaticon-phone-call" />
 											</div>
@@ -51,14 +94,16 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 											<a>
 												Working Hours : 08am - 05pm
 											</a>
-										</li> */}
+										</li>
 									</ul>
-								</div>
+								</div> */}
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>{/* /.Topbar */}
+			</div>
+
+			{/* /.Topbar */}
 			{/* Header */}
 			<header className="tf-header">
 				<div className="tf-container w-1780">
@@ -70,9 +115,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 										<Link href="/">
 											<Image
 												width="220"
-													height="220"
+												height="220"
 												id="logo_header" src="/images/logo/logo.png" data-retina="./images/logo/logo@2x.png" alt="" />
-												{/* <h2 className="text-white">Globirix</h2> */}
+											{/* <h2 className="text-white">Globirix</h2> */}
 
 										</Link>
 									</div>
@@ -115,7 +160,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 													// sizes="(max-width: 768px) auto, 80vw"
 													// style={{ width: "100%", height: "auto" }}
 													id="mobile-logo_header" alt="" src="/images/logo/logo-4.png" /> */}
-													<h4>Globirix</h4>
+												<h4>Globirix</h4>
 											</Link>
 											<div className="mobile-nav-close" onClick={handleMobileMenu}>
 												<i className="icon-xmark" />

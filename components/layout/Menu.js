@@ -61,7 +61,7 @@ export default function Menu() {
 					<li className={isActive("/our-services/hr-payroll-services")}><Link href="/our-services/hr-payroll-services"><span> HR & Payroll </span></Link></li>
 				</ul>
 			</li>
-			<li className={`item ${isActive("/benefits-outsourcing")}`}><Link href="/benefits-outsourcing"><span>Benefits of Outsourcing</span></Link></li>
+			{/* <li className={`item ${isActive("/benefits-outsourcing")}`}><Link href="/benefits-outsourcing"><span>Benefits of Outsourcing</span></Link></li> */}
 
 			<li className={`item has-child ${isParentActive(["/why-choose-us", "/why-choose-us"])}`}>
 				<Link href="/why-choose-us"><span>Why Choose Us</span></Link>
@@ -81,6 +81,10 @@ export default function Menu() {
 				</ul>
 			</li> */}
 						<li className={`item ${isActive("/blogs")}`}><Link href="/blogs"><span>Blogs</span></Link></li>
+
+						<li className={`item ${isActive("/blogs")}`}><Link href="/careers"><span>Careers</span></Link></li>
+
+						<li className={`item ${isActive("/blogs")}`}><Link href="/contact"><span>Contact</span></Link></li>
 
 		
 			{/* <li className={`item ${isActive("/contact")}`}><Link href="/contact"><span>Contact</span></Link></li> */}

@@ -38,7 +38,7 @@ export default function Section1() {
 										</svg>
 									</div>
 								</div>
-								<p className="text-white text-center">
+								<p className="text-white justify-content">
 									To empower businesses worldwide with <strong>flexible financial talent and technology-driven accounting solutions.</strong> Through our Rent-a-Resource model and end-to-end accounting services, we deliver clarity, compliance, and confidence — enabling clients to focus on growth while we safeguard accuracy, confidentiality, and trust.
 								</p>
 							</div>
@@ -72,7 +72,7 @@ export default function Section1() {
 										</svg>
 									</div>
 								</div>
-								<p className="text-white text-center">
+								<p className="text-white justify-content">
 									To be the world's most <strong>trusted partner for on-demand financial expertise and outsourced accounting</strong> — recognized for our Professionalism, Precision, Performance, Proactivity, and Partnership. We envision a future where organizations of every size and industry can simplify financial management, scale effortlessly, and achieve sustainable success with us by their side.								</p>
 							</div>
 						</div>

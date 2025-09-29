@@ -186,23 +186,6 @@ export default function Section11() {
 							</Link>
 						</SwiperSlide>
 
-						<SwiperSlide>
-							<Link href="/#">
-								<span className="tf-overlay" />
-								<Image
-									width="0"
-									height="0"
-									sizes="100vw"
-									style={{ width: "100%", height: "auto" }}
-									className="img1" src="/images/partner/gray/10.webp" alt="" />
-								<Image
-									width="0"
-									height="0"
-									sizes="100vw"
-									style={{ width: "100%", height: "auto" }}
-									className="img2" src="/images/partner/color/10.webp" alt="" />
-							</Link>
-						</SwiperSlide>
 					</div>
 				</Swiper>
 			</section>

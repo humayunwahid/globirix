@@ -14,12 +14,12 @@ export default function Section10() {
   <div className="tf-container w-1780">
     <div className="row">
       <div className="col-lg-12">
-        <div className="heading mb-50">
-          <p className="s-sub-title mb-15 justify-center">
+        <div className="heading mb-50 text-white">
+          <p className="s-sub-title mb-15 justify-center text-white">
             <i className="icon-angles-right moveLeftToRight" />
             customer feedback
           </p>
-          <p className="s-title text-center text-anime-style-2">
+          <p className="s-title text-center text-anime-style-2 text-white">
             Customer
             <span> Say Us</span>
           </p>
@@ -51,13 +51,13 @@ export default function Section10() {
                     <Link href="/#" className="name fw-7">Operations Manager</Link>
                     <span> / Retail SME</span>
                   </div>
-                  <div className="star-rate">
+                  {/* <div className="star-rate">
                     <i className="icon-star" />
                     <i className="icon-star" />
                     <i className="icon-star" />
                     <i className="icon-star" />
                     <i className="icon-star1_2" />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </SwiperSlide>
@@ -86,13 +86,13 @@ export default function Section10() {
                     <Link href="/#" className="name fw-7">CEO</Link>
                     <span> / Tech Startup</span>
                   </div>
-                  <div className="star-rate">
+                  {/* <div className="star-rate">
                     <i className="icon-star" />
                     <i className="icon-star" />
                     <i className="icon-star" />
                     <i className="icon-star" />
                     <i className="icon-star1_2" />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </SwiperSlide>
@@ -121,13 +121,13 @@ export default function Section10() {
                     <Link href="/#" className="name fw-7">Finance Director</Link>
                     <span> / Logistics Company</span>
                   </div>
-                  <div className="star-rate">
+                  {/* <div className="star-rate">
                     <i className="icon-star" />
                     <i className="icon-star" />
                     <i className="icon-star" />
                     <i className="icon-star" />
                     <i className="icon-star1_2" />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </SwiperSlide>
@@ -156,13 +156,13 @@ export default function Section10() {
                     <Link href="/#" className="name fw-7">Founder</Link>
                     <span> / Manufacturing Business</span>
                   </div>
-                  <div className="star-rate">
+                  {/* <div className="star-rate">
                     <i className="icon-star" />
                     <i className="icon-star" />
                     <i className="icon-star" />
                     <i className="icon-star" />
                     <i className="icon-star1_2" />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </SwiperSlide>

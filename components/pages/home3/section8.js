@@ -199,9 +199,9 @@ export default function Section8() {
 							</Swiper>
 							<div className="bot">
 								<p className="font-main-2">
-									Need For Free Consultation In Financial Solutions?
+									Need Consultation In Financial Solutions?
 								</p>
-								<Link href="/">
+								<Link href="/contact">
 									Get A Quote
 								</Link>
 							</div>

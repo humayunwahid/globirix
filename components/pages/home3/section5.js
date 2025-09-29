@@ -20,7 +20,7 @@ export default function Section5() {
 									On-Demand Accounting Experts to <span>Support Your Growth</span>
 								</p>
 
-								<p className="text mb-30">
+								<p className="text mb-30 ">
 									Scale your accounting team without the cost of permanent hiring. Choose the engagement model that fits your business
 								</p>
 
@@ -92,7 +92,7 @@ export default function Section5() {
 								<Link href="/#" className="title fw-7">
 									Part-Time Resource
 								</Link>
-								<p className="text">
+								<p className="text justify-content">
 									Flexible support for a few hours a week or month. Perfect for startups, SMEs, and businesses needing light but consistent assistance.
 								</p>
 								{/* <Link href="/our-service" className="tf-btn-readmore style-3">
@@ -108,7 +108,7 @@ export default function Section5() {
 								<Link href="/#" className="title fw-7">
 									Full-Time Resource
 								</Link>
-								<p className="text">
+								<p className="text justify-content">
 									A dedicated professional working exclusively for you. Get the benefits of an in-house accountant without payroll, benefits, or overhead costs.
 								</p>
 								{/* <Link href="/our-service" className="tf-btn-readmore style-3">
@@ -124,7 +124,7 @@ export default function Section5() {
 								<Link href="/#" className="title fw-7">
 									Project-Based Resource
 								</Link>
-								<p className="text">
+								<p className="text justify-content">
 									Specialized expertise for one-off assignments. Ideal for audits, financial modeling, ERP migration, compliance, or short-term projects.
 								</p>
 								{/* <Link href="/our-service" className="tf-btn-readmore style-3">

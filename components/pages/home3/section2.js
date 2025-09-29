@@ -66,7 +66,7 @@ export default function Section2() {
 										Are
 									</span>
 								</p>
-								<p className="text mb-40">
+								<p className="text mb-40 justify-content">
 									We are a trusted Accounting Outsourcing Partner, helping businesses streamline their finance functions through cost-effective, technology-driven, and reliable solutions. Our mission is to enable organizations to focus on growth while we ensure their financial operations run with accuracy, compliance, and efficiency.
 								</p>
 								{/* <div className="experience mb-40">
@@ -92,7 +92,7 @@ export default function Section2() {
 										</p>
 									</div>
 								</div> */}
-								<p className="text mb-40">
+								<p className="text mb-40 justify-content">
 Our company established with the vision of delivering world-class accounting and financial services, our company caters to startups, SMEs, and large enterprises across industries. We provide tailored outsourcing solutions — from bookkeeping and payroll to tax compliance, financial reporting, and CFO advisory.								</p>
 								<div className="bot">
 									<Link href="/about-us" className="tf-btn style-15 text-anime-style-1">
