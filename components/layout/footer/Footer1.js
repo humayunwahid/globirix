@@ -13,6 +13,13 @@ export default function Footer1() {
 	const [isAccordion3, setIsAccordion3] = useState(0)
 	const [isDesktop, setIsDesktop] = useState(false)
 
+	// 🟩 WhatsApp config — edit these as needed
+	const whatsappPhone = '923442140971' // Pakistan office (+92 344 214 0971) no + or spaces
+	const whatsappMessage = "Hello! I'm visiting your website and would like to chat."
+
+	 // 🟩 Build wa.me deep link
+  	const waHref = `https://wa.me/${whatsappPhone}?text=${encodeURIComponent(whatsappMessage)}`
+
 	useEffect(() => {
 		const handleResize = () => {
 			setIsDesktop(window.innerWidth >= 768)
@@ -211,6 +218,26 @@ export default function Footer1() {
 						</div>
 					</div>
 				</div>
+
+				{/* 🟩 Floating WhatsApp Button */}
+        {/* 🟩 Floating WhatsApp Button */}
+<Link
+  href={waHref}
+  aria-label="Chat on WhatsApp"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="wa-fab"
+>
+  <Image
+    src="/images/WhatsApp.webp"   // place WhatsApp.svg in /public
+    alt="WhatsApp"
+    width={28}
+    height={28}
+    className="wa-icon"
+  />
+</Link>
+
+
 			</footer>
 
 		</>
