@@ -12,7 +12,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 						<div className="col-lg-12">
 							<div className="topbar-inner">
 
-								<div className="tf-marquee slider-saylo">
+								{/* <div className="tf-marquee slider-saylo">
 									<div className="wrap-marquee">
 										<div className="marquee-item">
 											<p className="font-main-4 text">
@@ -52,51 +52,51 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 										</div>
 
 									</div>
-								</div>
+								</div> */}
 
-								{/* <div className="topbar-left">
+								<div className="topbar-left">
 									<div className="icon">
 										<i className="flaticon-tag" />
 									</div>
-									<p>WELCOME TO GLOBIRIX</p>
-								</div> */}
-								{/* <div className="topbar-right">
+									<p>Welcome to Globirix : Flexible Resource Outsourcing for Every Business</p>
+								</div>
+								<div className="topbar-right">
 									<ul className="infor-list">
-										<li>
+										{/* <li>
 											<div className="icon">
 												<i className="flaticon-open-mail" />
 											</div>
 											<Link href="mailto:info@globirix.com">
 												info@globirix.com
 											</Link>
-										</li>
-										<li>
+										</li> */}
+										{/* <li>
 											<div className="icon">
 												<i className="flaticon-opportunity" /> 
 											</div>
 											<Link href="/career">
 												Current Job Openings
 											</Link>
-										</li>
+										</li> */}
 										<li>
 											<div className="icon">
 												<i className="flaticon-phone-call" />
 											</div>
 											<p>
-												Phone No :<Link href="/tel:+00012345688"> +000 (123) 456 88
+												WhatsApp :<Link href="https://api.whatsapp.com/send/?phone=923442140971&text=Hello%21+I%27m+visiting+your+website+and+would+like+to+chat.&type=phone_number&app_absent=0"> +92 344 214 0971
 												</Link>
 											</p>
 										</li>
-										<li>
-											<div className="icon">
-												<i className="flaticon-clock" />
-											</div>
-											<a>
-												Working Hours : 08am - 05pm
-											</a>
-										</li>
+											{/* <li>
+												<div className="icon">
+													<i className="flaticon-clock" />
+												</div>
+												<a>
+													Working Hours : 08am - 05pm
+												</a>
+											</li> */}
 									</ul>
-								</div> */}
+								</div>
 							</div>
 						</div>
 					</div>
