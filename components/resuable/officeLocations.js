@@ -18,7 +18,7 @@ export default function OfficeLocations() {
 												height="0"
 												sizes="100vw"
 												style={{ width: "100%", height: "auto" }}
-												src="/images/widget/office-1.webp" data-src="/images/widget/office-1.jpg" className="lazyload" alt="" />
+												src="/images/flags/pakistan.png" data-src="/images/flags/pakistan.png" className="lazyload" alt="" />
 										</div>
 									</div>
 									<h3>
@@ -34,7 +34,7 @@ export default function OfficeLocations() {
 									<ul className="contact-infor-list style-2">
 										<li>
 											<Link href="https://maps.google.com/?q=55MainRoad,MelbourneAustralia" className="infor" target="_blank">
-												55 Main Road, Melbourne
+												Building A Plot 112 Sector 15 Korangi industrial area Karachi
 											</Link>
 										</li>
 										<li>
@@ -44,7 +44,7 @@ export default function OfficeLocations() {
 										</li>
 										<li>
 											<Link href="/tel:0123456789" className="infor">
-												+000 (123) 456 888
+												00923442140971
 											</Link>
 										</li>
 									</ul>
@@ -57,7 +57,7 @@ export default function OfficeLocations() {
 												height="0"
 												sizes="100vw"
 												style={{ width: "100%", height: "auto" }}
-												src="/images/widget/office-2.webp" data-src="/images/widget/office-2.jpg" className="lazyload" alt="" />
+												src="/images/flags/canada.png" data-src="/images/flags/canada.png" className="lazyload" alt="" />
 										</div>
 									</div>
 									<h3>
@@ -73,7 +73,7 @@ export default function OfficeLocations() {
 									<ul className="contact-infor-list style-2">
 										<li>
 											<Link href="https://maps.google.com/?q=28ValenciaStreet,NewYork" className="infor" target="_blank">
-												28 Valencia Street
+												43 Main St S Unit 4C, Milton, ON L0P 1B0
 											</Link>
 										</li>
 										<li>
@@ -83,7 +83,7 @@ export default function OfficeLocations() {
 										</li>
 										<li>
 											<Link href="/tel:0123456789" className="infor">
-												+000 (123) 456 888
+												+19055149059
 											</Link>
 										</li>
 									</ul>
@@ -96,7 +96,7 @@ export default function OfficeLocations() {
 												height="0"
 												sizes="100vw"
 												style={{ width: "100%", height: "auto" }}
-												src="/images/widget/office-3.webp" data-src="/images/widget/office-3.jpg" className="lazyload" alt="" />
+												src="/images/flags/usa.png" data-src="/images/flags/usa.png" className="lazyload" alt="" />
 										</div>
 									</div>
 									<h3>
@@ -109,7 +109,9 @@ export default function OfficeLocations() {
 										step of the way ensuring
 									</p>
 									<span className="line" />
-									<ul className="contact-infor-list style-2">
+
+									<h3>Coming Soon</h3>
+									{/* <ul className="contact-infor-list style-2">
 										<li>
 											<Link href="https://maps.google.com/?q=116Royalln,e-block,STroadLondon" className="infor" target="_blank">
 												116 Royal ln, e-block, ST road
@@ -125,7 +127,7 @@ export default function OfficeLocations() {
 												+000 (123) 456 888
 											</Link>
 										</li>
-									</ul>
+									</ul> */}
 								</div>
 
                                 <div className="wg-office tf-hover">
@@ -136,7 +138,7 @@ export default function OfficeLocations() {
 												height="0"
 												sizes="100vw"
 												style={{ width: "100%", height: "auto" }}
-												src="/images/widget/office-1.webp" data-src="/images/widget/office-3.jpg" className="lazyload" alt="" />
+												src="/images/flags/australia.png" data-src="/images/flags/australia.png" className="lazyload" alt="" />
 										</div>
 									</div>
 									<h3>
@@ -149,7 +151,8 @@ export default function OfficeLocations() {
 										step of the way ensuring
 									</p>
 									<span className="line" />
-									<ul className="contact-infor-list style-2">
+									<h3>Coming Soon</h3>
+									{/* <ul className="contact-infor-list style-2">
 										<li>
 											<Link href="https://maps.google.com/?q=116Royalln,e-block,STroadLondon" className="infor" target="_blank">
 												116 Royal ln, e-block, ST road
@@ -165,7 +168,7 @@ export default function OfficeLocations() {
 												+000 (123) 456 888
 											</Link>
 										</li>
-									</ul>
+									</ul> */}
 								</div>
 
 							</div>
