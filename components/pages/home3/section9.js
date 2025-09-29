@@ -21,7 +21,7 @@ export default function Section9() {
 						style={{ width: "100%", height: "auto" }}
 						src="/images/section/services.webp" data-src="/images/section/services.webp" alt="" className="lazyload" />
 				</div>
-				<div className="content-wrap">
+				<div className="content-wrap ">
 					<div className="content-left">
 						<p className="s-sub-title text-white mb-15">
 							<i className="icon-angles-right moveLeftToRight" />

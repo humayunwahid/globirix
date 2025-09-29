@@ -165,7 +165,7 @@ video {
 	outline: 0;
 	font: inherit;
 	vertical-align: baseline;
-	font-family: inherit;
+	font-family: "PwC Helvetica Neue",Arial,sans-serif;
 	font-size: 100%;
 	font-style: inherit;
 	font-weight: inherit;
@@ -305,6 +305,10 @@ p {
 	font-size: 20px;
 	line-height: 30px;
 	letter-spacing: 0px;
+}
+
+.justify-content{
+    text-align: justify;
 }
 
 strong,
@@ -1144,7 +1148,7 @@ a.hover-text-main-golden:hover {
 	align-items: center;
 	justify-content: space-between;
 	border-bottom: 1px solid var(--Border);
-	padding: 15px 11px 16px 0px;
+	padding: 10px 11px 10px 0px;
 }
 
 .topbar-inner i {
@@ -5188,7 +5192,7 @@ fieldset {
 }
 
 .tf-accordion-type-3 .accordion-body {
-	padding: 54px 0px 42px 99px;
+	padding: 54px 50px 42px 99px;
 	max-width: 750px;
 	width: 100%;
 }
@@ -7078,7 +7082,8 @@ a.mapboxgl-ctrl-logo {
 	display: -webkit-flex;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	/* justify-content: space-between; */
+	justify-content: center;
 }
 
 .wg-testimonial.style-4 .bot span {
@@ -9656,6 +9661,7 @@ a.mapboxgl-ctrl-logo {
 
 .s-title.text-white-yellow span {
 	color: var(--Main-yellow-2);
+	margin-left: 0px !important;
 }
 
 .s-title.text-main-green-3 {
@@ -10011,7 +10017,8 @@ a.mapboxgl-ctrl-logo {
 }
 
 .page-title-home-1 {
-	background-color: var(--Main-dark-blue);
+	/* background-color: var(--Main-dark-blue); */
+	 background-color: white;
 	padding-top: 60px;
 	padding-bottom: 50px;
 }
@@ -11756,7 +11763,7 @@ a.mapboxgl-ctrl-logo {
 }
 
 .s-feedback-3 {
-	background-color: var(--Main-gray-4);
+	background-color: var(--Main-dark-blue);
 }
 
 .s-about {
@@ -16372,3 +16379,23 @@ color:  var(--Main-dark-blue);
           visibility: visible;
           bottom: calc(100% + 10px);
         } */
+
+
+		.topbar-inner .slider-saylo p {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 10px;
+    white-space: nowrap;
+    color: white;
+}
+
+.s-title span {
+    margin-left: 1rem !important;
+}
+.bg-gray{
+	background-color: var(--Main-dark-blue) !important;
+}
+
+.slider-saylo .gray p{
+	color: #00000021 !important;
+}

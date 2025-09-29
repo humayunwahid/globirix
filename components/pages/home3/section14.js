@@ -18,10 +18,10 @@ export default function Section14() {
                             <div className="content">
                                 <p className="s-sub-title mb-18 justify-center">
                                     <i className="icon-angles-right moveLeftToRight" />
-                                    Methodology
+                                    Models
                                 </p>
                                 <p className="s-title text-center text-anime-wave">
-                                    Our Service Methodology
+                                    Our Service Models
                                 </p>
                                 <p className="mb-70 text-center mt-2">We offer three flexible engagement models so you can choose the approach that best fits your needs!</p>
                                 <div className="tf-accordion-type-3 accordion" id="accordionExample">
@@ -42,7 +42,7 @@ export default function Section14() {
                                                 <p className="title">
                                                     Rent-a-Resource
                                                 </p>
-                                                <p className="text mb-25 tf-fade-item fade-1">
+                                                <p className="text mb-25 tf-fade-item fade-1 justify-content">
                                                     Hire a dedicated accounting professional who integrates directly into your team. We help you identify and onboard the right resource — whether for bookkeeping, payroll, financial reporting, or compliance — ensuring they are the best fit for your business.                                                </p>
                                                 <p><strong>Best for:</strong> Businesses seeking <strong>long-term, dedicated professionals </strong>with flexibility to scale as needed.</p>
                                             </div>
@@ -76,7 +76,7 @@ export default function Section14() {
                                                 <p className="title">
                                                     Delivery-Based Services
                                                 </p>
-                                                <p className="text mb-25 tf-fade-item fade-1">
+                                                <p className="text mb-25 tf-fade-item fade-1 justify-content">
                                                     Let our team handle specific accounting and finance deliverables for you. From end-to-end bookkeeping and financial statements to management reporting, budgeting, and compliance, we deliver accurate results on time.
                                                 </p>
                                                 <p><strong>Best for:</strong> Businesses looking for <strong>project-based or outcome-focused support </strong>without hiring additional staff.</p>
@@ -111,10 +111,10 @@ export default function Section14() {
                                                 <p className="title">
                                                     Hire-a-Resource
                                                 </p>
-                                                <p className="text mb-25 tf-fade-item fade-1">
+                                                <p className="text mb-25 tf-fade-item fade-1 justify-content">
                                                     Empower your team with top-tier accounting talent — without the hassle of long hiring cycles. Our Hire-a-Resource service connects you with skilled professionals who seamlessly integrate into your operations. Whether you need support in bookkeeping, payroll, financial reporting, or regulatory compliance, we’ll match you with the right resource tailored to your specific business needs.
                                                 </p>
-                                                <p className="text mb-25 tf-fade-item fade-1">
+                                                <p className="text mb-25 tf-fade-item fade-1 justify-content">
                                                     We manage the sourcing, vetting, and onboarding, so you can stay focused on growing your business. Our professionals work under your direction while we take care of administrative details, ensuring you get the expertise you need, when you need it.
                                                 </p>
                                                 <p><strong>Best for:</strong> Businesses looking for <strong>dedicated, long-term support</strong> with the flexibility to scale resources up or down as needs evolve.</p>

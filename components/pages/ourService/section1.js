@@ -28,7 +28,7 @@ export default function Section1() {
             </Link>
             <span className="line mb-30" />
             <p className="text">
-              We handle everything from end-to-end bookkeeping to financial statements, management reporting, and budgeting. We ensure compliance with both local and international accounting standards.
+              We handle end-to-end bookkeeping to financial statements, management reporting, and budgeting. We ensure compliance with both local and international accounting standards.
             </p>
           </div>
 
