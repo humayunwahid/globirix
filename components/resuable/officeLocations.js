@@ -96,9 +96,9 @@ export default function OfficeLocations() {
 												height="0"
 												sizes="100vw"
 												style={{ width: "100%", height: "auto" }}
-												src="/images/flags/usa.png" data-src="/images/flags/usa.png" className="lazyload" alt="" />
+												src="/images/flags/USA.png" data-src="/images/flags/USA.png" className="lazyload" alt="" />
 										</div>
-									</div>
+									</div> 
 									<h3>
 										<Link href="/#" className="name">
 											USA Office
