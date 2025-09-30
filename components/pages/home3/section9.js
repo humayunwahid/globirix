@@ -12,13 +12,13 @@ export default function Section9() {
 	return (
 		<>
 
-			<section className="s-faq tf-spacing-2 mb-100">
+			<section className="s-faq tf-spacing-2 mb-100 services-offered">
 				<div className="image">
 					<Image
 						width="0"
 						height="0"
 						sizes="100vw"
-						style={{ width: "100%", height: "auto" }}
+						style={{ width: "100%" }}
 						src="/images/section/services.webp" data-src="/images/section/services.webp" alt="" className="lazyload" />
 				</div>
 				<div className="content-wrap ">
@@ -27,7 +27,7 @@ export default function Section9() {
 							<i className="icon-angles-right moveLeftToRight" />
 							Services Offered
 						</p>
-						<p className="s-title text-white mb-30 text-anime-wave">
+						<p className="s-title text-white mb-30 text-anime-wave font-[38px]">
 							Our Key Services
 							<span>
 								To Empower Your Business
@@ -35,7 +35,7 @@ export default function Section9() {
 						</p>
 						<p className="text text-white mb-40">
 							We provide flexible accounting and financial outsourcing solutions designed to streamline operations, ensure compliance, and support strategic decision-making. You can either <b>hire a dedicated professional through our Rent-a-Resource model </b>or rely on us to <b>deliver full-service outsourcing </b>— whichever best fits your needs.						</p>
-						<Link href="/" className="tf-btn style-15 type-2 small text-anime-style-1">
+						<Link href="/contact" className="tf-btn style-15 type-2 small text-anime-style-1">
 							Get A Quote
 							<i className="icon-chevron-right" />
 						</Link>

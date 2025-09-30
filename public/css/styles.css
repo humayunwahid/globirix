@@ -13274,11 +13274,13 @@ a.mapboxgl-ctrl-logo {
 		top: 0;
 		bottom: 0;
 	}
-
+/* 
 	.s-faq .content-wrap {
 		flex-wrap: wrap;
-	}
+	} */
 }
+
+
 
 @media (max-width: 1439px) {
 	.popular-wrap {
@@ -16422,3 +16424,36 @@ color:  var(--Main-dark-blue);
   .wa-label { font-weight: 600; }
   @media (max-width: 420px) { .wa-label { display: none; } }
   @media (prefers-reduced-motion: reduce) { .wa-fab { transition: none; } }
+
+
+  .services-offered .s-title{
+	    font-size: 35px !important;
+    line-height: 44px !important;
+  }
+
+  .blog-content p {
+    margin: 20px 0px;
+}
+
+.blog-content ul li {
+    font-size: 16px;        /* Set font size */
+    color: #333;            /* Set text color */
+    margin-left: 20px;     /* Add padding to the left of the list item */
+    margin-bottom: 10px;    /* Space between list items */
+    list-style-type: disc;  /* Default bullet points */
+}
+
+/* Additional style example: */
+.blog-content ul li a {
+    color: #007bff;         /* Set link color */
+    text-decoration: none;  /* Remove underline from links */
+}
+
+.blog-content ul li a:hover {
+    text-decoration: underline;  /* Underline links when hovered */
+}
+.blog-content h2 {
+    margin: 20px 0px;
+    font-size: 25px;
+    font-weight: 800;
+}
