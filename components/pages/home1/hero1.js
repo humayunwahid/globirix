@@ -38,7 +38,7 @@ export default function Hero1() {
           <div className="tf-container w-1780">
             <div className="row">
               {/* Left Content */}
-              <div className="col-lg-6">
+              <div className="col-lg-7">
                 <div className="content bg-gray">
                   <p className="s-sub-title text-white ">
                     <i className="icon-angles-right moveLeftToRight" />
@@ -88,8 +88,8 @@ export default function Hero1() {
               </div>
 
               {/* Right Side Video with Fallback */}
-              <div className="col-lg-6">
-                <div className="video-wrap">
+              <div className="col-lg-5">
+                <div className="  ">
                   <video
                     ref={videoRef}
                     autoPlay
