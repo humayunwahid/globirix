@@ -67,34 +67,35 @@ export default function Footer1() {
 									<div className="swiper-wrapper">
 										<SwiperSlide>
 											<div className="box-cta wow fadeInUp" data-wow-delay="0s">
-												<p className="caption font-main-2 ">Become a Team Member?</p>
-												<p className="mb-20">We are always looking for talented Member</p>
-												<Link href="/rent-a-resource?tab=2" className="tf-btn style-10 small">
-													Get Started
-													<i className="icon-chevron-right" />
-												</Link>
-											</div>
-										</SwiperSlide>
-										<SwiperSlide>
-											<div className="box-cta wow fadeInUp" data-wow-delay="0.1s">
-												<p className="caption font-main-2">Need Quality Consultations?</p>
-												<p className="mb-20">We are always looking for talented Member</p>
-												<Link href="/contact" className="tf-btn style-10 small">
-													Get Consultation
+												<p className="caption font-main-2 ">Build Your Careers With Us!</p>
+												<p className="mb-20 mt-2">Explore exciting career opportunities and become part of our growing team of financial experts.</p>
+												<Link href="/career" className="tf-btn style-10 small">
+													Apply Now
 													<i className="icon-chevron-right" />
 												</Link>
 											</div>
 										</SwiperSlide>
 										<SwiperSlide>
 											<div className="box-cta wow fadeInUp" data-wow-delay="0.2s">
-												<p className="caption font-main-2">Are You Looking For A Jobs?</p>
-												<p className="mb-20">We are always looking for talented Member</p>
-												<Link href="/career" className="tf-btn style-10 small">
-													Join With Us
+												<p className="caption font-main-2">Need to Hire Top Talent?</p>
+												<p className="mb-20 mt-2">Find specialized, vetted professionals for temporary or permanent placement to ensure the right fit for your team.</p>
+												<Link href="/rent-a-resource?tab=2" className="tf-btn style-10 small">
+													Start Your Search
 													<i className="icon-chevron-right" />
 												</Link>
 											</div>
 										</SwiperSlide>
+										<SwiperSlide>
+											<div className="box-cta wow fadeInUp" data-wow-delay="0.1s">
+												<p className="caption font-main-2">Ready for Expert Guidance?</p>
+												<p className="mb-20 mt-2">Schedule a free consultation to discuss your specific accounting, compliance, or ERP challenges with our specialists.</p>
+												<Link href="/contact" className="tf-btn style-10 small">
+													Book a Consultation
+													<i className="icon-chevron-right" />
+												</Link>
+											</div>
+										</SwiperSlide>
+										
 									</div>
 									<div className="tf-pagination style-3 carousel-pagination swiper-pagination">
 									</div>

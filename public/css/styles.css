@@ -16457,3 +16457,7 @@ color:  var(--Main-dark-blue);
     font-size: 25px;
     font-weight: 800;
 }
+
+section.s-blog-details {
+    margin-top: -60px;
+}

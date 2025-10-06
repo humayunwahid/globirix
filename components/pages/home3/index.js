@@ -20,6 +20,7 @@ import Platforms from "@/components/resuable/platforms"
 import ToggleForms from "@/components/resuable/toggleForms"
 import UniquePositioned from "./uniquePositioned"
 import RecentBlogs from "@/components/resuable/recentBlogs"
+import Clients from "@/components/resuable/clients"
 
 export default function Home3() {
 
@@ -45,7 +46,7 @@ export default function Home3() {
 			<Section8 />
 			
 			<Section10 />
-			<Section11 />
+			<Clients />
 			<RecentBlogs/>
 			{/* <Section12 /> */}
 			{/* <OfficeLocations/> */}

@@ -207,3 +207,22 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
     content: "\f13b";
 }
 
+/* Example: Adding more custom icons */
+.flaticon-collaboration:before {
+    content: "\f13c"; /* pick a unique Unicode for each new icon */
+}
+.flaticon-innovation:before {
+    content: "\f13d";
+}
+.flaticon-analytics:before {
+    content: "\f13e";
+}
+.flaticon-growth:before {
+    content: "\f13f";
+}
+.flaticon-compliance:before {
+    content: "\f140";
+}
+.flaticon-security:before {
+    content: "\f141"; /* assign a new unique Unicode value */
+}
