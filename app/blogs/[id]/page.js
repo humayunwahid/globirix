@@ -27,7 +27,8 @@ export default async function Blogs({ params }) {
 
 
   return (
-    <Layout breadcrumbAlt={1} blogTitle={postData.title}>
+    // <Layout breadcrumbAlt={1} blogTitle={postData.title}>
+  <Layout>
       {postData ? (
         <BlogDetails blogData={postData} />
      

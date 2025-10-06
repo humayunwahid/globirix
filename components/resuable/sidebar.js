@@ -137,8 +137,8 @@ const Sidebar = () => {
       <div className="sb-item sb-contact">
         <div className="sb-content">
           <p className="s-title style-2 mb-30 text-anime-wave">
-            Ready to Get Free <br />
-            <span>Consultation ?</span>
+            Ready to Book Your Free 
+            Consultation?
           </p>
           <form action="#" className="form-contact bg-transparent style-3">
             <div className="cols mb-10">

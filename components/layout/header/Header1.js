@@ -132,7 +132,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 										Rent a Resource
 										<i className="icon-chevron-right" />
 									</Link>
-									<Link href="/rent-a-resource?tab=2" className="tf-btn2 small">
+									<Link href="/join-our-team?tab=2" className="tf-btn2 small">
 										Join Our Team
 										<i className="icon-chevron-right" />
 									</Link>
