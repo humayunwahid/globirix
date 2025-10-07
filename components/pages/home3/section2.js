@@ -67,8 +67,7 @@ export default function Section2() {
 									</span>
 								</p>
 								<p className="text mb-40 justify-content">
-									We are a trusted Accounting Outsourcing Partner, helping businesses streamline their finance functions through cost-effective, technology-driven, and reliable solutions. Our mission is to enable organizations to focus on growth while we ensure their financial operations run with accuracy, compliance, and efficiency.
-								</p>
+Established in Pakistan with the vision of delivering world-class outsourcing solutions in accounting and finance, our company caters to startups, SMEs, and large enterprises across industries. We specialize in providing end-to-end outsourced services — from bookkeeping and payroll to tax compliance, financial reporting, and CFO advisory — allowing businesses to focus on growth while we manage their financial needs with precision and care.								</p>
 								{/* <div className="experience mb-40">
 									<div className="counter-wrap style-3">
 										<div className="wg-counter style-2 type-2">
@@ -93,7 +92,11 @@ export default function Section2() {
 									</div>
 								</div> */}
 								<p className="text mb-40 justify-content">
-Our company established with the vision of delivering world-class accounting and financial services, our company caters to startups, SMEs, and large enterprises across industries. We provide tailored outsourcing solutions — from bookkeeping and payroll to tax compliance, financial reporting, and CFO advisory.								</p>
+Our strength lies in a team of highly qualified professionals led by our founder, Naveed Arif, a Fellow Chartered Accountant (FCA) from the Institute of Chartered Accountants of Pakistan, with over 15 years of extensive experience in the field of finance. Under his leadership, we bring deep expertise, strategic insights, and a commitment to excellence.
+</p>
+
+<p className="text mb-40 justify-content">
+Today, we proudly serve clients in Canada, the Middle East, and the United States of America, while expanding our outsourcing services to other countries worldwide. To further enhance our global presence, we collaborate with partners across multiple regions — all qualified accountants with vast international experience. Together, we deliver outsourced financial solutions that combine global expertise, local insights, and uncompromising quality.</p>
 								<div className="bot">
 									<Link href="/about-us" className="tf-btn style-15 text-anime-style-1">
 										Learn More About Us

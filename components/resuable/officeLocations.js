@@ -9,7 +9,19 @@ export default function OfficeLocations() {
 				<div className="tf-container">
 					<div className="row">
 						<div className="col-lg-12">
+							{/* <p class="s-sub-title text-center "><i class="icon-angles-right moveLeftToRight"></i>Resource Outsourcing Firm</p> */}
+							{/* <p className="text-center mb-15 s-sub-title">
+										Our team is ready to assist you every 
+										step of the way ensuring
+									</p> */}
+									{/* <h2 class="name text-center mb-50 text-anime-wave font-[38px] ">
+									
+										Our Team <span>is ready to assist you</span>
+								
+									</h2> */}
+									<p class="s-title text-center mb-50 text-anime-wave font-[10px]">Our Team <span>is ready to assist you</span></p>
 							<div className="content">
+								
 								<div className="wg-office tf-hover">
 									<div className="entry-image hover-1 wow zoomIn">
 										<div className="image">
@@ -26,10 +38,10 @@ export default function OfficeLocations() {
 											Pakistan Office
 										</Link>
 									</h3>
-									<p className="sub">
+									{/* <p className="sub">
 										Our team is ready to assist you every <br />
 										step of the way ensuring
-									</p>
+									</p> */}
 									<span className="line" />
 									<ul className="contact-infor-list style-2">
 										<li>
@@ -65,10 +77,10 @@ export default function OfficeLocations() {
 											Canada Office
 										</Link>
 									</h3>
-									<p className="sub">
+									{/* <p className="sub">
 										Our team is ready to assist you every <br />
 										step of the way ensuring
-									</p>
+									</p> */}
 									<span className="line" />
 									<ul className="contact-infor-list style-2">
 										<li>
@@ -104,10 +116,10 @@ export default function OfficeLocations() {
 											USA Office
 										</Link>
 									</h3>
-									<p className="sub">
+									{/* <p className="sub">
 										Our team is ready to assist you every <br />
 										step of the way ensuring
-									</p>
+									</p> */}
 									<span className="line" />
 
 									<h3>Coming Soon</h3>
@@ -146,10 +158,10 @@ export default function OfficeLocations() {
 											Australia Office
 										</Link>
 									</h3>
-									<p className="sub">
+									{/* <p className="sub">
 										Our team is ready to assist you every <br />
 										step of the way ensuring
-									</p>
+									</p> */}
 									<span className="line" />
 									<h3>Coming Soon</h3>
 									{/* <ul className="contact-infor-list style-2">
