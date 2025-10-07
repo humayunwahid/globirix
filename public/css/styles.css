@@ -10386,8 +10386,8 @@ a.mapboxgl-ctrl-logo {
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-	justify-content: space-between;
-	gap: 30px;
+	/* justify-content: space-between; */
+	gap: 50px;
 }
 
 .s-about-company .list li:not(:last-child) {
@@ -10400,7 +10400,7 @@ a.mapboxgl-ctrl-logo {
 }
 
 .s-about-company .list .text {
-	max-width: 351px;
+	/* max-width: 351px; */
 	width: 100%;
 }
 

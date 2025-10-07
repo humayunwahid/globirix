@@ -31,7 +31,7 @@ export default function Section2() {
 											src="/images/section/about-4.webp" data-src="/images/section/about-4.jpg" alt="" className="lazyload" />
 									</div>
 								</div>
-								<div className="image s3 tf-hover">
+								{/* <div className="image s3 tf-hover">
 									<div className="hover-1">
 										<Image
 											width="0"
@@ -40,7 +40,7 @@ export default function Section2() {
 											style={{ width: "100%", height: "auto" }}
 											src="/images/section/about-5.webp" data-src="/images/section/about-5.jpg" alt="" className="lazyload" />
 									</div>
-								</div>
+								</div> */}
 								{/* <div className="wg-curve-text style-3 tf-animate__box-2 animate__slow">
 									<div className="icon">
 										
@@ -109,7 +109,7 @@ Today, we proudly serve clients in Canada, the Middle East, and the United State
 												height="0"
 												sizes="100vw"
 												style={{ width: "100%", height: "auto" }}
-												src="/images/avatar/entry-author.webp" alt="" />
+												src="/images/avatar/team/ceo.jpg" alt="" />
 										</div>
 										<div className="infor">
 											<Link href="/#" className="name">

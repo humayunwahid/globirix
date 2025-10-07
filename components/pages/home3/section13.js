@@ -9,7 +9,7 @@ export default function Section13() {
                 <div className="relative z-5">
                     <div className="tf-container">
                         <div className="row">
-                            <div className="col-lg-6">
+                            <div className="col-lg-12">
                                 <div className="content-section">
                                     <p className="s-sub-title">
                                         <i className="icon-angles-right moveLeftToRight" />
@@ -21,14 +21,6 @@ export default function Section13() {
                                     <ul className="list mb-50">
                                         <li>
                                             <p className="font-main-2">
-                                                Company Mission
-                                            </p>
-                                            <p className="text">
-                                            To empower businesses worldwide with <b>flexible financial talent and technology-driven accounting solutions.</b> Through our Rent-a-Resource model and end-to-end accounting services, we deliver clarity, compliance, and confidence — enabling clients to focus on growth while we safeguard accuracy, confidentiality, and trust.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p className="font-main-2">
                                                 Company Vision
                                             </p>
                                             <p className="text">
@@ -38,14 +30,23 @@ export default function Section13() {
   management, scale effortlessly, and achieve sustainable success with us by their side.
   </p>
                                         </li>
+                                        <li>
+                                            <p className="font-main-2">
+                                                Company Mission
+                                            </p>
+                                            <p className="text">
+                                            To empower businesses worldwide with <b>flexible financial talent and technology-driven accounting solutions.</b> Through our Rent-a-Resource model and end-to-end accounting services, we deliver clarity, compliance, and confidence — enabling clients to focus on growth while we safeguard accuracy, confidentiality, and trust.
+                                            </p>
+                                        </li>
+                                        
                                     </ul>
-                                    <Link href="/about-us" className="tf-btn">
+                                    {/* <Link href="/about-us" className="tf-btn">
                                         Learn More About Us
                                         <i className="icon-chevron-right" />
-                                    </Link>
+                                    </Link> */}
                                 </div>
                             </div>
-                            <div className="col-lg-5 offset-lg-1">
+                            {/* <div className="col-lg-5 offset-lg-1">
                                 <div className="image-wrap">
                                     <div className="image">
                                         <Image
@@ -58,11 +59,11 @@ export default function Section13() {
                                     <span className="half-circle item-1 wow rollInRight" />
                                     <span className="half-circle item-2 wow rollInRight" data-wow-delay="0.5s" />
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
-                <div className="tf-marquee slider-saylo style-2">
+                {/* <div className="tf-marquee slider-saylo style-2 mt-1">
                     <div className="wrap-marquee">
                         <div className="marquee-item">
                             <p className="font-main-2 text">
@@ -115,7 +116,7 @@ export default function Section13() {
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </section>
 
         </>

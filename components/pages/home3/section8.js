@@ -12,7 +12,8 @@ export default function Section8() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="heading mb-50">
-								<div >
+								
+								<div>
 									<p className="s-sub-title mb-15">
 										<i className="icon-angles-right moveLeftToRight" />
 										meet our advisors
@@ -24,54 +25,14 @@ export default function Section8() {
 										</span>
 									</p>
 								</div>
-								<Link href="/#" className="tf-btn style-14 text-anime-style-1">
+								{/* <Link href="/#" className="tf-btn style-14 text-anime-style-1">
 									View all Advisors
 									<i className="icon-chevron-right" />
-								</Link>
+								</Link> */}
 							</div>
 							<Swiper {...sliderOurAdvisor} className="swiper-container mb-50 slider-our-advisor">
 								<div className="swiper-wrapper">
-									<SwiperSlide>
-										<div className="card-guide tf-hover">
-											<div className="image hover-1 hover-14">
-												<Image
-													width="0"
-													height="0"
-													sizes="100vw"
-													style={{ width: "100%", height: "auto" }}
-													src="/images/avatar/team/ceo.jpg" data-src="/images/avatar/team/ceo.jpg" alt="" className=" lazyload" />
-											</div>
-											<div className="content">
-												<div className="icon style-circle">
-													<span> + </span>
-												</div>
-												<ul className="social-list w-h-45 style-4">
-													<li>
-														<Link href="/#">
-															<i className="icon-facebook" />
-														</Link>
-													</li>
-													<li>
-														<Link href="/#">
-															<i className="icon-twitter" />
-														</Link>
-													</li>
-													<li>
-														<Link href="/#">
-															<i className="icon-linkedin" />
-														</Link>
-													</li>
-													<li>
-														<Link href="/#">
-															<i className="icon-youtube" />
-														</Link>
-													</li>
-												</ul>
-												{/* <Link href="/" className="name"> Johnny S. Patterson </Link> */}
-												<p className="duty">IFRS / GAAP Expert</p>
-											</div>
-										</div>
-									</SwiperSlide>
+									
 									<SwiperSlide>
 										<div className="card-guide tf-hover">
 											<div className="image hover-1 hover-14">
@@ -109,7 +70,7 @@ export default function Section8() {
 													</li>
 												</ul>
 												{/* <Link href="/" className="name"> Andrew L. Lindsay </Link> */}
-												<p className="duty">Financial Reporting Expert</p>
+												<p className="duty">IFRS / GAAP Expert</p>
 											</div>
 										</div>
 									</SwiperSlide>
@@ -150,7 +111,7 @@ export default function Section8() {
 													</li>
 												</ul>
 												{/* <Link href="/" className="name"> Donald G. Carson </Link> */}
-												<p className="duty">Accounting Management</p>
+												<p className="duty">Financial Reporting Expert</p>
 											</div>
 										</div>
 									</SwiperSlide>
@@ -204,6 +165,48 @@ export default function Section8() {
 													height="0"
 													sizes="100vw"
 													style={{ width: "100%", height: "auto" }}
+													src="/images/avatar/team/4.webp" data-src="/images/avatar/team/4.webp" alt="" className=" lazyload" />
+											</div>
+											<div className="content">
+												<div className="icon style-circle">
+													<span> + </span>
+												</div>
+												<ul className="social-list w-h-45 style-4">
+													<li>
+														<Link href="/#">
+															<i className="icon-facebook" />
+														</Link>
+													</li>
+													<li>
+														<Link href="/#">
+															<i className="icon-twitter" />
+														</Link>
+													</li>
+													<li>
+														<Link href="/#">
+															<i className="icon-linkedin" />
+														</Link>
+													</li>
+													<li>
+														<Link href="/#">
+															<i className="icon-youtube" />
+														</Link>
+													</li>
+												</ul>
+												{/* <Link href="/" className="name"> Johnny S. Patterson </Link> */}
+												<p className="duty">Talent Management Expert</p>
+											</div>
+										</div>
+									</SwiperSlide>
+
+									<SwiperSlide>
+										<div className="card-guide tf-hover">
+											<div className="image hover-1 hover-14">
+												<Image
+													width="0"
+													height="0"
+													sizes="100vw"
+													style={{ width: "100%", height: "auto" }}
 													src="/images/avatar/team/5.jpg" data-src="/images/avatar/team/5.jpg" alt="" className=" lazyload" />
 											</div>
 											<div className="content">
@@ -233,7 +236,7 @@ export default function Section8() {
 													</li>
 												</ul>
 												{/* <Link href="/" className="name"> Chad V. Thompson </Link> */}
-												<p className="duty">Financial Planning & Analysis (FP&A) Professional</p>
+												<p className="duty">Finance Management</p>
 											</div>
 										</div>
 									</SwiperSlide>
