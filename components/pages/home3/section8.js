@@ -67,7 +67,7 @@ export default function Section8() {
 														</Link>
 													</li>
 												</ul>
-												<Link href="/" className="name"> Johnny S. Patterson </Link>
+												{/* <Link href="/" className="name"> Johnny S. Patterson </Link> */}
 												<p className="duty">IFRS / GAAP Expert</p>
 											</div>
 										</div>
@@ -108,7 +108,7 @@ export default function Section8() {
 														</Link>
 													</li>
 												</ul>
-												<Link href="/" className="name"> Andrew L. Lindsay </Link>
+												{/* <Link href="/" className="name"> Andrew L. Lindsay </Link> */}
 												<p className="duty">Financial Reporting Expert</p>
 											</div>
 										</div>
@@ -149,7 +149,7 @@ export default function Section8() {
 														</Link>
 													</li>
 												</ul>
-												<Link href="/" className="name"> Donald G. Carson </Link>
+												{/* <Link href="/" className="name"> Donald G. Carson </Link> */}
 												<p className="duty">Accounting Management</p>
 											</div>
 										</div>
@@ -190,7 +190,7 @@ export default function Section8() {
 														</Link>
 													</li>
 												</ul>
-												<Link href="/" className="name"> Chad V. Thompson </Link>
+												{/* <Link href="/" className="name"> Chad V. Thompson </Link> */}
 												<p className="duty">Taxation Consultant</p>
 											</div>
 										</div>
@@ -232,7 +232,7 @@ export default function Section8() {
 														</Link>
 													</li>
 												</ul>
-												<Link href="/" className="name"> Chad V. Thompson </Link>
+												{/* <Link href="/" className="name"> Chad V. Thompson </Link> */}
 												<p className="duty">Financial Planning & Analysis (FP&A) Professional</p>
 											</div>
 										</div>
