@@ -26,22 +26,22 @@ export default function BoxWelcome({ handleWelcomeBox, isWelcomeBox }) {
 						<ul className="contact-list mb-20">
 							<li>
 								<p>
-									Address: <Link href="https://www.google.com/maps?q=55East10thStreet,NewYork,NY10003,UnitedStates" target="_blank">
-										55 East 10th Street, New York, NY 10003, United States
+									Address: <Link href="https://maps.app.goo.gl/GhZYrVgufzAVBBZ49" target="_blank">
+										Building A Plot 112 Sector 15 Korangi industrial area Karachi
 									</Link>
 								</p>
 							</li>
 							<li>
 								<p>
 									Email: <Link href="mailto:info@globirix.com">
-										info@globirix.com
+										contact@globirix.com
 									</Link>
 								</p>
 							</li>
 							<li>
 								<p>
-									Call: <Link href="/tel:+00012345688">
-										+000 (123) 456 88
+									Call: <Link href="/tel:+923248259013">
+										+92 324 825 9013
 									</Link>
 								</p>
 							</li>

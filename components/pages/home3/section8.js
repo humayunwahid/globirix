@@ -39,7 +39,7 @@ export default function Section8() {
 													height="0"
 													sizes="100vw"
 													style={{ width: "100%", height: "auto" }}
-													src="/images/avatar/team-guide-1.webp" data-src="/images/avatar/team-guide-1.jpg" alt="" className=" lazyload" />
+													src="/images/avatar/team/ceo.jpg" data-src="/images/avatar/team/ceo.jpg" alt="" className=" lazyload" />
 											</div>
 											<div className="content">
 												<div className="icon style-circle">
@@ -68,7 +68,7 @@ export default function Section8() {
 													</li>
 												</ul>
 												<Link href="/" className="name"> Johnny S. Patterson </Link>
-												<p className="duty">Business Consultant</p>
+												<p className="duty">IFRS / GAAP Expert</p>
 											</div>
 										</div>
 									</SwiperSlide>
@@ -80,7 +80,7 @@ export default function Section8() {
 													height="0"
 													sizes="100vw"
 													style={{ width: "100%", height: "auto" }}
-													src="/images/avatar/team-guide-2.webp" data-src="/images/avatar/team-guide-2.jpg" alt="" className=" lazyload" />
+													src="/images/avatar/team/1.jpg" data-src="/images/avatar/team/1.jpg" alt="" className=" lazyload" />
 											</div>
 											<div className="content">
 												<div className="icon style-circle">
@@ -109,7 +109,7 @@ export default function Section8() {
 													</li>
 												</ul>
 												<Link href="/" className="name"> Andrew L. Lindsay </Link>
-												<p className="duty">Finance Consultant</p>
+												<p className="duty">Financial Reporting Expert</p>
 											</div>
 										</div>
 									</SwiperSlide>
@@ -121,7 +121,7 @@ export default function Section8() {
 													height="0"
 													sizes="100vw"
 													style={{ width: "100%", height: "auto" }}
-													src="/images/avatar/team-guide-3.webp" data-src="/images/avatar/team-guide-3.jpg" alt="" className=" lazyload" />
+													src="/images/avatar/team/2.jpg" data-src="/images/avatar/team/2.jpg" alt="" className=" lazyload" />
 											</div>
 											<div className="content">
 												<div className="icon style-circle">
@@ -150,7 +150,7 @@ export default function Section8() {
 													</li>
 												</ul>
 												<Link href="/" className="name"> Donald G. Carson </Link>
-												<p className="duty">Insurance Consultant</p>
+												<p className="duty">Accounting Management</p>
 											</div>
 										</div>
 									</SwiperSlide>
@@ -162,7 +162,7 @@ export default function Section8() {
 													height="0"
 													sizes="100vw"
 													style={{ width: "100%", height: "auto" }}
-													src="/images/avatar/team-guide-4.webp" data-src="/images/avatar/team-guide-4.jpg" alt="" className=" lazyload" />
+													src="/images/avatar/team/3.jpg" data-src="/images/avatar/team/3.jpg" alt="" className=" lazyload" />
 											</div>
 											<div className="content">
 												<div className="icon style-circle">
@@ -191,10 +191,54 @@ export default function Section8() {
 													</li>
 												</ul>
 												<Link href="/" className="name"> Chad V. Thompson </Link>
-												<p className="duty">TAX Consultant</p>
+												<p className="duty">Taxation Consultant</p>
 											</div>
 										</div>
 									</SwiperSlide>
+
+									<SwiperSlide>
+										<div className="card-guide tf-hover">
+											<div className="image hover-1 hover-14">
+												<Image
+													width="0"
+													height="0"
+													sizes="100vw"
+													style={{ width: "100%", height: "auto" }}
+													src="/images/avatar/team/5.jpg" data-src="/images/avatar/team/5.jpg" alt="" className=" lazyload" />
+											</div>
+											<div className="content">
+												<div className="icon style-circle">
+													<span> + </span>
+												</div>
+												<ul className="social-list w-h-45 style-4">
+													<li>
+														<Link href="/#">
+															<i className="icon-facebook" />
+														</Link>
+													</li>
+													<li>
+														<Link href="/#">
+															<i className="icon-twitter" />
+														</Link>
+													</li>
+													<li>
+														<Link href="/#">
+															<i className="icon-linkedin" />
+														</Link>
+													</li>
+													<li>
+														<Link href="/#">
+															<i className="icon-youtube" />
+														</Link>
+													</li>
+												</ul>
+												<Link href="/" className="name"> Chad V. Thompson </Link>
+												<p className="duty">Financial Planning & Analysis (FP&A) Professional</p>
+											</div>
+										</div>
+									</SwiperSlide>
+
+									
 								</div>
 							</Swiper>
 							<div className="bot">
