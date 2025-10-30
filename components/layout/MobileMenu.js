@@ -3,7 +3,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useState } from "react"
 
-export default function MobileMenu() {
+export default function MobileMenu({ handleMobileMenu }) {
 	const [activeAccordion, setActiveAccordion] = useState(null)
 	const pathname = usePathname()
 
@@ -86,7 +86,12 @@ export default function MobileMenu() {
 
 				return (
 					<li key={index} className={`menu-item menu-item-has-children-mobile  ${item.subMenu ? "menu-item-has-children-mobile" : ""} ${parentActiveClass}`}>
-						<Link className={`item-menu-mobile ${isActive(item.path)}`} href={item.path || "#"}>
+						<Link className={`item-menu-mobile ${isActive(item.path)}`} href={item.path || "#"} onClick={() => {
+							if (!item.subMenu) {
+								document.body.classList.remove("no-scroll");
+								handleMobileMenu();
+							}
+						}}>
 							{item.title}
 							{item.subMenu && (
 								<i className={`icon-chevron-down ${isOpen ? "open" : ""}`} onClick={() => toggleAccordion(index)} />
@@ -96,7 +101,10 @@ export default function MobileMenu() {
 							<ul className="sub-menu-mobile" style={{ display: isOpen ? "block" : "none" }}>
 								{item.subMenu.map((sub, subIndex) => (
 									<li key={subIndex} className={`menu-item ${isActive(sub.path)}`}>
-										<Link href={sub.path}>{sub.title}</Link>
+										<Link href={sub.path} onClick={() => {
+											document.body.classList.remove("no-scroll");
+											handleMobileMenu();
+										}}>{sub.title}</Link>
 									</li>
 								))}
 							</ul>

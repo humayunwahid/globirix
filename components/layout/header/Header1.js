@@ -167,7 +167,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 											</div>
 										</div>
 										<nav id="mobile-main-nav" className="mobile-main-nav">
-											<MobileMenu />
+											<MobileMenu handleMobileMenu={handleMobileMenu} />
 										</nav>
 									</div>
 									<div className="bottom">
