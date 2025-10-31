@@ -34,6 +34,15 @@ export default function RootLayout({ children }) {
         <html lang="en">
             <head>
                 <link rel="icon" href="/images/logo/favicon.png" />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-7FHF721T1Z"></script>
+                <script dangerouslySetInnerHTML={{
+                    __html: `
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('config', 'G-7FHF721T1Z');
+                    `
+                }} />
             </head>
             <body className={`${publicSans.className}`}>{children}</body>
         </html>
