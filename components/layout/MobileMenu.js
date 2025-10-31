@@ -15,15 +15,18 @@ export default function MobileMenu({ handleMobileMenu }) {
 	const isParentActive = (paths = []) => paths.some((path) => pathname.startsWith(path)) ? "active" : ""
 
 	const menuItems = [
-		{
-			title: "Home",
-			// subMenu: [
-			// 	{ title: "Home Consulting", path: "/" },
-			// 	{ title: "Corporate Consulting", path: "/home-2" },
-			// 	{ title: "Financial Advisor", path: "/home-3" },
-			// 	{ title: "Marketing Consulting", path: "/home-4" }
-			// ]
-		},
+		// {
+			
+		// 	title: "Home",
+		// 	subMenu: [
+		// 		{ title: "Home Consulting", path: "/" },
+		// 		{ title: "Corporate Consulting", path: "/home-2" },
+		// 		{ title: "Financial Advisor", path: "/home-3" },
+		// 		{ title: "Marketing Consulting", path: "/home-4" }
+		// 	]
+		// },
+				{ title: "Home", path: "/" },
+
 		// {
 		// 	title: "Page",
 		// 	subMenu: [
@@ -39,6 +42,7 @@ export default function MobileMenu({ handleMobileMenu }) {
 		// },
 		{
 			title: "About Us",
+			path: "/about-us",
 			subMenu: [
 				{ title: "Executive Summary", path: "/about-us#summary" },
 				{ title: "Vision & Mission", path: "/about-us#vision-mission" },
@@ -46,6 +50,7 @@ export default function MobileMenu({ handleMobileMenu }) {
 			]},
 		{
 			title: "Services",
+			path: "/our-services",
 			subMenu: [
 				{ title: "Accounting and reporting", path: "/our-services/accounting-reporting" },
 				{ title: "Data Entry & Audit Support", path: "/our-services/data-entry-audit-support" },
@@ -66,6 +71,7 @@ export default function MobileMenu({ handleMobileMenu }) {
 		{ title: "Benefits of Outsourcing", path: "/benefits-outsourcing" },
 		{
 			title: "Why Choose Us",
+			path: "/why-choose-us",
 			subMenu: [
 				{ title: "Why we are Uniquely Positioned", path: "/why-choose-us#unique" },
 				{ title: "Service Methodology", path: "/why-choose-us#methodology" },
@@ -86,15 +92,22 @@ export default function MobileMenu({ handleMobileMenu }) {
 
 				return (
 					<li key={index} className={`menu-item menu-item-has-children-mobile  ${item.subMenu ? "menu-item-has-children-mobile" : ""} ${parentActiveClass}`}>
-						<Link className={`item-menu-mobile ${isActive(item.path)}`} href={item.path || "#"} onClick={() => {
+						<Link className={`item-menu-mobile ${isActive(item.path)}`} href={item.path || "#"} onClick={(e) => {
 							if (!item.subMenu) {
+								document.body.classList.remove("no-scroll");
+								handleMobileMenu();
+							} else if (item.path && e.target.tagName === 'A') {
 								document.body.classList.remove("no-scroll");
 								handleMobileMenu();
 							}
 						}}>
 							{item.title}
 							{item.subMenu && (
-								<i className={`icon-chevron-down ${isOpen ? "open" : ""}`} onClick={() => toggleAccordion(index)} />
+								<i className={`icon-chevron-down ${isOpen ? "open" : ""}`} onClick={(e) => {
+									e.preventDefault();
+									e.stopPropagation();
+									toggleAccordion(index);
+								}} />
 							)}
 						</Link>
 						{item.subMenu && (
