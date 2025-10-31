@@ -24,17 +24,31 @@ export default function RentAccountantForm() {
 
   const onSubmit = async (data) => {
     setLoading(true);
+
     try {
-      await emailjs.send(
-        "your_service_id",      // 👉 replace with your EmailJS service ID
-        "your_template_id",     // 👉 replace with your EmailJS template ID
-        data,
-        "your_user_public_key"  // 👉 replace with your EmailJS public key
-      );
-      setSent(true);
+      const formData = new FormData();
+      
+      // Append all form fields
+      Object.keys(data).forEach(key => {
+        formData.append(key, data[key] || '');
+      });
+
+      const response = await fetch('/api/forms/rent', {
+        method: 'POST',
+        body: formData
+      });
+
+      const result = await response.json();
+      
+      if (result.success) {
+        setSent(true);
+      } else {
+        console.error('API Error:', result);
+        alert(result.message || 'Something went wrong. Try again!');
+      }
     } catch (error) {
-      console.error("EmailJS error:", error);
-      alert("Something went wrong. Try again!");
+      console.error('Form submission error:', error);
+      alert('Something went wrong. Try again!');
     }
     setLoading(false);
   };
