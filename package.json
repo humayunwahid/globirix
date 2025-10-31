@@ -5,7 +5,7 @@
     "scripts": {
         "dev": "next dev",
         "build": "next build",
-        "start": "next start",
+        "start": "next start -p $PORT",
         "lint": "next lint",
         "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css"
     },
@@ -15,6 +15,7 @@
         "gsap-trial": "^3.12.7",
         "html-react-parser": "^5.2.6",
         "next": "14.1.4",
+        "nodemailer": "^7.0.10",
         "react": "18.2.0",
         "react-countup": "^6.5.3",
         "react-dom": "18.2.0",

@@ -58,7 +58,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 									<div className="icon">
 										<i className="flaticon-tag" />
 									</div>
-									<p>Welcome to Globirix : Flexible Resource Outsourcing for Every Business</p>
+									<p>Welcome to Globirix: Empowering your growth through quality resource outsourcing</p>
 								</div>
 								<div className="topbar-right">
 									<ul className="infor-list">
@@ -167,7 +167,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 											</div>
 										</div>
 										<nav id="mobile-main-nav" className="mobile-main-nav">
-											<MobileMenu />
+											<MobileMenu handleMobileMenu={handleMobileMenu} />
 										</nav>
 									</div>
 									<div className="bottom">
@@ -178,8 +178,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 											<ul className="contact-list mb-20">
 												<li>
 													<p>
-														Address: <Link href="https://www.google.com/maps?q=55East10thStreet,NewYork,NY10003,UnitedStates" target="_blank">
-															55 East 10th Street, New York, NY 10003, United States
+														Address: <Link href="https://maps.app.goo.gl/2bgWND6NJ6sibBBh8" target="_blank">
+															Building A Plot 112 Sector 15 Korangi industrial area Karachi
 														</Link>
 													</p>
 												</li>
@@ -192,8 +192,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 												</li>
 												<li>
 													<p>
-														Call: <Link href="/tel:+00012345688">
-															+000 (123) 456 88
+														Call: <Link href="/tel:+923248259013">
+															+92 324 825 9013
 														</Link>
 													</p>
 												</li>

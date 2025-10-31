@@ -98,7 +98,7 @@ export default function Hero1() {
                     playsInline
                     style={{ width: "100%", height: "auto", borderRadius: "12px", objectFit: "cover" }}
                   >
-                    <source src="/videos/hero-video.mp4" type="video/mp4" />
+                    <source src="/videos/hero-video-new.mp4" type="video/mp4" />
                     {/* Fallback Image */}
                     <img
                       src="/images/section/hero1.webp"
@@ -134,7 +134,7 @@ export default function Hero1() {
         channel='youtube'
         autoplay
         isOpen={isOpen}
-        videoId="JXMWOmuR1hU"
+        videoId="xAiO4-smC-o"
         onClose={() => setOpen(false)}
       />
     </>

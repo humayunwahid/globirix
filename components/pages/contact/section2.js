@@ -1,3 +1,5 @@
+'use client'
+import ContactForm from "@/components/resuable/contactForm"
 
 export default function Section2() {
 	return (
@@ -20,44 +22,7 @@ export default function Section2() {
 										<p className="note mb-40">
 											Your email address will not be published. Required fields are marked *
 										</p>
-										<form action="#" className="form-comment style-3">
-											<div className="cols mb-20">
-												<fieldset>
-													<input type="text" placeholder="Name" required />
-												</fieldset>
-												<fieldset>
-													<input type="number" placeholder="Phone" required />
-												</fieldset>
-											</div>
-											<div className="cols mb-20">
-												<fieldset>
-													<input type="email" placeholder="Email" required />
-												</fieldset>
-												<fieldset>
-													<input type="text" placeholder="Subject" required />
-												</fieldset>
-											</div>
-											<div className="cols mb-20">
-												<fieldset>
-													<textarea placeholder="Message" />
-												</fieldset>
-											</div>
-											<div className="checkbox-item mb-30">
-												<label>
-													<span className="text">Save my name, email, and website in this browser
-														for
-														the next time I comment.</span>
-													<input type="checkbox" className="checkbox-item" defaultChecked />
-													<span className="btn-checkbox" />
-												</label>
-											</div>
-											<div className="bot">
-												<button type="submit" className="tf-btn text-anime-style-1">
-													Send Message Us
-													<i className="icon-chevron-right" />
-												</button>
-											</div>
-										</form>
+										<ContactForm />
 									</div>
 								</div>
 							</div>

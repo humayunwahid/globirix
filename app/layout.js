@@ -21,14 +21,29 @@ const publicSans = Public_Sans({
     subsets: ['latin'],
     display: 'swap',
 })
+
+
 export const metadata = {
-    title: 'Globirix',
-    description: 'Globirix',
+    icons: {
+        icon: '/images/logo/favicon.png',
+    },
 }
 
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
+            <head>
+                <link rel="icon" href="/images/logo/favicon.png" />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-7FHF721T1Z"></script>
+                <script dangerouslySetInnerHTML={{
+                    __html: `
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('config', 'G-7FHF721T1Z');
+                    `
+                }} />
+            </head>
             <body className={`${publicSans.className}`}>{children}</body>
         </html>
     )

@@ -72,7 +72,7 @@
 
 		/* --Main-blue: #3e5571; */
 	--Main-blue: #000;
-	--Main-dark-blue: #1b1b1b;
+	--Main-dark-blue: #051d43;
 }
 
 /*---------- Reset css styles ----------- */
@@ -9343,7 +9343,7 @@ a.mapboxgl-ctrl-logo {
 }
 
 .wg-office .image {
-	border-radius: 50%;
+	/* border-radius: 50%; */
 	max-width: 300px;
 	overflow: hidden;
 	margin: 0px auto;
@@ -15115,6 +15115,9 @@ a.mapboxgl-ctrl-logo {
 }
 
 @media (max-width: 767px) {
+	.s-faq .content-wrap{
+		display: block;
+	}
 	.rellax.type-2 img {
 		max-height: 700px;
 		min-height: unset;
@@ -16269,6 +16272,9 @@ a.mapboxgl-ctrl-logo {
 	}
 
 	.header-inner .header-right .tf-btn {
+		display: none;
+	}
+		.header-inner .header-right .tf-btn2 {
 		display: none;
 	}
 }
