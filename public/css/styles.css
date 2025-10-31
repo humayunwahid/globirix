@@ -9343,7 +9343,7 @@ a.mapboxgl-ctrl-logo {
 }
 
 .wg-office .image {
-	border-radius: 50%;
+	/* border-radius: 50%; */
 	max-width: 300px;
 	overflow: hidden;
 	margin: 0px auto;

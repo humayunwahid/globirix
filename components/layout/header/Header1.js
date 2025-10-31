@@ -58,7 +58,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, handle
 									<div className="icon">
 										<i className="flaticon-tag" />
 									</div>
-									<p>Welcome to Globirix : Flexible Resource Outsourcing for Every Business</p>
+									<p>Welcome to Globirix: Empowering your growth through quality resource outsourcing</p>
 								</div>
 								<div className="topbar-right">
 									<ul className="infor-list">

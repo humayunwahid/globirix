@@ -30,7 +30,7 @@ export default function OfficeLocations() {
 												height="0"
 												sizes="100vw"
 												style={{ width: "100%", height: "auto" }}
-												src="/images/flags/pakistan.png" data-src="/images/flags/pakistan.png" className="lazyload" alt="" />
+												src="/images/flags/new/pk-flag2.gif" data-src="/images/flags/new/pk-flag2.gif" className="lazyload" alt="" />
 										</div>
 									</div>
 									<h3>
@@ -69,7 +69,7 @@ export default function OfficeLocations() {
 												height="0"
 												sizes="100vw"
 												style={{ width: "100%", height: "auto" }}
-												src="/images/flags/canada.png" data-src="/images/flags/canada.png" className="lazyload" alt="" />
+												src="/images/flags/new/ca-flag.gif" data-src="/images/flags/new/ca-flag.gif" className="lazyload" alt="" />
 										</div>
 									</div>
 									<h3>
@@ -108,7 +108,7 @@ export default function OfficeLocations() {
 												height="0"
 												sizes="100vw"
 												style={{ width: "100%", height: "auto" }}
-												src="/images/flags/USA.png" data-src="/images/flags/USA.png" className="lazyload" alt="" />
+												src="/images/flags/new/us-flag.gif" data-src="/images/flags/new/us-flag.gif" className="lazyload" alt="" />
 										</div>
 									</div> 
 									<h3>
@@ -150,7 +150,7 @@ export default function OfficeLocations() {
 												height="0"
 												sizes="100vw"
 												style={{ width: "100%", height: "auto" }}
-												src="/images/flags/australia.png" data-src="/images/flags/australia.png" className="lazyload" alt="" />
+												src="/images/flags/new/as-flag.gif" data-src="/images/flags/new/as-flag.gif" className="lazyload" alt="" />
 										</div>
 									</div>
 									<h3>

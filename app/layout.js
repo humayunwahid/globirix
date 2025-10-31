@@ -23,9 +23,18 @@ const publicSans = Public_Sans({
 })
 
 
+export const metadata = {
+    icons: {
+        icon: '/images/logo/favicon.png',
+    },
+}
+
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
+            <head>
+                <link rel="icon" href="/images/logo/favicon.png" />
+            </head>
             <body className={`${publicSans.className}`}>{children}</body>
         </html>
     )
