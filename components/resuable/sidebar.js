@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import ConsultationForm from "./consultationForm";
 
 
 const Sidebar = () => {
@@ -140,35 +141,7 @@ const Sidebar = () => {
             Ready to Book Your Free 
             Consultation?
           </p>
-          <form action="#" className="form-contact bg-transparent style-3">
-            <div className="cols mb-10">
-              <fieldset>
-                <input type="text" placeholder="Full Name" required />
-              </fieldset>
-            </div>
-            <div className="cols mb-10">
-              <fieldset>
-                <input type="email" placeholder="Email" required />
-              </fieldset>
-            </div>
-            <div className="cols mb-10">
-              <fieldset>
-                <input type="text" placeholder="Subject" required />
-              </fieldset>
-            </div>
-            <div className="cols mb-10">
-              <fieldset>
-                <textarea
-                  className="h-100px"
-                  placeholder="Write message"
-                ></textarea>
-              </fieldset>
-            </div>
-            <button type="submit" className="tf-btn full text-anime-style-1">
-              Get Consultation
-              <i className="icon-chevron-right" />
-            </button>
-          </form>
+          <ConsultationForm />
         </div>
       </div>
     </div>

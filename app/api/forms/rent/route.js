@@ -21,7 +21,7 @@ export async function POST(request) {
     };
 
     // Create transporter
-    const transporter = nodemailer.createTransporter({
+    const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
         user: process.env.EMAIL_USER,
@@ -52,7 +52,7 @@ export async function POST(request) {
     // Send email
     await transporter.sendMail({
       from: process.env.EMAIL_USER,
-      to: 'hr@globirix.com',
+      to: 'globirix@gmail.com',
       subject: `New Resource Request - ${data.name}`,
       text: emailContent
     });
