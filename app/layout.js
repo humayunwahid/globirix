@@ -21,11 +21,7 @@ const publicSans = Public_Sans({
     subsets: ['latin'],
     display: 'swap',
 })
-export const metadata = {
-    title: 'Globirix',
-    description: 'Globirix',
-    robots: 'noindex, nofollow',
-}
+
 
 export default function RootLayout({ children }) {
     return (

@@ -1,6 +1,7 @@
 
 import Layout from "@/components/layout/Layout"
 import Home3 from "@/components/pages/home3"
+
 export default function Home() {
 
 	return (
