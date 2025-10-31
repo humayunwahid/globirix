@@ -24,6 +24,7 @@ const publicSans = Public_Sans({
 export const metadata = {
     title: 'Globirix',
     description: 'Globirix',
+    robots: 'noindex, nofollow',
 }
 
 export default function RootLayout({ children }) {
