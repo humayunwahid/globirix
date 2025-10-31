@@ -2,7 +2,7 @@ export function generateMetadata({
   title = "Globirix",
   description = "Professional accounting and financial outsourcing solutions",
   keywords = "accounting, outsourcing, financial services, bookkeeping, payroll",
-  ogImage = "/images/logo/logo.png",
+  ogImage = "/images/logo/feature-image.jpg",
   ogUrl = "https://globirix.com",
   canonical,
   noIndex = false
