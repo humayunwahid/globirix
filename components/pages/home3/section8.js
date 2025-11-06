@@ -157,47 +157,7 @@ export default function Section8() {
 										</div>
 									</SwiperSlide>
 
-									<SwiperSlide>
-										<div className="card-guide tf-hover">
-											<div className="image hover-1 hover-14">
-												<Image
-													width="0"
-													height="0"
-													sizes="100vw"
-													style={{ width: "100%", height: "auto" }}
-													src="/images/avatar/team/4.webp" data-src="/images/avatar/team/4.webp" alt="" className=" lazyload" />
-											</div>
-											<div className="content">
-												<div className="icon style-circle">
-													<span> + </span>
-												</div>
-												<ul className="social-list w-h-45 style-4">
-													<li>
-														<Link href="/#">
-															<i className="icon-facebook" />
-														</Link>
-													</li>
-													<li>
-														<Link href="/#">
-															<i className="icon-twitter" />
-														</Link>
-													</li>
-													<li>
-														<Link href="/#">
-															<i className="icon-linkedin" />
-														</Link>
-													</li>
-													<li>
-														<Link href="/#">
-															<i className="icon-youtube" />
-														</Link>
-													</li>
-												</ul>
-												{/* <Link href="/" className="name"> Johnny S. Patterson </Link> */}
-												<p className="duty">Talent Management Expert</p>
-											</div>
-										</div>
-									</SwiperSlide>
+									
 
 									<SwiperSlide>
 										<div className="card-guide tf-hover">
